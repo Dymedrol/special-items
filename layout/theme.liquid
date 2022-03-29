@@ -45,6 +45,13 @@
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
+      @font-face {
+          font-family: 'Azeret Mono';
+          font-weight: 400;
+          font-style: normal;
+          url('{{ "azeretmono-regular.ttf" | asset_url }}') format("truetype"),
+      }
+
       :root {
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
@@ -188,6 +195,7 @@
           font-size: 1.6rem;
         }
       }
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -208,6 +216,9 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'slick.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="gradient">
@@ -215,8 +226,10 @@
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
-    {% section 'announcement-bar' %}
+    <!-- {% section 'announcement-bar' %} -->
+
     {% section 'header' %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
@@ -258,5 +271,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    {{ 'slick.min.js' | asset_url | script_tag }}
+    {{ 'bundel.js' | asset_url | script_tag }}
   </body>
 </html>
