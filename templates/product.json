@@ -142,11 +142,20 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1648609903be6df100": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "pants",
+        "show-bottom-border": true
+      }
     }
   },
   "order": [
     "main",
     "1648609879f8813763",
-    "product-recommendations"
+    "product-recommendations",
+    "1648609903be6df100"
   ]
 }
