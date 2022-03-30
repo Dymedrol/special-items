@@ -1,82 +1,68 @@
-{{ 'template-collection.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
+    <section class="special-product-controls">
+        <span class="special-product-controls__selected-filter">new items</span>
+        <div class="special-product-controls__filters"><span>filters</span> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
+        <div class="special-product-controls__menu">
+            {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
+            <div class="special-product-controls__menu-categories">
+                <div class="special-product-controls__menu-categories-item">tops</div>
+                <div class="special-product-controls__menu-categories-item">pants</div>
+                <div class="special-product-controls__menu-categories-item">dresses</div>
+                <div class="special-product-controls__menu-categories-item">skirts</div>
+                <div class="special-product-controls__menu-categories-item">Jumpsuits</div>
+                <div class="special-product-controls__menu-categories-item">Outerwear</div>
+                <div class="special-product-controls__menu-categories-item special-product-controls__menu-categories-item_active">Bodywear</div>
+                <div class="special-product-controls__menu-categories-item">Jewelry</div>
+                <div class="special-product-controls__menu-categories-item">Shoes</div>
+                <div class="special-product-controls__menu-categories-item">Accessories</div>
+                <div class="special-product-controls__menu-categories-item">Skirts</div>
 
-<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
-<div class="section-{{ section.id }}-padding">
-  {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-    {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-    <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
-  
-    <div class="page-width" id="main-collection-filters" data-id="{{ section.id }}">
-      {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
-    </div>
-  {%- endif -%}
-  
-  <div id="ProductGridContainer">
-    {%- paginate collection.products by section.settings.products_per_page -%}
-      {%- if collection.products.size == 0 -%}
-        <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
-          <div class="loading-overlay gradient"></div>
-          <div class="title-wrapper center">
-            <h2 class="title title--primary">
-              {{ 'sections.collection_template.empty' | t }}<br>
-              {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
-            </h2>
-          </div>
+            </div>
+            <div class="special-product-controls__menu-colors">
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_black"></div>Black
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_white"></div>White
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_grey"></div>Grey
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_blue"></div>Blue
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_brown"></div>Brown
+                </div>
+                <div class="special-product-controls__menu-colors-item special-product-controls__menu-colors-item-color_active">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_pink "></div>Pink
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_green"></div>Green
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_yellow"></div>Yellow
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_orange"></div>Orange
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_purple"></div>Purple
+                </div>
+                <div class="special-product-controls__menu-colors-item">
+                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_red"></div>Red
+                </div>
+            </div>
+            <div class="special-product-controls__menu-apply">Apply 2 Filters</div>
         </div>
-      {%- else -%}
-        <div class="collection page-width">
-          <div class="loading-overlay gradient"></div>
-  
-          <ul id="product-grid" data-id="{{ section.id }}" class="
-            grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-            grid--{{ section.settings.columns_desktop }}-col-desktop">
-            {%- for product in collection.products -%}
-              {% assign lazy_load = false %}
-              {%- if forloop.index > 2 -%}
-                {%- assign lazy_load = true -%}
-              {%- endif -%}
+    </section>
 
-              <li class="grid__item">
-                {% render 'card-product',
-                  card_product: product,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_rating: section.settings.show_rating,
-                  lazy_load: lazy_load
-                %}
-              </li>
-            {%- endfor -%}
-          </ul>
-  
-          {%- if paginate.pages > 1 -%}
-            {% render 'pagination', paginate: paginate, anchor: '' %}
-          {%- endif -%}
-        </div>
-      {%- endif -%}
-    {%- endpaginate -%}
-  </div>
-</div>
+    <section class="special-product-wall">
+      {%- for product in collection.products -%}
+        {% render 'card-product',
+          card_product: product
+        %}
+      {%- endfor -%}
+    </section>
 
 {% schema %}
 {

@@ -1,11 +1,26 @@
-    <section class="special-bar-with-text">
-        <p class="special-bar-with-text__text">What is digital fashion?</p>
-    </section>
+<section class="special-bar-with-text">
+    <p class="special-bar-with-text__text">What is digital fashion?</p>
+</section>
 
-    {% schema %}
+{% schema %}
 {
-  "name": "special-bar",
-  "tag": "section",
-  "class": "section"
+    "name": "special-bar",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        }
+    ],
+    "presets": [
+        {
+            "name": "special-bar",
+            "settings": {
+                "title": "special-bar"
+            }
+        }
+    ]
 }
 {% endschema %}

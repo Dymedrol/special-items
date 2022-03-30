@@ -32,24 +32,42 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
-    {%- liquid
+<!--     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
-    %}
+    %} -->
 
     {% style %}
-      {{ settings.type_body_font | font_face: font_display: 'swap' }}
+<!--       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-      {{ settings.type_header_font | font_face: font_display: 'swap' }}
+      {{ settings.type_header_font | font_face: font_display: 'swap' }} -->
 
-      @font-face {
+<!--       @font-face {
           font-family: 'Azeret Mono';
           font-weight: 400;
           font-style: normal;
-          url('{{ "azeretmono-regular.ttf" | asset_url }}') format("truetype"),
+          src: url('{{ "azeretmono-regular.ttf" | asset_url }}') format("truetype");
+      } -->
+
+       @font-face {
+        font-family: 'Azeret Mono';
+        font-weight: 400;
+        font-style: normal;
+        src: url("{{ "azeretmono-regular.ttf" | asset_url }}") format("truetype");
+      }
+
+       @font-face {
+        font-family: 'Expressa-Bold';
+        font-weight: 200;
+        font-style: normal;
+        src: url("{{ "expressa-bold.woff2" | asset_url }}") format("woff2");
+      }
+
+      body {
+        font-family: 'Azeret Mono' !important;
       }
 
       :root {
@@ -172,28 +190,8 @@
 
       html {
         box-sizing: border-box;
-        font-size: calc(var(--font-body-scale) * 62.5%);
+        <!-- font-size: calc(var(--font-body-scale) * 62.5%); -->
         height: 100%;
-      }
-
-      body {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: 100%;
-        min-height: 100%;
-        margin: 0;
-        font-size: 1.5rem;
-        letter-spacing: 0.06rem;
-        line-height: calc(1 + 0.8 / var(--font-body-scale));
-        font-family: var(--font-body-family);
-        font-style: var(--font-body-style);
-        font-weight: var(--font-body-weight);
-      }
-
-      @media screen and (min-width: 750px) {
-        body {
-          font-size: 1.6rem;
-        }
       }
 
     {% endstyle %}
