@@ -1,4 +1,4 @@
-<!-- {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
@@ -647,51 +647,49 @@
       {%- endfor -%}
     ]
   }
-</script> -->
+</script>
 
-    <section class="special-pdp">
-        <div class="special-pdp__col1">
-            <div class="special-pdp__pic__wrapper">
-              {%- for media in product.media -%}
-                <div class="special-pdp__pic">
-                  <img src="{{ media.preview_image | image_url }}" alt="">
-                </div>
-              {%- endfor -%}
+<section class="special-pdp">
+    <div class="special-pdp__col1">
+        <div class="special-pdp__pic__wrapper">
+          {%- for media in product.media -%}
+            <div class="special-pdp__pic">
+              <img src="{{ media.preview_image | image_url }}" alt="">
             </div>
-            <div class="special-pdp-slider">
-              {%- for media in product.media -%}
-                <div class="special-pdp__pic">
-                  <img src="{{ media.preview_image | image_url }}" class="special-pdp__pic" alt="">
-                </div>
-              {%- endfor -%}
-            </div>
-
-
+          {%- endfor -%}
         </div>
-        <div class="special-pdp__col2">
-            <div class="special-pdp-product">
-                <div class="special-pdp-product__pic-wrapper">
-                    {{ 'pdp-pic.png' | asset_url | img_tag: '', 'special-pdp-product__pic' }}
+        <div class="special-pdp-slider">
+          {%- for media in product.media -%}
+            <div class="special-pdp__pic">
+              <img src="{{ media.preview_image | image_url }}" class="special-pdp__pic" alt="">
+            </div>
+          {%- endfor -%}
+        </div>
+
+
+    </div>
+    <div class="special-pdp__col2">
+        <div class="special-pdp-product">
+            <div class="special-pdp-product__pic-wrapper">
+                {{ 'pdp-pic.png' | asset_url | img_tag: '', 'special-pdp-product__pic' }}
+            </div>
+            <div class="special-pdp-product__info">
+                <div class="special-pdp-product__info-block">
+                    <p class="special-pdp-product__info-block-text">Designer Name</p>
+                    <p class="special-pdp-product__info-block-text">{{ product.title }}</p>
+                    <p class="special-pdp-product__info-block-text">${{ product.price }}</p>
                 </div>
-                <div class="special-pdp-product__info">
-                    <div class="special-pdp-product__info-block">
-                        <p class="special-pdp-product__info-block-text">Designer Name</p>
-                        <p class="special-pdp-product__info-block-text">{{ product.title }}</p>
-                        <p class="special-pdp-product__info-block-text">${{ product.price }}</p>
-                    </div>
-                    <div class="special-pdp-product__info-controls">
-                        <div class="special-pdp-product__info-controls-add-to-bag">add to bag</div>
-                        <div class="special-pdp-product__info-controls-add-to-fav">{{ 'heart.svg' | asset_url | img_tag: 'add to favorites' }}</div>
-                    </div>
-                    <div class="special-pdp-product__info-description">{{ product.description }}</div>
-                    <div class="special-pdp-product__info-how"><a href="#">How it Works</a></div>
-                    <div class="special-pdp-product__info-guide"><a href="#">How it Works</a></div>
+                <div class="special-pdp-product__info-controls">
+                    <div class="special-pdp-product__info-controls-add-to-bag">add to bag</div>
+                    <div class="special-pdp-product__info-controls-add-to-fav">{{ 'heart.svg' | asset_url | img_tag: 'add to favorites' }}</div>
                 </div>
+                <div class="special-pdp-product__info-description">{{ product.description }}</div>
+                <div class="special-pdp-product__info-how"><a href="#">How it Works</a></div>
+                <div class="special-pdp-product__info-guide"><a href="#">How it Works</a></div>
             </div>
         </div>
-    </section>
-
-
+    </div>
+</section>
 
 {% schema %}
 {
