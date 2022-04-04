@@ -318,7 +318,7 @@ body {
     display: block;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1220px) {
   .special-menu__items_mobile {
     display: none;
   }
@@ -343,12 +343,12 @@ body {
   border-bottom: 1px solid #fff;
   background: #fff;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1220px) {
   .special-categories {
     display: flex;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1220px) {
   .special-categories-mobile {
     display: none !important;
   }
@@ -362,7 +362,7 @@ body {
   position: relative;
   border-right: 1px solid #fff;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1220px) {
   .special-categories__item {
     width: auto;
     height: auto !important;
@@ -378,7 +378,12 @@ body {
 .special-categories__item-pic {
   display: block;
   margin: 0 auto;
-  width: 88%;
+  width: 77%;
+}
+@media (min-width: 1620px) {
+  .special-categories__item-pic {
+    width: 88%;
+  }
 }
 .special-categories__item-title {
   position: absolute;
@@ -462,7 +467,6 @@ body {
     aspect-ratio: 0.61917098;
     flex-grow: 1;
     max-width: 16.66%;
-    min-height: 386px;
   }
 }
 .special-list__item-dummy {
@@ -486,6 +490,21 @@ body {
   margin: 0 auto;
   width: 85%;
   max-width: 239px;
+}
+@media (min-width: 768px) {
+  .special-list__item-pic {
+    width: 71%;
+  }
+}
+@media (min-width: 1024px) {
+  .special-list__item-pic {
+    width: 77%;
+  }
+}
+@media (min-width: 1220px) {
+  .special-list__item-pic {
+    width: 85%;
+  }
 }
 .special-list__item-info {
   position: absolute;
@@ -551,15 +570,17 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
-  line-height: 13px;
+  line-height: 39px;
   text-transform: uppercase;
   color: #6E6E6E;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .special-footer__input {
     flex-direction: row;
     width: 345px;
     margin-bottom: 0;
+    text-align: left;
   }
 }
 .special-footer__input:focus {
@@ -567,16 +588,6 @@ body {
   outline: none;
 }
 .special-footer__input::placeholder {
-  width: 345px;
-  height: 39px;
-  background: rgba(229, 229, 229, 0.5);
-  border-radius: 3px;
-  font-family: 'Azeret Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 9px;
-  line-height: 13px;
-  text-transform: uppercase;
   color: #6E6E6E;
 }
 .special-footer__item_socials {
@@ -682,7 +693,7 @@ body {
     top: 0;
     right: 0;
     width: 33vw;
-    height: 100vh;
+    height: calc(100vh - 50px);
   }
 }
 @media (min-width: 1024px) {
