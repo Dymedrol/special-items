@@ -8,7 +8,7 @@
     </div>
     <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
-        <a href="#">
+        <a href="{{ routes.cart_url }}">
             {%- if cart != empty -%}
                 {{ 'bag-full.svg' | asset_url | img_tag: 'bag' }}
             {%- else -%}
