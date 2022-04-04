@@ -119,7 +119,7 @@
       "settings": {
         "title": "Featured collection",
         "collection": "dresses",
-        "show-bottom-border": false
+        "show-bottom-border": true
       }
     }
   },
