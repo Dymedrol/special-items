@@ -6,7 +6,7 @@ if (!customElements.get('product-form')) {
       this.form = this.querySelector('form');
       this.form.querySelector('[name=id]').disabled = false;
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
-      this.cartNotification = document.querySelector('cart-notification');
+      // this.cartNotification = document.querySelector('cart-notification');
     }
 
     onSubmitHandler(evt) {
@@ -38,7 +38,7 @@ if (!customElements.get('product-form')) {
             return;
           }
 
-          this.cartNotification.renderContents(response);
+          // this.cartNotification.renderContents(response);
         })
         .catch((e) => {
           console.error(e);
@@ -47,6 +47,12 @@ if (!customElements.get('product-form')) {
           submitButton.classList.remove('loading');
           submitButton.removeAttribute('aria-disabled');
           this.querySelector('.loading-overlay__spinner').classList.add('hidden');
+          console.log('success')
+          submitButton.setAttribute('aria-disabled', true);
+          submitButton.classList.add('hidden');
+          const goToCartButton = this.querySelector('.special-pdp-product__info-controls-go-to-bag');
+          goToCartButton.classList.remove('hidden');
+
         });
     }
 

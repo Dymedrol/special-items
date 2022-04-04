@@ -953,7 +953,16 @@ body {
     width: 50%;
   }
 }
+.special-pdp-product__info-controls-form {
+  width: 100%;
+}
+.special-pdp-product__info-controls-form-loading {
+  width: 4% !important;
+}
 .special-pdp-product__info-controls-add-to-bag {
+  display: block;
+  width: 100%;
+  border: 0;
   padding: 13px;
   flex-grow: 1;
   background: #FFF;
@@ -967,6 +976,28 @@ body {
   text-align: center;
   color: #000000;
   cursor: pointer;
+}
+.special-pdp-product__info-controls-go-to-bag {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 13px;
+  flex-grow: 1;
+  background: #000;
+  border-radius: 40px;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.special-pdp-product__info-controls-add-to-bag.loading {
+  font-size: 0;
 }
 .special-pdp-product__info-controls-add-to-fav {
   display: flex;
