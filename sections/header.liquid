@@ -1,18 +1,24 @@
  <header class="special-menu">
     <div class="special-menu__items special-menu__items_mobile">
-        <a href="#">{{ 'plus-icon.svg' | asset_url | img_tag: 'plus' }}</a>
+        <a href="{{ routes.cart_url }}">{{ 'plus-icon.svg' | asset_url | img_tag: 'plus' }}</a>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
-        <a href="#" class="special-menu__item">shop</a>
+        <a href="{{ routes.root_url }}" class="special-menu__item">shop</a>
         <a href="#" class="special-menu__item">diary</a>
     </div>
-    <a href="#" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
+    <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
-        <a href="#">{{ 'bag-icon.svg' | asset_url | img_tag: 'bag' }}</a>
+        <a href="#">
+            {%- if cart != empty -%}
+                {{ 'bag-full.svg' | asset_url | img_tag: 'bag' }}
+            {%- else -%}
+                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag' }}
+            {%- endif -%}
+        </a>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
         <a href="#" class="special-menu__item">wishlist: <span>75</span></a>
-        <a href="{{ routes.cart_url }}" class="special-menu__item">bag: <span>2</span></a>
+        <a href="{{ routes.cart_url }}" class="special-menu__item">bag: <span>{{ cart.item_count }}</span></a>
     </div>
 </header>
 

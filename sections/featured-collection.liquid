@@ -4,9 +4,14 @@
         {%- for product in section.settings.collection.products limit: 6 -%}
           {% render 'card-featured-collection', product: product, %}
         {%- endfor -%}
+        <div class="special-list__item-dummy"></div>
+        <div class="special-list__item-dummy"></div>
+        <div class="special-list__item-dummy"></div>
+        <div class="special-list__item-dummy"></div>
+        <div class="special-list__item-dummy"></div>
     </div>
       <div class="special-list-mobile">
-        {%- for product in section.settings.collection.products limit: 6 -%}
+        {%- for product in section.settings.collection.products -%}
           {% render 'card-featured-collection', product: product, %}
         {%- endfor -%}
       </div>

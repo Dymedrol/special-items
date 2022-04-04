@@ -154,15 +154,18 @@
     <div class="special-pdp__col1">
         <div class="special-pdp__pic__wrapper">
           {%- for media in product.media -%}
+                {%- if forloop.index == 2 -%}
+                  {%- continue -%}
+                {%- endif -%}
             <div class="special-pdp__pic">
-              <img src="{{ media.preview_image | image_url }}" alt="">
+              <img loading="lazy" src="{{ media.preview_image | image_url }}" alt="">
             </div>
           {%- endfor -%}
         </div>
         <div class="special-pdp-slider">
           {%- for media in product.media -%}
             <div class="special-pdp__pic">
-              <img src="{{ media.preview_image | image_url }}" class="special-pdp__pic" alt="">
+              <img loading="lazy" src="{{ media.preview_image | image_url: width: 375, height: 468, crop: 'center'}}" class="special-pdp__pic" alt="">
             </div>
           {%- endfor -%}
         </div>
@@ -172,7 +175,7 @@
     <div class="special-pdp__col2">
         <div class="special-pdp-product">
             <div class="special-pdp-product__pic-wrapper">
-                {{ 'pdp-pic.png' | asset_url | img_tag: '', 'special-pdp-product__pic' }}
+                <img loading="lazy" src="{{ product.media[1] | image_url }}" class="special-pdp-product__pic" alt="">
             </div>
             <div class="special-pdp-product__info">
                 <div class="special-pdp-product__info-block">
@@ -226,7 +229,7 @@
                 </div>
                 <div class="special-pdp-product__info-description">{{ product.description }}</div>
                 <div class="special-pdp-product__info-how"><a href="#">How it Works</a></div>
-                <div class="special-pdp-product__info-guide"><a href="#">How it Works</a></div>
+                <div class="special-pdp-product__info-guide"><a href="#">Fit Guide</a></div>
             </div>
         </div>
     </div>

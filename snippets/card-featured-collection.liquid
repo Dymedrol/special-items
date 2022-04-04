@@ -1,5 +1,5 @@
 <a href="{{ product.url }}" class="special-list__item">
-    <img src="{{ product.featured_image | img_url: '239x386', crop: 'center'}}" alt="" class="special-list__item-pic">
+    <img loading="lazy" src="{{ product.featured_image | img_url: '239x386', crop: 'center'}}" alt="" class="special-list__item-pic">
     <div class="special-list__item-info">
         <p class="special-list__item-info-text">Designer Name</p>
         <p class="special-list__item-info-text">{{ product.title }}</p>

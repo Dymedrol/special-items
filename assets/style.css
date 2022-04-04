@@ -439,6 +439,7 @@ body {
 @media (min-width: 768px) {
   .special-list__items {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 768px) {
@@ -448,7 +449,7 @@ body {
 }
 .special-list__item {
   position: relative;
-  display: block;
+  display: block !important;
   width: 150px;
   height: 274px !important;
   padding-top: 10px;
@@ -460,8 +461,21 @@ body {
     height: auto !important;
     aspect-ratio: 0.61917098;
     flex-grow: 1;
-    max-width: 239px;
-    height: 386px;
+    max-width: 16.66%;
+    min-height: 386px;
+  }
+}
+.special-list__item-dummy {
+  display: block !important;
+  width: 150px;
+  flex-grow: 1;
+  border-right: 1px solid #fff;
+}
+@media (min-width: 768px) {
+  .special-list__item-dummy {
+    width: 16.66%;
+    flex-grow: 1;
+    max-width: 16.66%;
   }
 }
 .special-list__item:last-child {
@@ -807,13 +821,12 @@ body {
   flex-wrap: wrap;
   gap: 1px;
   background: #fff;
-  border-bottom: 1px solid #fff;
 }
 .special-product-wall__item {
   display: block;
   position: relative;
   width: calc(50% - 1px);
-  max-width: 50%;
+  max-width: calc(50% - 1px);
   aspect-ratio: 0.60714286;
   flex-grow: 1;
   background: #F3F3F3;
@@ -822,17 +835,59 @@ body {
   .special-product-wall__item {
     aspect-ratio: 0.68773946;
     width: calc(33% - 1px);
-    max-width: 33%;
+    max-width: calc(33% - 1px);
   }
 }
 @media (min-width: 1024px) {
   .special-product-wall__item {
     width: calc(25% - 1px);
-    max-width: 25%;
+    max-width: calc(25% - 1px);
+  }
+}
+.special-product-wall__item-dummy {
+  display: block !important;
+  width: auto;
+  flex-grow: 1;
+  background: #F3F3F3;
+  width: calc(50% - 1px);
+  max-width: calc(50% - 1px);
+}
+@media (min-width: 768px) {
+  .special-product-wall__item-dummy {
+    width: calc(33% - 1px);
+    max-width: calc(33% - 1px);
+  }
+}
+@media (min-width: 1024px) {
+  .special-product-wall__item-dummy {
+    width: calc(25% - 1px);
+    max-width: calc(25% - 1px);
   }
 }
 .special-product-wall__item-pic {
+  display: block;
   width: 100%;
+  transition: visibility 0.3s, opacity 0.3s linear;
+}
+.special-product-wall__item-pic2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+@media (min-width: 1024px) {
+  .special-product-wall__item_with-hover:hover .special-product-wall__item-pic {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+  }
+  .special-product-wall__item_with-hover:hover .special-product-wall__item-pic2 {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
 }
 .special-product-wall__item-info {
   position: absolute;
