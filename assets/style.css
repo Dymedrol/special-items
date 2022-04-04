@@ -895,6 +895,8 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  margin: auto;
+  width: 100%;
   visibility: hidden;
   opacity: 0;
 }
@@ -993,6 +995,11 @@ body {
 .special-pdp-product__pic {
   display: block;
   margin: 0 auto;
+}
+.special-pdp-product__pic-dummy {
+  display: block !important;
+  margin: 0 auto;
+  height: 300px;
 }
 .special-pdp-product__info {
   display: flex;

@@ -175,7 +175,11 @@
     <div class="special-pdp__col2">
         <div class="special-pdp-product">
             <div class="special-pdp-product__pic-wrapper">
+              {% if product.media[1]%}
                 <img loading="lazy" src="{{ product.media[1] | image_url }}" class="special-pdp-product__pic" alt="">
+              {% else %}
+                <div class="special-pdp-product__pic-dummy"></div>
+              {% endif %}
             </div>
             <div class="special-pdp-product__info">
                 <div class="special-pdp-product__info-block">
