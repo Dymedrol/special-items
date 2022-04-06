@@ -1,71 +1,73 @@
-    <section class="special-product-controls">
-        <span class="special-product-controls__selected-filter">new items</span>
-        <div class="special-product-controls__filters"><span>filters</span> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
-        <div class="special-product-controls__menu">
-            {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
-            <div class="special-product-controls__menu-categories">
-                <div class="special-product-controls__menu-categories-item">tops</div>
-                <div class="special-product-controls__menu-categories-item">pants</div>
-                <div class="special-product-controls__menu-categories-item">dresses</div>
-                <div class="special-product-controls__menu-categories-item">skirts</div>
-                <div class="special-product-controls__menu-categories-item">Jumpsuits</div>
-                <div class="special-product-controls__menu-categories-item">Outerwear</div>
-                <div class="special-product-controls__menu-categories-item special-product-controls__menu-categories-item_active">Bodywear</div>
-                <div class="special-product-controls__menu-categories-item">Jewelry</div>
-                <div class="special-product-controls__menu-categories-item">Shoes</div>
-                <div class="special-product-controls__menu-categories-item">Accessories</div>
-                <div class="special-product-controls__menu-categories-item">Skirts</div>
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
-            </div>
-            <div class="special-product-controls__menu-colors">
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_black"></div>Black
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_white"></div>White
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_grey"></div>Grey
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_blue"></div>Blue
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_brown"></div>Brown
-                </div>
-                <div class="special-product-controls__menu-colors-item special-product-controls__menu-colors-item-color_active">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_pink "></div>Pink
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_green"></div>Green
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_yellow"></div>Yellow
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_orange"></div>Orange
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_purple"></div>Purple
-                </div>
-                <div class="special-product-controls__menu-colors-item">
-                    <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_red"></div>Red
-                </div>
-            </div>
-            <div class="special-product-controls__menu-apply">Apply 2 Filters</div>
+<section class="special-product-controls">
+    <span class="special-product-controls__selected-filter">new items</span>
+    <div class="special-product-controls__filters"><span>filters</span> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
+    <div class="special-product-controls__menu">
+        {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
+        <div class="special-product-controls__menu-categories">
+            {%- for collection in collections -%}
+              <div class="special-product-controls__menu-categories-item" data-collection-id="{{ collection.id }}">{{collection.title}}</div>
+            {%- endfor -%}
         </div>
-    </section>
+        <div class="special-product-controls__menu-colors">
+            <div class="special-product-controls__menu-colors-item" data-color="Black">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_black"></div>Black
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="White">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_white"></div>White
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Grey">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_grey"></div>Grey
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Blue">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_blue"></div>Blue
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Brown">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_brown"></div>Brown
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Pink">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_pink "></div>Pink
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Green">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_green"></div>Green
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Yellow">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_yellow"></div>Yellow
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Orange">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_orange"></div>Orange
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Purple">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_purple"></div>Purple
+            </div>
+            <div class="special-product-controls__menu-colors-item" data-color="Red">
+                <div class="special-product-controls__menu-colors-item-color special-product-controls__menu-colors-item-color_red"></div>Red
+            </div>
+        </div>
+        <div class="special-product-controls__menu-apply">Apply Filters</div>
+    </div>
+</section>
 
-    <section class="special-product-wall">
-      {%- for product in collection.products -%}
-        {% render 'card-product',
-          card_product: product
-        %}
-      {%- endfor -%}
-      <div class="special-product-wall__item-dummy"></div>
-      <div class="special-product-wall__item-dummy"></div>
-      <div class="special-product-wall__item-dummy"></div>
-    </section>
+<section class="special-product-wall" id="special-product-wall" data-section-id="{{ section.id }}">
+  {%- paginate collection.products by 12 -%}
+    {%- for product in collection.products -%}
+      {% render 'card-product',
+        card_product: product
+      %}
+    {%- endfor -%}
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__loading hidden">
+      <div class="special-pdp-product__info-controls-form-loading loading-overlay__spinner">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+        </svg>
+      </div>
+    </div>
+  {%- endpaginate -%}
+</section>
 
 {% schema %}
 {
