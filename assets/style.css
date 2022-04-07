@@ -404,6 +404,74 @@ body {
   color: #000000;
   text-transform: capitalize;
 }
+.special-menu__mobile {
+  display: none;
+  padding-top: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(243, 243, 243, 0.8);
+  backdrop-filter: blur(40px);
+}
+.special-menu__mobile-bag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.special-menu__mobile-close {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.special-menu__mobile-link-big {
+  display: block;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.special-menu__item_socials {
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 88px;
+  margin: 0 auto;
+  width: 259px;
+  height: 39px;
+  justify-content: space-around;
+  align-items: center ;
+}
+.special-menu__item-social {
+  font-size: 0;
+}
+.special-menu__item_links {
+  display: flex;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 281px;
+  justify-content: space-between;
+}
+.special-menu__item_links-link {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  text-decoration-line: underline;
+  color: #111111;
+}
 .special-jumbotron {
   position: relative;
   aspect-ratio: 0.80128205;
@@ -695,7 +763,7 @@ body {
   height: 100vh;
   padding: 57px 15px 0 15px;
   background: rgba(243, 243, 243, 0.8);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(40px);
   z-index: 1;
 }
 @media (min-width: 768px) {
