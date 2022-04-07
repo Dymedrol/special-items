@@ -7,7 +7,7 @@
         {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
         <div class="special-product-controls__menu-categories">
             {%- for collection in collections -%}
-              <div class="special-product-controls__menu-categories-item" data-collection-id="{{ collection.id }}">{{collection.title}}</div>
+              <div class="special-product-controls__menu-categories-item" data-collection-url="{{ collection.url }}">{{collection.title}}</div>
             {%- endfor -%}
         </div>
         <div class="special-product-controls__menu-colors">
