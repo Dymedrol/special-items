@@ -165,7 +165,7 @@
         <div class="special-pdp-slider">
           {%- for media in product.media -%}
             <div class="special-pdp__pic">
-              <img loading="lazy" src="{{ media.preview_image | image_url: width: 375, height: 468, crop: 'center'}}" class="special-pdp__pic" alt="">
+              <img loading="lazy" src="{{ media.preview_image | image_url: width: 750, height: 936, crop: 'center'}}" class="special-pdp__pic" alt="">
             </div>
           {%- endfor -%}
         </div>
@@ -210,7 +210,7 @@
                           >
                               <span>
                                 {%- if product.selected_or_first_available_variant.available -%}
-                                  {{ 'products.product.add_to_cart' | t }}
+                                  ADD TO BAG
                                 {%- else -%}
                                   {{ 'products.product.sold_out' | t }}
                                 {%- endif -%}
@@ -221,7 +221,7 @@
                                 </svg>
                               </div>
                           </button>
-                          <a href="{{ routes.cart_url }}" class="special-pdp-product__info-controls-go-to-bag hidden">GO TO CART</a>
+                          <a href="{{ routes.cart_url }}" class="special-pdp-product__info-controls-go-to-bag hidden">GO TO BAG</a>
                           {%- if block.settings.show_dynamic_checkout -%}
                             {{ form | payment_button }}
                           {%- endif -%}
