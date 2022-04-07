@@ -1408,4 +1408,7 @@ body {
 .special-bag__upload-panel-btn-active {
   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
 }
+.cart__warnings {
+  padding: 50px 15px !important;
+}
 

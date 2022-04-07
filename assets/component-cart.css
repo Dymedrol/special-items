@@ -136,6 +136,7 @@ cart-items {
     display: flex;
     justify-content: space-between;
     border: 0;
+    display:  none;
   }
 
   .cart__footer-wrapper:last-child {
