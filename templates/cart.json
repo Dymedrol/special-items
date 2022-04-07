@@ -29,18 +29,10 @@
       "settings": {
         "show_cart_note": false
       }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "all"
-      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer",
-    "featured-collection"
+    "cart-footer"
   ]
 }
