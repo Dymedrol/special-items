@@ -1451,4 +1451,7 @@ body {
   font-family: 'Azeret Mono' !important;
   font-size: 9px!important;
 }
+.wishlist-button {
+  margin-top: 15px;
+}
 

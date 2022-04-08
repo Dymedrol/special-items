@@ -9,7 +9,7 @@
 
 
 <template id="wishlist-template">
-  <div class="special-bag__item card-item">
+  <div class="special-bag__item card-item" data-url="" data-id="">
       {{ 'close.svg' | asset_url | img_tag: 'close', 'special-bag__item-close' }}
       <div class="special-bag__item-col1">
           <img src="" alt="" loading="lazy" lass="special-bag__item-pic">
@@ -19,6 +19,7 @@
               <p class="special-bag__item-info-text item-designer"></p>
               <p class="special-bag__item-info-text item-title"></p>
               <p class="special-bag__item-info-text item-price"></p>
+              <button class="special-bag__upload-panel-btn wishlist-button">ADD TO BAG</button>
           </div>
       </div>
   </div>
