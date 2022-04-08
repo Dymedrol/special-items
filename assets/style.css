@@ -1459,4 +1459,10 @@ body {
   display: none;
   background: #000;
 }
+#empty {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
 
