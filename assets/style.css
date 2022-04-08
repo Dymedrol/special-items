@@ -1447,4 +1447,8 @@ body {
   outline-offset: 0;
   box-shadow: none;
 }
+.filepond--drop-label label {
+  font-family: 'Azeret Mono' !important;
+  font-size: 9px!important;
+}
 
