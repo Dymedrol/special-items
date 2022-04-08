@@ -318,7 +318,7 @@ body {
     display: block;
   }
 }
-@media (min-width: 1220px) {
+@media (min-width: 1024px) {
   .special-menu__items_mobile {
     display: none;
   }
@@ -475,14 +475,12 @@ body {
 }
 .special-jumbotron {
   position: relative;
-  aspect-ratio: 0.80128205;
   padding-top: 123%;
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 768px) {
   .special-jumbotron {
-    aspect-ratio: 2.05714286;
     padding-top: 50%;
   }
 }
