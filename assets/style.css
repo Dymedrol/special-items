@@ -1454,4 +1454,9 @@ body {
 .wishlist-button {
   margin-top: 15px;
 }
+.goto-cart-button {
+  margin-top: 15px;
+  display: none;
+  background: #000;
+}
 
