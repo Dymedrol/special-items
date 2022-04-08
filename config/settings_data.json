@@ -176,6 +176,17 @@
           "color_scheme": "background-1"
         }
       }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "15132424025755801183": {
+        "type": "shopify:\/\/apps\/upload-lift-image-upload\/blocks\/app-embed\/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+        "disabled": false,
+        "settings": {
+        }
+      }
     }
   },
   "presets": {
