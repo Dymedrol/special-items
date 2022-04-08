@@ -1187,6 +1187,9 @@ body {
   margin-left: 5px;
   cursor: pointer;
 }
+.special-pdp-product__info-controls-add-to-fav_added path {
+  fill: red;
+}
 .special-pdp-product__info-description {
   padding: 15px;
   background: #F3F3F3;
