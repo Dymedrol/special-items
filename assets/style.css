@@ -543,8 +543,9 @@ body {
 }
 @media (min-width: 768px) {
   .special-list__item {
-    width: auto;
+    width: 16.6%;
     height: auto !important;
+    padding-top: 26%;
     aspect-ratio: 0.61917098;
     flex-grow: 1;
     max-width: 16.66%;
@@ -574,6 +575,11 @@ body {
 }
 @media (min-width: 768px) {
   .special-list__item-pic {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
     width: 71%;
     max-width: unset;
   }
