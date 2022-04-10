@@ -3,6 +3,6 @@
     <div class="special-list__item-info">
         <p class="special-list__item-info-text">Designer Name</p>
         <p class="special-list__item-info-text">{{ product.title }}</p>
-        <p class="special-list__item-info-text">{{ product.price }}$</p>
+        <p class="special-list__item-info-text">{{ product.price| money_without_trailing_zeros }}</p>
     </div>
 </a>

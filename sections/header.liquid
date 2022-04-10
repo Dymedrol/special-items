@@ -25,9 +25,11 @@
     <div class="special-menu__mobile">
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-bag">
             {%- if cart != empty -%}
-                {{ 'bag-full.svg' | asset_url | img_tag: 'bag' }}
+                {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full" }}
+                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty hidden" }}
             {%- else -%}
-                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag' }}
+                {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full hidden" }}
+                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty" }}
             {%- endif -%}
         </a>
         <div class="special-menu__mobile-close">
@@ -62,7 +64,6 @@
         <a href="#" class="special-menu__item_links-link">Returns</a>
         <a href="#" class="special-menu__item_links-link">Privacy</a>
         <a href="#" class="special-menu__item_links-link">Terms</a>
-        <a href="#" class="special-menu__item_links-link">EN — $USD</a>
     </div>
     </div>
 

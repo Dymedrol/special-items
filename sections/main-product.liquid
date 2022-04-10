@@ -185,7 +185,7 @@
                 <div class="special-pdp-product__info-block">
                     <p class="special-pdp-product__info-block-text">Designer Name</p>
                     <p class="special-pdp-product__info-block-text">{{ product.title }}</p>
-                    <p class="special-pdp-product__info-block-text">${{ product.price }}</p>
+                    <p class="special-pdp-product__info-block-text">{{ product.price| money_without_trailing_zeros }}</p>
                 </div>
                 <div class="special-pdp-product__info-controls">
 
