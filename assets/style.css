@@ -318,6 +318,13 @@ body {
     display: block;
   }
 }
+.special-menu__items_mobile a {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 1024px) {
   .special-menu__items_mobile {
     display: none;
