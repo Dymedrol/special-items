@@ -62,7 +62,7 @@
                     </div>
                     <div class="special-bag__item-col2">
                         <div class="special-bag__item-info">
-                            <p class="special-bag__item-info-text">Designer Name</p>
+                            <p class="special-bag__item-info-text">{{ item.product.vendor | escape }}</p>
                             <p class="special-bag__item-info-text">{{ item.product.title | escape }}</p>
                             <p class="special-bag__item-info-text">{{ item.original_price | money }}</p>
                         </div>

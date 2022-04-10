@@ -425,8 +425,13 @@ body {
 }
 .special-menu__mobile-bag {
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 15px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
 }
 .special-menu__mobile-close {
   position: absolute;
