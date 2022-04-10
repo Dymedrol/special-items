@@ -1472,4 +1472,47 @@ body {
   text-align: center;
   border-bottom: 1px solid #fff;
 }
+.slick-prev.slick-arrow {
+  position: absolute;
+  z-index: 1;
+  left: 16px;
+  top: 50%;
+  background: transparent;
+  border: 0;
+  color: transparent;
+}
+.slick-prev.slick-arrow:after {
+  position: absolute;
+  display: block;
+  width: 11px;
+  height: 6px;
+  content: '';
+  background: url(https://i.ibb.co/QvNh1WX/next.png);
+  top: 1px;
+  left: 0;
+  transform: scaleX(-1);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slick-next.slick-arrow {
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  top: 50%;
+  background: transparent;
+  border: 0;
+  color: transparent;
+}
+.slick-next.slick-arrow:after {
+  position: absolute;
+  display: block;
+  width: 11px;
+  height: 6px;
+  content: '';
+  background: url(https://i.ibb.co/QvNh1WX/next.png);
+  top: 1px;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
