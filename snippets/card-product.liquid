@@ -6,6 +6,6 @@
     <div class="special-product-wall__item-info">
         <p class="special-product-wall__item-text">Designer Name</p>
         <p class="special-product-wall__item-text">{{ card_product.title }}</p>
-        <p class="special-product-wall__item-text">${{ card_product.price }}</p>
+        <p class="special-product-wall__item-text">{{ card_product.price | money_without_trailing_zeros }}</p>
     </div>
 </a>
