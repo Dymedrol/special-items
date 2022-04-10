@@ -47,11 +47,16 @@ if (!customElements.get('product-form')) {
           submitButton.classList.remove('loading');
           submitButton.removeAttribute('aria-disabled');
           this.querySelector('.loading-overlay__spinner').classList.add('hidden');
-          console.log('success')
           submitButton.setAttribute('aria-disabled', true);
           submitButton.classList.add('hidden');
           const goToCartButton = this.querySelector('.special-pdp-product__info-controls-go-to-bag');
           goToCartButton.classList.remove('hidden');
+          var count = $('#header-cart-count').text();
+          count =  parseInt(count, 10) + 1;
+          console.log('count', count)
+          $('.bag-full').removeClass('hidden');
+          $('.bag-empty').addClass('hidden');
+
 
         });
     }

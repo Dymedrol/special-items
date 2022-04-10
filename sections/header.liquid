@@ -10,15 +10,17 @@
     <div class="special-menu__items special-menu__items_mobile">
         <a href="{{ routes.cart_url }}">
             {%- if cart != empty -%}
-                {{ 'bag-full.svg' | asset_url | img_tag: 'bag' }}
+                {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full" }}
+                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty hidden" }}
             {%- else -%}
-                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag' }}
+                {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full hidden" }}
+                {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty" }}
             {%- endif -%}
         </a>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
         <a href="/pages/wishlist" class="special-menu__item">wishlist: <span class="js-header-wishlist">-</span></a>
-        <a href="{{ routes.cart_url }}" class="special-menu__item">bag: <span>{{ cart.item_count }}</span></a>
+        <a href="{{ routes.cart_url }}" class="special-menu__item">bag: <span id="header-cart-count">{{ cart.item_count }}</span></a>
     </div>
     <div class="special-menu__mobile">
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-bag">
