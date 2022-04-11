@@ -1520,4 +1520,16 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.special-info {
+  padding: 30px 15px;
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
 

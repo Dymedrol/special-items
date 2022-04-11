@@ -1,5 +1,8 @@
 
-<h1>INFO PAGE</h1>
+<div class="special-info">
+  {{  section.settings.text | newline_to_br  }}
+</div>
+
 
 {% schema %}
 {
@@ -13,7 +16,7 @@
           "label": "title"
         },
         {
-          "type": "text",
+          "type": "textarea",
           "id": "text",
           "label": "text"
         }
