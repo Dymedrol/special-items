@@ -649,6 +649,12 @@ body {
     max-width: unset;
   }
 }
+.field__label {
+  font-size: 9px;
+}
+.special-footer__input-wrapper {
+  position: relative;
+}
 .special-footer__item_input {
   width: 100%;
 }
@@ -664,7 +670,7 @@ body {
   border-radius: 3px;
   border: 0;
   padding-left: 13px;
-  margin-bottom: 15px;
+  margin: 0;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
@@ -683,11 +689,31 @@ body {
   }
 }
 .special-footer__input:focus {
-  border: 0;
-  outline: none;
+  border: 0 !important;
+  outline: none !important;
+}
+.special-footer__input::focus-visible {
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none;
+}
+.newsletter-form__button.field__button {
+  transform: scale(0.5);
+}
+@media (min-width: 1024px) {
+  .newsletter-form__button.field__button {
+    display: none;
+  }
+}
+.form__message {
+  margin-top: 0;
+  font-size: 12px;
 }
 .special-footer__input::placeholder {
   color: #6E6E6E;
+}
+.newsletter-form__field-wrapper {
+  position: relative;
 }
 .special-footer__item_socials {
   margin-bottom: 15px;
@@ -697,6 +723,35 @@ body {
   .special-footer__item_socials {
     margin-bottom: 0;
     margin-left: 30px;
+  }
+}
+.newsletter-form__message {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+@media (min-width: 1024px) {
+  .newsletter-form__message {
+    left: 13px;
+  }
+}
+.newsletter-form__message.newsletter-form__message--success {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  z-index: 5;
+}
+@media (min-width: 1024px) {
+  .newsletter-form__message.newsletter-form__message--success {
+    left: 13px;
   }
 }
 .special-footer__item-social {
