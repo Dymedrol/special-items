@@ -8,15 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "1649423128cd2d3815": {
-      "type": "wishlist",
+    "16496513322c0504df": {
+      "type": "returns",
       "settings": {
-        "title": "wishlist"
+        "title": "returns",
+        "text": "Special Items currently has a non-refund policy. If you are not pleased with your order, you may email us your order number and the photo you received within 5 days of the order. We work on a case-to-case basis to make sure all our customer needs are being met."
       }
     }
   },
   "order": [
     "main",
-    "1649423128cd2d3815"
+    "16496513322c0504df"
   ]
 }
