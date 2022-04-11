@@ -8,15 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "1649423128cd2d3815": {
-      "type": "wishlist",
+    "16496494657866697a": {
+      "type": "info-page",
       "settings": {
-        "title": "wishlist"
+        "title": "info-page",
+        "text": "info-page"
       }
     }
   },
   "order": [
     "main",
-    "1649423128cd2d3815"
+    "16496494657866697a"
   ]
 }
