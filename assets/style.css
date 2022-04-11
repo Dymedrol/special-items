@@ -1227,7 +1227,7 @@ body {
   border: 0;
   padding: 13px;
   flex-grow: 1;
-  background: #000;
+  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
   border-radius: 40px;
   font-family: 'Azeret Mono';
   font-style: normal;
@@ -1520,11 +1520,12 @@ body {
 }
 .wishlist-button {
   margin-top: 15px;
+  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%) !important;
 }
 .goto-cart-button {
   margin-top: 15px;
   display: none;
-  background: #000;
+  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
 }
 #empty {
   display: none;
