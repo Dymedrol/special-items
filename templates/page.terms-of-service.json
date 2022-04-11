@@ -8,15 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "1649423128cd2d3815": {
-      "type": "wishlist",
+    "1649651418ad47531e": {
+      "type": "terms-of-service",
       "settings": {
-        "title": "wishlist"
+        "title": "terms-of-service",
+        "text": "Lorem"
       }
     }
   },
   "order": [
     "main",
-    "1649423128cd2d3815"
+    "1649651418ad47531e"
   ]
 }
