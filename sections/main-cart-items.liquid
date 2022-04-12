@@ -46,12 +46,14 @@
                 <div class="special-bag__item card-item" id="CartItem-{{ item.index | plus: 1 }}">
                     <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}" class="special-bag__item-close">
                       <a href="{{ item.url_to_remove }}" class="" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
-                            {{ 'close.svg' | asset_url | img_tag: 'close', '' }}
-                          </a>
+                        {{ 'close.svg' | asset_url | img_tag: 'close', '' }}
+                      </a>
                     </cart-remove-button>
                     <!-- {{ 'close.svg' | asset_url | img_tag: 'close', 'special-bag__item-close' }} -->
                     <div class="special-bag__item-col1">
+                      <a href="{{ item.product.url }}">
                         <img src="{{ item.image | image_url: width: 248 }}" alt="{{ item.image.alt | escape }}" loading="lazy" lass="special-bag__item-pic">
+                      </a>
                     </div>
                     <div class="special-bag__item-col2">
                         <div class="special-bag__item-info">
