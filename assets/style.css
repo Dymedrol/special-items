@@ -1200,7 +1200,14 @@ body {
   width: 100%;
   flex: 1 1 0;
 }
+.special-pdp-product__info-controls-add-to-bag.loading .special-pdp-product__info-controls-form-loading {
+  display: flex;
+  margin: 0 auto;
+  width: 4% !important;
+}
 .special-pdp-product__info-controls-form-loading {
+  display: flex;
+  margin: 0 auto;
   width: 4% !important;
 }
 .special-pdp-product__info-controls-add-to-bag {
@@ -1241,6 +1248,7 @@ body {
   text-decoration: none;
 }
 .special-pdp-product__info-controls-add-to-bag.loading {
+  display: flex;
   font-size: 0;
 }
 .special-pdp-product__info-controls-add-to-fav {
