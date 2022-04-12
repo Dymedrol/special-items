@@ -422,6 +422,7 @@ body {
   height: 100vh;
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 .special-menu__mobile-bag {
   position: absolute;
@@ -839,6 +840,7 @@ body {
   padding: 57px 15px 0 15px;
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
   z-index: 1;
 }
 @media (min-width: 768px) {
