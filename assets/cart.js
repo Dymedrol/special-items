@@ -4,6 +4,16 @@ class CartRemoveButton extends HTMLElement {
     this.addEventListener('click', (event) => {
       event.preventDefault();
       this.closest('cart-items').updateQuantity(this.dataset.index, 0);
+
+        var count = $('#header-cart-count').text();
+        count =  parseInt(count, 10) - 1;
+        $('#header-cart-count').text(count)
+
+        if (count == 0) {
+          $('.bag-full').addClass('hidden');
+          $('.bag-empty').removeClass('hidden');
+        }
+
     });
   }
 }
