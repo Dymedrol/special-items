@@ -53,7 +53,8 @@ if (!customElements.get('product-form')) {
           goToCartButton.classList.remove('hidden');
           var count = $('#header-cart-count').text();
           count =  parseInt(count, 10) + 1;
-          console.log('count', count)
+          $('#header-cart-count').text(count)
+          // console.log('count', count)
           $('.bag-full').removeClass('hidden');
           $('.bag-empty').addClass('hidden');
 

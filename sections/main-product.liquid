@@ -150,7 +150,7 @@
   }
 </script>
 
-<section class="special-pdp">
+<section class="special-pdp" data-product-id="{{ product.id }}">
     <div class="special-pdp__col1">
         <div class="special-pdp__pic__wrapper">
           {%- for media in product.media -%}
@@ -205,7 +205,7 @@
                           <button
                             type="submit"
                             name="add"
-                            class="special-pdp-product__info-controls-add-to-bag"
+                            class="special-pdp-product__info-controls-add-to-bag loading"
                           {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                           >
                               <span>
@@ -215,7 +215,7 @@
                                   {{ 'products.product.sold_out' | t }}
                                 {%- endif -%}
                               </span>
-                              <div class="special-pdp-product__info-controls-form-loading loading-overlay__spinner hidden">
+                              <div class="special-pdp-product__info-controls-form-loading loading-overlay__spinner">
                                 <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
                                   <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                                 </svg>
