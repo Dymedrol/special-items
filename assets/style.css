@@ -1022,19 +1022,16 @@ body {
   width: auto;
   flex-grow: 1;
   background: #F3F3F3;
-  width: calc(50% - 1px);
-  max-width: calc(50% - 1px);
+  width: 50%;
 }
 @media (min-width: 768px) {
   .special-product-wall__item-dummy {
-    width: calc(33% - 1px);
-    max-width: calc(33% - 1px);
+    width: 33%;
   }
 }
 @media (min-width: 1024px) {
   .special-product-wall__item-dummy {
-    width: calc(25% - 1px);
-    max-width: calc(25% - 1px);
+    width: 25%;
   }
 }
 .special-product-wall__loading {
