@@ -1209,13 +1209,11 @@ body {
   flex: 1 1 0;
 }
 .special-pdp-product__info-controls-add-to-bag.loading .special-pdp-product__info-controls-form-loading {
-  display: flex;
   margin: 0 auto;
   width: 12px !important;
   height: 12px;
 }
 .special-pdp-product__info-controls-form-loading {
-  display: flex;
   margin: 0 auto;
   width: 12px !important;
   height: 12px;
