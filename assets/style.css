@@ -987,7 +987,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
-  border-bottom: 1px solid #fff;
 }
 .special-product-wall__item {
   display: block;
