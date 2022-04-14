@@ -7,27 +7,9 @@
 {% endcomment %}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
-
-{% comment %}
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
-{% endcomment %}
-
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
-<cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %}">
+<cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %} cart-content">
   <div class="cart__warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="special-bag__upload-panel-btn">{{ 'general.continue_shopping' | t }}</a>
@@ -35,7 +17,7 @@
 
   <form action="{{ routes.cart_url }}" class="critical-hidden" method="post" id="cart">
     <div class="special-bag-inner" id="main-cart-items" data-id="{{ section.id }}">
-      <div class="js-contents">
+      <div class="js-contents cart-content">
         {%- if cart != empty -%}
           <div class="special-bag__top-panel">
             <p class="special-bag__top-panel-text">bag</p>
@@ -43,7 +25,7 @@
           </div>
           <div class="">
               {%- for item in cart.items -%}
-                <div class="special-bag__item card-item" id="CartItem-{{ item.index | plus: 1 }}">
+                <div class="special-bag__item card-item" id="CartItem-{{ item.index | plus: 1 }}" data-product-id="{{ item.key }}">
                     <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}" class="special-bag__item-close">
                       <a href="{{ item.url_to_remove }}" class="" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                         {{ 'close.svg' | asset_url | img_tag: 'close', '' }}
@@ -68,21 +50,9 @@
                         <div class="upload-lift">
                         </div>
 
-<!--                         <div class="special-bag__item-img-controls">
-                            <p class="special-bag__item-img-controls-remove">Remove Image</p>
-                            <div class="special-bag__item-img-controls-widget">
-                                {{ 'bag-pic.png' | asset_url | img_tag: '', 'special-bag__item-img-controls-widget-pic' }}
-                                <textarea name="" id="" placeholder="Type your fit notes here..." class="special-bag__item-img-controls-widget-textarea"></textarea>
-                            </div>
-                        </div>
-                        <div class="special-bag__item-upload">upload image</div> -->
                     </div>
                 </div>
               {%- endfor -%}
-<!--               <div class="special-bag__promo-panel">
-                  <p class="special-bag__promo-panel-text">promo code</p>
-                  {{ 'plus-icon.svg' | asset_url | img_tag: '', 'pecial-bag__promo-panel-plus' }}
-              </div> -->
 
               <div class="special-bag__upload-panel">
                   <button type="submit" id="checkout" class="special-bag__upload-panel-btn" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
@@ -99,106 +69,12 @@
   </form>
 </cart-items>
 
+<div class="loading-overlay__spinner hidden" id="cart-loading">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+  </svg>
+</div>
 
-<!-- <section class="special-bag">
-  <cart-items>
-    <div class="special-bag-inner">
-
-        {% if cart == empty %}
-          <div class="special-bag__top-panel">
-              <p class="special-bag__top-panel-text">bag</p>
-              <p class="special-bag__top-panel-text">$0</p>
-          </div>
-          <div class="special-bag__info-panel">
-              <p class="special-bag__info-panel-text">Cart is empty</p>
-          </div>
-          <div class="special-bag__upload-panel">
-              <a href="{{ routes.all_products_collection_url }}" class="special-bag__upload-panel-btn">Go back shoping</a>
-          </div>
-        {% endif %}
-
-
-        {%- if cart != empty -%}
-          <form action="{{ routes.cart_url }}" class="critical-hidden" method="post" id="cart">
-            <div class="js-contents">
-              <div class="special-bag__top-panel">
-                  <p class="special-bag__top-panel-text">bag</p>
-                  <p class="special-bag__top-panel-text">{{ cart.total_price | money_with_currency }}</p>
-              </div>
-              <div class="special-bag__info-panel">
-                  <p class="special-bag__info-panel-text">First Time? <a href="#">Read our Photo and Fit Guide</a></p>
-              </div>
-
-              {%- for item in cart.items -%}
-                <div class="special-bag__item">
-                    <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}" class="special-bag__item-close">
-                      <a href="{{ item.url_to_remove }}" class="" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
-                            {{ 'close.svg' | asset_url | img_tag: 'close', '' }}
-                          </a>
-                    </cart-remove-button>
-                    {{ 'close.svg' | asset_url | img_tag: 'close', 'special-bag__item-close' }}
-                    <div class="special-bag__item-col1">
-                        <img src="{{ item.image | image_url: width: 124 }}" alt="{{ item.image.alt | escape }}" loading="lazy" lass="special-bag__item-pic">
-                    </div>
-                    <div class="special-bag__item-col2">
-                        <div class="special-bag__item-info">
-                            <p class="special-bag__item-info-text">Designer Name</p>
-                            <p class="special-bag__item-info-text">{{ item.product.title | escape }}</p>
-                            <p class="special-bag__item-info-text">{{ item.original_price | money }}</p>
-                        </div>
-                        <div class="special-bag__item-img-controls">
-                            <p class="special-bag__item-img-controls-remove">Remove Image</p>
-                            <div class="special-bag__item-img-controls-widget">
-                                {{ 'bag-pic.png' | asset_url | img_tag: '', 'special-bag__item-img-controls-widget-pic' }}
-                                <textarea name="" id="" placeholder="Type your fit notes here..." class="special-bag__item-img-controls-widget-textarea"></textarea>
-                            </div>
-                        </div>
-                        <div class="special-bag__item-upload">upload image</div>
-                    </div>
-                </div>
-              {%- endfor -%}
-
-              {% comment %}
-              <div class="special-bag__item">
-                  <img src="build/img/close.svg" alt="" class="special-bag__item-close">
-                  <div class="special-bag__item-col1">
-                      <img src="build/img/mocks/bag2.png" alt="" class="special-bag__item-pic">
-                  </div>
-                  <div class="special-bag__item-col2">
-                      <div class="special-bag__item-info">
-                          <p class="special-bag__item-info-text">Designer Name</p>
-                          <p class="special-bag__item-info-text">Item Name</p>
-                          <p class="special-bag__item-info-text">$100</p>
-                      </div>
-                      <div class="special-bag__item-img-controls">
-                          <p class="special-bag__item-img-controls-remove">Remove Image</p>
-                          <div class="special-bag__item-img-controls-widget">
-                              <img src="build/img/mocks/bag-pic.png" alt="" class="special-bag__item-img-controls-widget-pic">
-                              <textarea name="" id="" placeholder="Type your fit notes here..." class="special-bag__item-img-controls-widget-textarea"></textarea>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-              {% endcomment %}
-
-              <div class="special-bag__promo-panel">
-                  <p class="special-bag__promo-panel-text">promo code</p>
-                  {{ 'plus-icon.svg' | asset_url | img_tag: '', 'pecial-bag__promo-panel-plus' }}
-              </div>
-
-              <div class="special-bag__upload-panel">
-                  <button type="submit" id="checkout" class="special-bag__upload-panel-btn" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
-                    upload images to checkout
-                  </button>
-              </div>
-
-            </div>
-          </form>
-          {%- endif -%}
-    </div>
-  </cart-items>
-</section> -->
 
 {% schema %}
 {

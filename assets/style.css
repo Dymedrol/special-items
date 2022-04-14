@@ -1607,4 +1607,10 @@ body {
 .cart__footer-wrapper {
   display: none;
 }
+#cart-loading {
+  margin: 50px auto;
+  margin: 100px auto;
+  display: block;
+  width: 10%;
+}
 
