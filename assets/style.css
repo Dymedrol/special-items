@@ -1613,4 +1613,7 @@ body {
   display: block;
   width: 10%;
 }
+#MainContent {
+  flex: 1 1 0;
+}
 
