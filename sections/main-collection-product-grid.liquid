@@ -1,8 +1,8 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
 <section class="special-product-controls">
-    <span class="special-product-controls__selected-filter">new items</span>
-    <div class="special-product-controls__filters"><span>filters</span> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
+    <span class="special-product-controls__selected-filter">{{ collection.title }}</span>
+    <div class="special-product-controls__filters"><h1>filters</h1> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
     <div class="special-product-controls__menu">
         {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
         <div class="special-product-controls__menu-categories">
