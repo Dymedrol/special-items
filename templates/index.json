@@ -6,25 +6,25 @@
         "16486096203ec966f9-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "143-dress"
           }
         },
         "16486096203ec966f9-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "2wb"
           }
         },
         "16486096203ec966f9-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "jumpsuit"
+            "collection": "3dfashion-elle"
           }
         },
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "outerwear"
+            "collection": "ava3ddesigners"
           }
         },
         "f9b0d236-1387-415f-96df-bb3a6c4d8450": {
@@ -103,8 +103,8 @@
     "164860964636d1edfe": {
       "type": "featured-collection",
       "settings": {
-        "title": "Tops",
-        "collection": "tops",
+        "title": "Featured items",
+        "collection": "143-dress",
         "show-bottom-border": false
       }
     },
@@ -118,7 +118,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "collection": "dresses",
+        "collection": "ecoolska",
         "show-bottom-border": true
       }
     }
