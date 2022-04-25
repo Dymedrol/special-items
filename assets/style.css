@@ -1147,6 +1147,11 @@ body {
   display: block;
   border-bottom: 1px solid #fff;
 }
+.special-pdp__pic img {
+  display: block;
+  margin: 0 auto;
+  max-height: 80vh;
+}
 .special-pdp__pic:last-child {
   border-bottom: none;
 }
