@@ -3,10 +3,10 @@
         <div id="plus" href="{{ routes.cart_url }}">{{ 'plus-icon.svg' | asset_url | img_tag: 'plus' }}</div>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
-        <a href="{{ routes.root_url }}" class="special-menu__item">shop</a>
+        <a href="/collections/all" class="special-menu__item">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
     </div>
-    <a href="/collections/all" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
+    <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
         <a href="{{ routes.cart_url }}">
             {%- if cart != empty -%}
@@ -35,7 +35,7 @@
         <div class="special-menu__mobile-close">
             {{ 'close.svg' | asset_url | img_tag: 'close' }}
         </div>
-        <a href="{{ routes.root_url }}" class="special-menu__mobile-link-big">shop</a>
+        <a href="/collections/all" class="special-menu__mobile-link-big">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__mobile-link-big">diary</a>
         <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist: <span class="js-header-wishlist"></span></a>
         <a href="/pages/wishlist" class="special-menu__mobile-link-big">bag: <span>{{ cart.item_count }}</span></a>
