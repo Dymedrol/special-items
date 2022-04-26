@@ -97,7 +97,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "text": "Image banner text"
+        "text": "Image banner text",
+        "iframe": "<iframe src=\"http:\/\/special-items.tilda.ws\/whatwhat\" title=\"W3Schools Free Online Web Tutorials\"> <\/iframe>"
       }
     },
     "164860964636d1edfe": {
