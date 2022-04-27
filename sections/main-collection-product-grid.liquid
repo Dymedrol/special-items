@@ -6,7 +6,7 @@
     <div class="special-product-controls__menu">
         {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
         <div class="special-product-controls__menu-categories">
-            {%- for collection in collections -%}
+            {%- for collection in section.settings.collection_for_filter_list -%}
               <div class="special-product-controls__menu-categories-item" data-collection-url="{{ collection.url }}">{{collection.title}}</div>
             {%- endfor -%}
         </div>
