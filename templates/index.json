@@ -244,6 +244,7 @@
     },
     "1648609806a2457dcd": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "collection": "ecoolska",
