@@ -6,7 +6,7 @@
         "16486096203ec966f9-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "143-dress"
+            "collection": "total-look"
           }
         },
         "16486096203ec966f9-1": {
@@ -18,7 +18,7 @@
         "16486096203ec966f9-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "3dfashion-elle"
+            "collection": "top"
           }
         },
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6": {
@@ -30,19 +30,43 @@
         "f9b0d236-1387-415f-96df-bb3a6c4d8450": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pants"
+            "collection": "balmlabs"
           }
         },
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tops"
+            "collection": "olivia-goodall"
           }
         },
         "57a91bbc-f298-417c-8201-789ba6c2a35e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "hadeeart"
+          }
+        },
+        "9061b1fc-2de4-4682-ab5d-4dbaa98b74f5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "burbush"
+          }
+        },
+        "b505a3a0-41b3-4026-b947-5179639d246e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "edvard-nielsen"
+          }
+        },
+        "51735b96-2ba6-4b2b-a71e-f5b260e8ee42": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lucii"
+          }
+        },
+        "85d167cf-8926-40d5-bcaa-8de4f071bb3c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dis_placed"
           }
         },
         "2105c05b-e0af-40f7-9216-d499cdb44873": {
@@ -50,30 +74,6 @@
           "disabled": true,
           "settings": {
             "collection": "frontpage"
-          }
-        },
-        "9061b1fc-2de4-4682-ab5d-4dbaa98b74f5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jumpsuit"
-          }
-        },
-        "b505a3a0-41b3-4026-b947-5179639d246e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "outerwear"
-          }
-        },
-        "51735b96-2ba6-4b2b-a71e-f5b260e8ee42": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pants"
-          }
-        },
-        "85d167cf-8926-40d5-bcaa-8de4f071bb3c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tops"
           }
         }
       },
@@ -85,11 +85,11 @@
         "f9b0d236-1387-415f-96df-bb3a6c4d8450",
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929",
         "57a91bbc-f298-417c-8201-789ba6c2a35e",
-        "2105c05b-e0af-40f7-9216-d499cdb44873",
         "9061b1fc-2de4-4682-ab5d-4dbaa98b74f5",
         "b505a3a0-41b3-4026-b947-5179639d246e",
         "51735b96-2ba6-4b2b-a71e-f5b260e8ee42",
-        "85d167cf-8926-40d5-bcaa-8de4f071bb3c"
+        "85d167cf-8926-40d5-bcaa-8de4f071bb3c",
+        "2105c05b-e0af-40f7-9216-d499cdb44873"
       ],
       "settings": {
         "title": "Collections"
