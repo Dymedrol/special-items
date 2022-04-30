@@ -1,0 +1,35 @@
+
+<style>
+    body { background: #111111 !important }
+</style>
+
+
+
+{% schema %}
+{
+    "name": "image guide",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "text"
+        }
+    ],
+    "presets": [
+        {
+            "name": "image guide",
+            "settings": {
+                "title": "image guide",
+                "text": ""
+            }
+        }
+    ]
+}
+{% endschema %}
