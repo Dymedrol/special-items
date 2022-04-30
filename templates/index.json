@@ -193,6 +193,7 @@
         },
         "a2d5ae95-1367-494b-a265-bf1084a908e9": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "nueno-digital-fashion"
           }
