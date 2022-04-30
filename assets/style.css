@@ -1717,7 +1717,6 @@ body {
 @media (min-width: 1024px) {
   .image-guide-wrapper {
     flex-direction: row;
-    margin-right: -1px;
   }
 }
 .image-guide-item {
@@ -1732,6 +1731,11 @@ body {
     width: 25%;
     padding-top: 41.6%;
     border-right: 1px solid #fff;
+  }
+}
+@media (min-width: 1024px) {
+  .image-guide-item:last-child {
+    border-right: none;
   }
 }
 .image-guide-item-info {
