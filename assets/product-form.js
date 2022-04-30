@@ -53,6 +53,11 @@ if (!customElements.get('product-form')) {
           goToCartButton.classList.remove('hidden');
           var count = $('#header-cart-count').text();
           count =  parseInt(count, 10) + 1;
+          if (count > 0) {
+            $('#header-cart-count-mobile').text(': ' + count);
+          } else {
+            $('#header-cart-count-mobile').text('');
+          }
           $('#header-cart-count').text(count)
           // console.log('count', count)
           $('.bag-full').removeClass('hidden');
