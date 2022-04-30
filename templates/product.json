@@ -121,8 +121,8 @@
     "1648609879f8813763": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "collection": "143-dress",
+        "title": "Orbit 1: Exclusives",
+        "collection": "orbit-1-exclusives",
         "show-bottom-border": true
       }
     },
@@ -147,8 +147,8 @@
     "1648609903be6df100": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "collection": "enye",
+        "title": "GROUND CONTROL EDIT",
+        "collection": "groundcontroledit",
         "show-bottom-border": true
       }
     }
