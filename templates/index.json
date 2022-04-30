@@ -104,6 +104,121 @@
         "padding_bottom": 0
       }
     },
+    "16513451583e1546eb": {
+      "type": "collection-list",
+      "blocks": {
+        "1651345158766b0876-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "143-dress"
+          }
+        },
+        "1651345158766b0876-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2wb"
+          }
+        },
+        "1651345158766b0876-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3dfashion-elle"
+          }
+        },
+        "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "balmlabs"
+          }
+        },
+        "451ebb50-25b6-412b-91e4-11224b05ef07": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dis_placed"
+          }
+        },
+        "9589b35a-c38c-4208-8c54-e5f7efe1576c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dnwllngr"
+          }
+        },
+        "e623dc9e-9336-4dde-86ea-7e32200d733e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "don-kaka"
+          }
+        },
+        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ecoolska"
+          }
+        },
+        "bf49dfea-2e35-4137-8d80-b1c9950b3be1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "edvard-nielsen"
+          }
+        },
+        "81db985c-c239-4324-8718-c4ce5c37f0f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "enye"
+          }
+        },
+        "a2e34fc5-49d8-4e39-925b-e98e1147d145": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eyenastya"
+          }
+        },
+        "dbf22573-bee3-406c-af11-a3610642fb18": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hadeeart"
+          }
+        },
+        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lucii"
+          }
+        },
+        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "non-flam"
+          }
+        },
+        "a2d5ae95-1367-494b-a265-bf1084a908e9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nueno-digital-fashion"
+          }
+        }
+      },
+      "block_order": [
+        "1651345158766b0876-0",
+        "1651345158766b0876-1",
+        "1651345158766b0876-2",
+        "af92b42d-4ccb-4f59-9823-46b90a294bfa",
+        "451ebb50-25b6-412b-91e4-11224b05ef07",
+        "9589b35a-c38c-4208-8c54-e5f7efe1576c",
+        "e623dc9e-9336-4dde-86ea-7e32200d733e",
+        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832",
+        "bf49dfea-2e35-4137-8d80-b1c9950b3be1",
+        "81db985c-c239-4324-8718-c4ce5c37f0f6",
+        "a2e34fc5-49d8-4e39-925b-e98e1147d145",
+        "dbf22573-bee3-406c-af11-a3610642fb18",
+        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee",
+        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa",
+        "a2d5ae95-1367-494b-a265-bf1084a908e9"
+      ],
+      "settings": {
+        "title": "Collections"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -114,6 +229,7 @@
     },
     "164860964636d1edfe": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured items",
         "collection": "143-dress",
@@ -133,69 +249,15 @@
         "collection": "ecoolska",
         "show-bottom-border": true
       }
-    },
-    "1651327463ef6a7017": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "165132746352c20c79-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>&lt;a&gt;&lt;\/a&gt;<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165132746352c20c79-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165132746352c20c79-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "165132746352c20c79-0",
-        "165132746352c20c79-1",
-        "165132746352c20c79-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "1648609620a3ee52ce",
     "16513274673651f61b",
+    "16513451583e1546eb",
     "image_banner",
     "164860964636d1edfe",
     "164860980322442558",
-    "1648609806a2457dcd",
-    "1651327463ef6a7017"
+    "1648609806a2457dcd"
   ]
 }
