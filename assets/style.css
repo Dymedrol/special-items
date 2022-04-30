@@ -1126,6 +1126,7 @@ body {
   color: #000000;
 }
 .special-product-wall__item-buttons {
+  display: flex;
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -1773,5 +1774,12 @@ body {
 }
 .special-product-wall__item-buttons-wishlist__in-wishlist path {
   fill: red;
+}
+.special-product-wall__item-buttons-bag {
+  display: inline-flex !important;
+  height: 43px;
+  width: 39px;
+  justify-content: center;
+  align-items: center;
 }
 
