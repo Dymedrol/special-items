@@ -120,8 +120,18 @@
         "show-bottom-border": false
       }
     },
+    "1651349695078d0f4f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"ultrabanner showmeplease\">AFROFUTURISM AND THE NEW WORLD OF FASHION<\/div><div class=\"ultrabanner\">MOMMY + ME<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "164860980322442558": {
       "type": "special-bar",
+      "disabled": true,
       "settings": {
         "title": "special-bar"
       }
@@ -257,6 +267,7 @@
     "16513274673651f61b",
     "image_banner",
     "164860964636d1edfe",
+    "1651349695078d0f4f",
     "164860980322442558",
     "16513451583e1546eb",
     "1648609806a2457dcd"
