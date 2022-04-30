@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16496512936b3a2307": {
+      "type": "info-page",
+      "settings": {
+        "title": "How it works",
+        "text": "How it works\n\nPICK IT\nSelect a digital fashion item that you love.\n\nPAIR IT\nChoose a photo of yourself to present your item in its best light. <a href=\"\/\/special-items.com\/pages\/fit-guide\" style=\"color:#000;\">Fit guide<\/a>\n\nWEAR IT\nReceive your collaborative image from us within 24-48hrs (whatever time window is)\n\nPOST IT\nShare your wild and wonderful self\/custom image with the metaverse\/your community!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16496512936b3a2307"
+  ]
+}
