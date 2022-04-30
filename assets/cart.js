@@ -8,6 +8,11 @@ class CartRemoveButton extends HTMLElement {
         var count = $('#header-cart-count').text();
         count =  parseInt(count, 10) - 1;
         $('#header-cart-count').text(count)
+        if (count > 0) {
+          $('#header-cart-count-mobile').text(': ' + count);
+        } else {
+          $('#header-cart-count-mobile').text('');
+        }
 
         if (count == 0) {
           $('.bag-full').addClass('hidden');

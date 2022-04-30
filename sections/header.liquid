@@ -51,8 +51,8 @@
         </div>
         <a href="/collections/all" class="special-menu__mobile-link-big">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__mobile-link-big">diary</a>
-        <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist: <span class="js-header-wishlist"></span></a>
-        <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big">bag: <span>{{ cart.item_count }}</span></a>
+        <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist <span class="js-header-wishlist-mobile"></span></a>
+        <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big">bag<span id="header-cart-count-mobile">{% if cart.item_count > 0 %}: {{ cart.item_count }}{% endif %}</span></a>
 
     <div class="special-menu__item_socials">
         <a href="#" class="special-menu__item-social">
