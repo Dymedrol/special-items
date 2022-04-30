@@ -858,8 +858,7 @@ body {
 }
 @media (min-width: 768px) {
   .special-product-controls__menu {
-    position: absolute;
-    top: 0;
+    top: 50px;
     right: 0;
     width: 33vw;
     height: calc(100vh - 50px);
