@@ -9,16 +9,16 @@
             "collection": "total-look"
           }
         },
+        "16486096203ec966f9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "burbush"
+          }
+        },
         "16486096203ec966f9-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "top"
-          }
-        },
-        "16486096203ec966f9-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lucii"
           }
         },
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6": {
@@ -79,8 +79,8 @@
       },
       "block_order": [
         "16486096203ec966f9-0",
-        "16486096203ec966f9-2",
         "16486096203ec966f9-1",
+        "16486096203ec966f9-2",
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6",
         "f9b0d236-1387-415f-96df-bb3a6c4d8450",
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929",
