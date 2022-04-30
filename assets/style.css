@@ -655,6 +655,7 @@ body {
   align-items: center;
   margin: 0 auto;
   border-top: 1px solid #fff;
+  background: #F3F3F3;
 }
 @media (min-width: 1024px) {
   .special-footer {
@@ -1666,5 +1667,77 @@ body {
 }
 #MainContent {
   flex: 1 1 0;
+}
+.theme-night {
+  display: none !important;
+}
+.image-guide-title {
+  padding: 30px 0;
+  border-bottom: 1px solid #fff;
+}
+.image-guide-logo {
+  display: block;
+  margin: 0 auto 10px;
+}
+.image-guide-text {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.image-guide-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .image-guide-wrapper {
+    flex-direction: row;
+    margin-right: -1px;
+  }
+}
+.image-guide-item {
+  position: relative;
+  padding-top: 159%;
+  border-bottom: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 1024px) {
+  .image-guide-item {
+    width: 25%;
+    padding-top: 41.6%;
+    border-right: 1px solid #fff;
+  }
+}
+.image-guide-item-info {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.image-guide-item-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.image-guide-item-text {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 345px;
+}
+.footer-wrapper {
+  background: #F3F3F3;
 }
 

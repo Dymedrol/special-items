@@ -1,6 +1,11 @@
  <header class="special-menu">
     <div class="special-menu__items special-menu__items_mobile">
-        <div id="plus" href="{{ routes.cart_url }}">{{ 'plus-icon.svg' | asset_url | img_tag: 'plus' }}</div>
+        <div id="plus" href="{{ routes.cart_url }}">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="6" width="13" height="1" fill="#111111"/>
+                <rect x="6" y="13" width="13" height="1" transform="rotate(-90 6 13)" fill="#111111"/>
+            </svg>
+        </div>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
         <a href="/collections/all" class="special-menu__item">shop</a>
@@ -8,13 +13,22 @@
     </div>
     <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
-        <a href="{{ routes.cart_url }}">
+        <a href="{{ routes.cart_url }}" class="theme-day">
             {%- if cart != empty -%}
                 {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full" }}
                 {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty hidden" }}
             {%- else -%}
                 {{ 'bag-full.svg' | asset_url | img_tag: 'bag', "bag-full hidden" }}
                 {{ 'bag-icon.svg' | asset_url | img_tag: 'bag', "bag-empty" }}
+            {%- endif -%}
+        </a>
+        <a href="{{ routes.cart_url }}" class="theme-night">
+            {%- if cart != empty -%}
+                {{ 'bag-full-black.svg' | asset_url | img_tag: 'bag', "bag-full" }}
+                {{ 'bag-icon-black.svg' | asset_url | img_tag: 'bag', "bag-empty hidden" }}
+            {%- else -%}
+                {{ 'bag-full-black.svg' | asset_url | img_tag: 'bag', "bag-full hidden" }}
+                {{ 'bag-icon-black.svg' | asset_url | img_tag: 'bag', "bag-empty" }}
             {%- endif -%}
         </a>
     </div>

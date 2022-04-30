@@ -1,7 +1,71 @@
 
 <style>
-    body { background: #111111 !important }
+    body {
+        background: #111111 !important
+    }
+    .special-menu {
+        background: #111111 !important;
+        color:  #FFFFFF !important;
+    }
+
+    .special-menu__item {
+        color:  #FFFFFF !important;
+    }
+
+    #plus rect {
+        fill:  #fff;
+    }
+
+    .theme-day {
+        display:  none !important;
+    }
+
+    .theme-night {
+        display:  inline !important;
+    }
 </style>
+
+<div class="image-guide-title">
+    {{ 'logo-night.svg' | asset_url | img_tag: 'logo', "image-guide-logo" }}
+    <div class="image-guide-text">How to choose the right image for your Special Item</div>
+</div>
+
+<div class="image-guide-wrapper">
+
+    <div class="image-guide-item" style="background-image: url('{{ 'image-guide-1.png' | asset_url }}  background-size: cover;";>
+        <div class="image-guide-item-info">
+            <div class="image-guide-item-title">{{ 'be-lit.svg' | asset_url | img_tag: 'logo' }}</div>
+            <div class="image-guide-item-text">use Even, Bright Lighting <br>avoid Strong Shadows and Back Lighting</div>
+
+        </div>
+    </div>
+
+    <div class="image-guide-item" style="background-image: url('{{ 'image-guide-2.png' | asset_url }}  background-size: cover;";>
+        <div class="image-guide-item-info">
+            <div class="image-guide-item-title">{{ 'be-fit.svg' | asset_url | img_tag: 'logo' }}</div>
+            <div class="image-guide-item-text">Fitted Physical Clothes w/ Simple Design <br> avoid Oversized or Baggy Clothes</div>
+
+        </div>
+    </div>
+
+    <div class="image-guide-item" style="background-image: url('{{ 'image-guide-3.png' | asset_url }}  background-size: cover;";>
+        <div class="image-guide-item-info">
+            <div class="image-guide-item-title">{{ 'be-sharp.svg' | asset_url | img_tag: 'logo' }}</div>
+            <div class="image-guide-item-text">1MG Quality, Sharp and Clear</div>
+
+        </div>
+    </div>
+
+    <div class="image-guide-item" style="background-image: url('{{ 'image-guide-4.png' | asset_url }}  background-size: cover;";>
+        <div class="image-guide-item-info">
+            <div class="image-guide-item-title">{{ 'be-sleek.svg' | asset_url | img_tag: 'logo' }}</div>
+            <div class="image-guide-item-text">Physical clothes smaller than Special Item <br>Eg. Sports Wear or Swim<br> Physical clothes which pair well with your Special Item. Physical clothes which cover parts of your body you want<br> exposed. Your hair covering your chest/body where you want the item seen.
+</div>
+
+        </div>
+    </div>
+
+</div>
 
 
 
