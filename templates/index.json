@@ -131,7 +131,6 @@
     },
     "164860980322442558": {
       "type": "special-bar",
-      "disabled": true,
       "settings": {
         "title": "special-bar"
       }
