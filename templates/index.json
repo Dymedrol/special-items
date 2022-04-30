@@ -123,7 +123,7 @@
     "1651349695078d0f4f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>.bg001, .bg002 {height: 100% !important;\n}<\/style><div class=\"ultrabanner showmeplease whitetopme\"><section class=\"special-bar-with-text bg001\">\n    <p class=\"special-bar-with-text__text\">Afrofuturism and the New World of Fashion<\/p>\n<\/section><\/div><div class=\"ultrabanner whitetopme\"><section class=\"special-bar-with-text bg002\">\n    <p class=\"special-bar-with-text__text\">MOMMY + ME<\/p>\n<\/section><\/div>",
+        "custom_liquid": "<style>.bg001, .bg002 {height: 100% !important;\n}.special-footer {border-top:0px none!important;}<\/style><div class=\"ultrabanner showmeplease whitetopme\"><section class=\"special-bar-with-text bg001\">\n    <p class=\"special-bar-with-text__text\">Afrofuturism and the New World of Fashion<\/p>\n<\/section><\/div><div class=\"ultrabanner whitetopme\"><section class=\"special-bar-with-text bg002\">\n    <p class=\"special-bar-with-text__text\">MOMMY + ME<\/p>\n<\/section><\/div>",
         "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
