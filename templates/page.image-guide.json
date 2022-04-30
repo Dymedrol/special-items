@@ -10,13 +10,22 @@
     },
     "1649423128cd2d3815": {
       "type": "wishlist",
+      "disabled": true,
       "settings": {
         "title": "wishlist"
+      }
+    },
+    "16512910169703fd4e": {
+      "type": "image_guide",
+      "settings": {
+        "title": "image guide",
+        "text": ""
       }
     }
   },
   "order": [
     "main",
-    "1649423128cd2d3815"
+    "1649423128cd2d3815",
+    "16512910169703fd4e"
   ]
 }
