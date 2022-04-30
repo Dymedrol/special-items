@@ -290,6 +290,12 @@ body {
   flex-direction: column;
   padding-top: 50px;
 }
+#shopify-section-header {
+  z-index: 3;
+}
+#MainContent {
+  z-index: 1;
+}
 #shopify-section-footer {
   margin-top: auto;
 }
