@@ -39,22 +39,22 @@
             "collection": "jacket"
           }
         },
-        "f9b0d236-1387-415f-96df-bb3a6c4d8450": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessory"
-          }
-        },
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929": {
           "type": "featured_collection",
           "settings": {
             "collection": "animal-wear"
           }
         },
+        "f9b0d236-1387-415f-96df-bb3a6c4d8450": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessory"
+          }
+        },
         "b505a3a0-41b3-4026-b947-5179639d246e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "edvard-nielsen"
+            "collection": "footwear"
           }
         },
         "85d167cf-8926-40d5-bcaa-8de4f071bb3c": {
@@ -92,8 +92,8 @@
         "16486096203ec966f9-1",
         "16486096203ec966f9-2",
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6",
-        "f9b0d236-1387-415f-96df-bb3a6c4d8450",
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929",
+        "f9b0d236-1387-415f-96df-bb3a6c4d8450",
         "b505a3a0-41b3-4026-b947-5179639d246e",
         "85d167cf-8926-40d5-bcaa-8de4f071bb3c",
         "51735b96-2ba6-4b2b-a71e-f5b260e8ee42",
