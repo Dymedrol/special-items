@@ -12,7 +12,7 @@
         "16486096203ec966f9-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "burbush"
+            "collection": "dress"
           }
         },
         "16486096203ec966f9-2": {
@@ -24,47 +24,51 @@
         "fb648d72-9c9d-4d28-ac44-35d9d9899da6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ava3ddesigners"
+            "collection": "jacket"
           }
         },
         "f9b0d236-1387-415f-96df-bb3a6c4d8450": {
           "type": "featured_collection",
           "settings": {
-            "collection": "balmlabs"
+            "collection": "accessory"
           }
         },
         "6b2b8168-92f2-46b6-87e8-f0b2a1ade929": {
           "type": "featured_collection",
           "settings": {
-            "collection": "olivia-goodall"
+            "collection": "animal-wear"
           }
         },
         "57a91bbc-f298-417c-8201-789ba6c2a35e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "hadeeart"
+            "collection": "orbit-1-exclusives"
           }
         },
         "9061b1fc-2de4-4682-ab5d-4dbaa98b74f5": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "burbush"
           }
         },
         "b505a3a0-41b3-4026-b947-5179639d246e": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "edvard-nielsen"
           }
         },
         "51735b96-2ba6-4b2b-a71e-f5b260e8ee42": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "lucii"
           }
         },
         "85d167cf-8926-40d5-bcaa-8de4f071bb3c": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "dis_placed"
           }
