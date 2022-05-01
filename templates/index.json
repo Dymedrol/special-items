@@ -196,12 +196,6 @@
             "collection": "ecoolska"
           }
         },
-        "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "balmlabs"
-          }
-        },
         "451ebb50-25b6-412b-91e4-11224b05ef07": {
           "type": "featured_collection",
           "settings": {
@@ -216,6 +210,13 @@
         },
         "e623dc9e-9336-4dde-86ea-7e32200d733e": {
           "type": "featured_collection",
+          "settings": {
+            "collection": "balmlabs"
+          }
+        },
+        "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
+          "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "balmlabs"
           }
@@ -251,10 +252,10 @@
         "b568bd64-f0d5-435e-9fc7-320aa3c1cdee",
         "1651345158766b0876-1",
         "2ddd8c84-e40d-4e97-bf2b-f3e90466c832",
-        "af92b42d-4ccb-4f59-9823-46b90a294bfa",
         "451ebb50-25b6-412b-91e4-11224b05ef07",
         "9589b35a-c38c-4208-8c54-e5f7efe1576c",
         "e623dc9e-9336-4dde-86ea-7e32200d733e",
+        "af92b42d-4ccb-4f59-9823-46b90a294bfa",
         "a2e34fc5-49d8-4e39-925b-e98e1147d145",
         "dbf22573-bee3-406c-af11-a3610642fb18",
         "a2d5ae95-1367-494b-a265-bf1084a908e9"
