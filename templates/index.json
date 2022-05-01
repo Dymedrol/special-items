@@ -75,6 +75,13 @@
           "settings": {
             "collection": "frontpage"
           }
+        },
+        "e3815492-ceb5-480d-b216-12ad476b6312": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -89,7 +96,8 @@
         "b505a3a0-41b3-4026-b947-5179639d246e",
         "51735b96-2ba6-4b2b-a71e-f5b260e8ee42",
         "85d167cf-8926-40d5-bcaa-8de4f071bb3c",
-        "2105c05b-e0af-40f7-9216-d499cdb44873"
+        "2105c05b-e0af-40f7-9216-d499cdb44873",
+        "e3815492-ceb5-480d-b216-12ad476b6312"
       ],
       "settings": {
         "title": "Collections"
