@@ -1,8 +1,15 @@
-.special-product-controls__menu-categories {
+@media screen and (max-width: 480px){
+  
+  .special-product-controls__menu-categories {
 margin-bottom: 10px !important;
 }
-/* Color custom properties */
-
+.special-product-controls__menu {
+top: 10px !important;
+}/* Color custom properties */
+.special-product-controls__menu-close {
+top: 65px !important;
+}  }
+  
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
