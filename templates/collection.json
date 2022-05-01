@@ -12,10 +12,14 @@
       "type": "main-collection-product-grid",
       "settings": {
         "collection_for_filter_list": [
-          "143-dress",
-          "2wb",
-          "ava3ddesigners",
-          "burbush"
+          "total-look",
+          "dress",
+          "top",
+          "jacket",
+          "bottoms",
+          "animal-wear",
+          "accessory",
+          "footwear"
         ]
       }
     }
