@@ -154,16 +154,40 @@
             "collection": "143-dress"
           }
         },
+        "1651345158766b0876-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dis_placed"
+          }
+        },
+        "bf49dfea-2e35-4137-8d80-b1c9950b3be1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "edvard-nielsen"
+          }
+        },
+        "81db985c-c239-4324-8718-c4ce5c37f0f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "enye"
+          }
+        },
+        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "non-flam"
+          }
+        },
+        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lucii"
+          }
+        },
         "1651345158766b0876-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "2wb"
-          }
-        },
-        "1651345158766b0876-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "3dfashion-elle"
           }
         },
         "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
@@ -196,18 +220,6 @@
             "collection": "ecoolska"
           }
         },
-        "bf49dfea-2e35-4137-8d80-b1c9950b3be1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "edvard-nielsen"
-          }
-        },
-        "81db985c-c239-4324-8718-c4ce5c37f0f6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "enye"
-          }
-        },
         "a2e34fc5-49d8-4e39-925b-e98e1147d145": {
           "type": "featured_collection",
           "settings": {
@@ -220,18 +232,6 @@
             "collection": "hadeeart"
           }
         },
-        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lucii"
-          }
-        },
-        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "non-flam"
-          }
-        },
         "a2d5ae95-1367-494b-a265-bf1084a908e9": {
           "type": "featured_collection",
           "disabled": true,
@@ -242,19 +242,19 @@
       },
       "block_order": [
         "1651345158766b0876-0",
-        "1651345158766b0876-1",
         "1651345158766b0876-2",
+        "bf49dfea-2e35-4137-8d80-b1c9950b3be1",
+        "81db985c-c239-4324-8718-c4ce5c37f0f6",
+        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa",
+        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee",
+        "1651345158766b0876-1",
         "af92b42d-4ccb-4f59-9823-46b90a294bfa",
         "451ebb50-25b6-412b-91e4-11224b05ef07",
         "9589b35a-c38c-4208-8c54-e5f7efe1576c",
         "e623dc9e-9336-4dde-86ea-7e32200d733e",
         "2ddd8c84-e40d-4e97-bf2b-f3e90466c832",
-        "bf49dfea-2e35-4137-8d80-b1c9950b3be1",
-        "81db985c-c239-4324-8718-c4ce5c37f0f6",
         "a2e34fc5-49d8-4e39-925b-e98e1147d145",
         "dbf22573-bee3-406c-af11-a3610642fb18",
-        "b568bd64-f0d5-435e-9fc7-320aa3c1cdee",
-        "3251a2a1-50f8-4e29-b51e-3df2a039a5fa",
         "a2d5ae95-1367-494b-a265-bf1084a908e9"
       ],
       "settings": {
