@@ -47,14 +47,12 @@
         },
         "9061b1fc-2de4-4682-ab5d-4dbaa98b74f5": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "burbush"
           }
         },
         "b505a3a0-41b3-4026-b947-5179639d246e": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "edvard-nielsen"
           }
@@ -68,7 +66,6 @@
         },
         "85d167cf-8926-40d5-bcaa-8de4f071bb3c": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "dis_placed"
           }
