@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16496512936b3a2307": {
+      "type": "info-page",
+      "settings": {
+        "title": "Mission",
+        "text": "OUR MISSION\n\nThe Current Epoch of Fashion is a space ripe for disruption.\n\nSpecial Items sees the metaverse as the new frontier of fashion. We’ve entered a brand new galaxy of opportunity. A deep space ripe for discovery. We’re teetering on the edge of a new universal understanding of the value of our material world. We are looking to the digital world as a place for limitless possibilities and creativity, harnessing the imagination, our inner worlds, and creating something to better the real world. \n\nPhysical fashion items are based on built-in obsolescence. Once ‘out of fashion’, they are considered redundant. Manufacturing clothing cheap enough for this disposable model requires the undervaluing of workers, raw materials, and the systematic privileging of profits over ethical practice. This industry model has come with devastatingly high, unaccounted for costs. The unseen ecological impact and social injustices are savage. An estimated 14 million physical garment workers around the globe are earning less than half a living wage - this is a violation of human rights.\n\n— Producing digital fashion vs. physical fashion eliminates material waste altogether.\n— Producing one digital product vs. one physical product reduces greenhouse gas emissions by 97%.\n— Producing one digital product vs. one physical product is done using 3,300 fewer liters of water.\n— Digital Fashion items don’t need to be dyed, washed, or made in a factory. This means no fabric dye run-off, microplastics, or polluting of our precious water systems.\n— Digital Fashion provides no harm to animals whatsoever. \n— Special Items works directly with designers and their teams to confirm fair wages and the well-being of all workers.\n\nWe want to dismantle fashion orthodoxy and construct a new world that is: \n\nMore sustainable and reduces pressure on the natural environment.\n\n— More accessible and provides better tools and opportunities for self-expression. \n— Fully inclusive. A perfect fit for every garment on every body. \n— Enriching and ignites the imagination as you create the physically impossible. \n\nSpecial Items provide digital fashion pieces for presenting yourself online in a radically authentic way without the environmental and societal costs faced by the physical fashion industry. Digital fashion is fun, empowering, and ecological, and our curation of Digital fashion pieces exists to delight wearers.\n\nThe driving force behind this movement is that we care for you, our industry, the livelihood of humankind, our ecosystem, and the future of planet earth. We invite you to creatively participate in our vision to enhance the safe care of our amazing planet.\n\n\n\nSPECIAL ITEMS IS FOR\n\nZERO WASTE \/ ZERO IMPACT \/ TRANSPARENCY \/ SAVING WATER \/ CLEAN WATER \/ THE LOVE OF ANIMALS \/ WORKERS \/ DESIGNERS \/ RADICAL SELF EXPRESSION\/ COMMUNITY \/ DEMOCRACY \/ INCLUSIVITY \/ PUSHING THE BOUNDARIES OF REALITY \/ THE LOVE OF FASHION \/ FOR ACTIVATION OVER APATHY "
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16496512936b3a2307"
+  ]
+}
