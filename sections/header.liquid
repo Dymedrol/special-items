@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
-        <a href="/collections/all" class="special-menu__item">shop</a>
+        <a href="/collections/all-product" class="special-menu__item">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
     </div>
     <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
@@ -49,7 +49,7 @@
         <div class="special-menu__mobile-close">
             {{ 'close.svg' | asset_url | img_tag: 'close' }}
         </div>
-        <a href="/collections/all" class="special-menu__mobile-link-big">shop</a>
+        <a href="/collections/all-product" class="special-menu__mobile-link-big">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__mobile-link-big">diary</a>
         <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist <span class="js-header-wishlist-mobile"></span></a>
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big">bag<span id="header-cart-count-mobile">{% if cart.item_count > 0 %}: {{ cart.item_count }}{% endif %}</span></a>
