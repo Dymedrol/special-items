@@ -9,6 +9,11 @@ top: 10px !important;
 .special-product-controls__menu-close {
 top: 65px !important;
 }  }
+
+  .special-product-controls__menu-categories {
+margin-bottom: 20px !important;
+}
+
   
 :root,
 .color-background-1 {
