@@ -181,13 +181,19 @@
         "b568bd64-f0d5-435e-9fc7-320aa3c1cdee": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lucii"
+            "collection": "onclickcloset"
           }
         },
         "1651345158766b0876-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "2wb"
+            "collection": "burbush"
+          }
+        },
+        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ecoolska"
           }
         },
         "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
@@ -199,35 +205,31 @@
         "451ebb50-25b6-412b-91e4-11224b05ef07": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dis_placed"
+            "collection": "prep-corp"
           }
         },
         "9589b35a-c38c-4208-8c54-e5f7efe1576c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dnwllngr"
+            "collection": "olivia-goodall"
           }
         },
         "e623dc9e-9336-4dde-86ea-7e32200d733e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "don-kaka"
-          }
-        },
-        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ecoolska"
+            "collection": "balmlabs"
           }
         },
         "a2e34fc5-49d8-4e39-925b-e98e1147d145": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "eyenastya"
           }
         },
         "dbf22573-bee3-406c-af11-a3610642fb18": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "hadeeart"
           }
@@ -248,11 +250,11 @@
         "3251a2a1-50f8-4e29-b51e-3df2a039a5fa",
         "b568bd64-f0d5-435e-9fc7-320aa3c1cdee",
         "1651345158766b0876-1",
+        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832",
         "af92b42d-4ccb-4f59-9823-46b90a294bfa",
         "451ebb50-25b6-412b-91e4-11224b05ef07",
         "9589b35a-c38c-4208-8c54-e5f7efe1576c",
         "e623dc9e-9336-4dde-86ea-7e32200d733e",
-        "2ddd8c84-e40d-4e97-bf2b-f3e90466c832",
         "a2e34fc5-49d8-4e39-925b-e98e1147d145",
         "dbf22573-bee3-406c-af11-a3610642fb18",
         "a2d5ae95-1367-494b-a265-bf1084a908e9"
