@@ -4,7 +4,7 @@
     {%- endfor -%}
 </section>
 
-  <section class="special-categories-mobile">
+  <section class="special-categories-mobile owl-carousel">
     {%- for block in section.blocks -%}
       {% render 'card-collection-mobile', card_collection: block.settings.collection %}
     {%- endfor -%}
