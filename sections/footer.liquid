@@ -3,7 +3,7 @@
   <footer class="special-footer">
 
     <div class="special-footer__item special-footer__item_input">
-        <!-- <input type="text" placeholder="Type Email to Subscribe" class="special-footer__input"> -->
+        <!-- <input type="text" placeholder="Type Email to Join Our Orbit" class="special-footer__input"> -->
         {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
           <input type="hidden" name="contact[tags]" value="newsletter">
           <div class="newsletter-form__field-wrapper">
@@ -25,7 +25,7 @@
                 {% elsif form.posted_successfully? %}
                   aria-describedby="ContactFooter-success"
                 {% endif %}
-                placeholder="TYPE EMAIL TO SUBSCRIBE"
+                placeholder="TYPE EMAIL TO JOIN OUR ORBIT"
                 required
               >
               <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
