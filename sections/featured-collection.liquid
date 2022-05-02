@@ -1,5 +1,5 @@
 <section class="special-list {% if section.settings.show-bottom-border %}special-list_with-border{% endif %}">
-    <div class="special-list__title">{{ section.settings.title }}</span></div>
+    <div class="special-list__title">{{ section.settings.title }}  — <a href="{{ section.settings.collection.url }}">All</a></div>
     <div class="special-list__items">
         {%- for product in section.settings.collection.products limit: 6 -%}
           {% render 'card-featured-collection', product: product, %}

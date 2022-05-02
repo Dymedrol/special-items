@@ -543,6 +543,9 @@ body {
   line-height: 13px;
   color: #000000;
 }
+.special-list__title a {
+  color: #000000;
+}
 .special-list__items {
   display: none;
 }
