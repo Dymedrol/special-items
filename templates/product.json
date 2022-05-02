@@ -118,14 +118,6 @@
         "padding_bottom": 12
       }
     },
-    "1648609879f8813763": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Orbit 1: Exclusives",
-        "collection": "orbit-1-exclusives",
-        "show-bottom-border": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -143,20 +135,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1648609903be6df100": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "GROUND CONTROL EDIT",
-        "collection": "liftoff",
-        "show-bottom-border": true
-      }
     }
   },
   "order": [
     "main",
-    "1648609879f8813763",
-    "product-recommendations",
-    "1648609903be6df100"
+    "product-recommendations"
   ]
 }
