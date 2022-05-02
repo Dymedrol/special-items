@@ -8,7 +8,13 @@ top: 10px !important;
 }/* Color custom properties */
 .special-product-controls__menu-close {
 top: 65px !important;
-}  }
+}  
+.special-product-controls__menu-categories-item {
+  padding-right: 8px!important;
+}
+  
+
+}
 
   .special-product-controls__menu-categories {
 margin-bottom: 15px !important;
