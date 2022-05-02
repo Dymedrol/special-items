@@ -793,6 +793,7 @@ body {
   flex-wrap: wrap;
   width: 295px;
   align-items: center;
+  justify-content: center;
 }
 @media (min-width: 1024px) {
   .special-footer__item-links {
