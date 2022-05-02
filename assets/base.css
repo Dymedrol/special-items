@@ -24,8 +24,9 @@ top: 65px !important;
 .special-product-controls__menu-categories-item {
   padding-right: 8px!important;
 }
-  
-
+.special-product-controls__menu-apply {
+bottom: 110px !important;  
+}
 }
 
   .special-product-controls__menu-categories {
