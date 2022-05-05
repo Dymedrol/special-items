@@ -1,5 +1,36 @@
 {
   "sections": {
+    "165176158934b1563a": {
+      "type": "collection-list",
+      "blocks": {
+        "1651761589d29dd086-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "orbit-1-exclusives"
+          }
+        },
+        "1651761589d29dd086-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liftoff"
+          }
+        },
+        "1651761589d29dd086-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "total-look"
+          }
+        }
+      },
+      "block_order": [
+        "1651761589d29dd086-0",
+        "1651761589d29dd086-1",
+        "1651761589d29dd086-2"
+      ],
+      "settings": {
+        "title": "Collections"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -46,6 +77,7 @@
     }
   },
   "order": [
+    "165176158934b1563a",
     "banner",
     "product-grid",
     "1651428893f08018d8"
