@@ -1,5 +1,39 @@
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "collection_for_filter_list": [
+          "total-look",
+          "dress",
+          "top",
+          "jacket",
+          "bottoms",
+          "animal-wear",
+          "accessory",
+          "footwear",
+          "143-dress",
+          "dis_placed",
+          "edvard-nielsen",
+          "enye",
+          "non-flam",
+          "onclickcloset",
+          "burbush",
+          "ecoolska",
+          "prep-corp",
+          "olivia-goodall",
+          "balmlabs"
+        ]
+      }
+    },
     "165176158934b1563a": {
       "type": "collection-list",
       "blocks": {
@@ -80,40 +114,6 @@
         "title": "Collections"
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "background-1"
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "collection_for_filter_list": [
-          "total-look",
-          "dress",
-          "top",
-          "jacket",
-          "bottoms",
-          "animal-wear",
-          "accessory",
-          "footwear",
-          "143-dress",
-          "dis_placed",
-          "edvard-nielsen",
-          "enye",
-          "non-flam",
-          "onclickcloset",
-          "burbush",
-          "ecoolska",
-          "prep-corp",
-          "olivia-goodall",
-          "balmlabs"
-        ]
-      }
-    },
     "1651428893f08018d8": {
       "type": "custom-liquid",
       "disabled": true,
@@ -126,9 +126,9 @@
     }
   },
   "order": [
-    "165176158934b1563a",
     "banner",
     "product-grid",
+    "165176158934b1563a",
     "1651428893f08018d8"
   ]
 }
