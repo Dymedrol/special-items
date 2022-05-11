@@ -1257,6 +1257,9 @@ body {
   line-height: 13px;
   color: #000000;
 }
+.special-pdp-product__info-block-text a {
+  color: #000000 !important;
+}
 .special-pdp-product__info-controls {
   display: flex;
   width: 100%;
