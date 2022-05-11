@@ -34,86 +34,6 @@
         ]
       }
     },
-    "165176158934b1563a": {
-      "type": "collection-list",
-      "blocks": {
-        "1651761589d29dd086-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "orbit-1-exclusives"
-          }
-        },
-        "1651761589d29dd086-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "liftoff"
-          }
-        },
-        "1651761589d29dd086-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "total-look"
-          }
-        },
-        "459e9a55-8ebe-464f-9829-bb2dabc0ba2a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dress"
-          }
-        },
-        "b00a3045-77a9-4249-ba68-d8b950e287b2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "top"
-          }
-        },
-        "9db15687-b02f-4b58-b9c0-6e6d345d7665": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jacket"
-          }
-        },
-        "5173b15b-fff3-4cc6-9930-cc1c11f17257": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bottoms"
-          }
-        },
-        "26e245c1-1eb5-431f-b39b-67d1b7f6f326": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "animal-wear"
-          }
-        },
-        "59c4e8d0-daa3-4db5-8b39-aa7399a5d3ff": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessory"
-          }
-        },
-        "58a7bb1f-df75-4814-88ad-4c509bfb3acb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "footwear"
-          }
-        }
-      },
-      "block_order": [
-        "1651761589d29dd086-0",
-        "1651761589d29dd086-1",
-        "1651761589d29dd086-2",
-        "459e9a55-8ebe-464f-9829-bb2dabc0ba2a",
-        "b00a3045-77a9-4249-ba68-d8b950e287b2",
-        "9db15687-b02f-4b58-b9c0-6e6d345d7665",
-        "5173b15b-fff3-4cc6-9930-cc1c11f17257",
-        "26e245c1-1eb5-431f-b39b-67d1b7f6f326",
-        "59c4e8d0-daa3-4db5-8b39-aa7399a5d3ff",
-        "58a7bb1f-df75-4814-88ad-4c509bfb3acb"
-      ],
-      "settings": {
-        "title": "Collections"
-      }
-    },
     "1651428893f08018d8": {
       "type": "custom-liquid",
       "disabled": true,
@@ -128,7 +48,6 @@
   "order": [
     "banner",
     "product-grid",
-    "165176158934b1563a",
     "1651428893f08018d8"
   ]
 }
