@@ -2096,6 +2096,9 @@ body {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
+.special-pdp__pic__wrapper-mobile {
+  border-bottom: 1px solid #fff;
+}
 @media (min-width: 768px) {
   .special-pdp__pic__wrapper-mobile {
     display: none;
