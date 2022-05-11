@@ -1367,6 +1367,12 @@ body {
   padding: 15px;
   background: #F3F3F3;
   order: 3;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  color: #000000;
 }
 .special-pdp-product__info-how a {
   position: relative;
@@ -1401,6 +1407,8 @@ body {
   padding: 15px;
   background: #F3F3F3;
   order: 4;
+  font-size: 9px;
+  line-height: 13px;
 }
 .special-pdp-product__info-guide a {
   position: relative;
