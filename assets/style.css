@@ -1237,7 +1237,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
-  border-bottom: 1px solid #fff;
 }
 .special-pdp-product__info-block {
   padding: 15px;
