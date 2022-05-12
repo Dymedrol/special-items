@@ -162,6 +162,14 @@
             </div>
           {%- endfor -%}
         </div>
+
+        {% if product.metafields.my_fields._model_id%}
+          <div class="special-pdp__pic__wrapper-mobile">
+            <script async src="https://api.cappasity.com/api/player/cappasity-ai"></script>
+            <iframe width="100%" height="600px" background-color="#F3F3F3" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" style="border:0;background-color:#f3f3f3;" src="https://api.cappasity.com/api/player/{{ product.metafields.my_fields._model_id }}/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=1&language=&autorotate=1&autorotatetime=4&autorotatedelay=1&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=1" ></iframe>
+          </div>
+        {% endif %}
+
         <div class="special-pdp-slider">
           {%- for media in product.media -%}
             <div class="special-pdp__pic">
@@ -175,15 +183,20 @@
     <div class="special-pdp__col2">
         <div class="special-pdp-product">
             <div class="special-pdp-product__pic-wrapper">
-              {% if product.media[1]%}
-                <img loading="lazy" src="{{ product.media[1] | image_url }}" class="special-pdp-product__pic" alt="">
+              {% if product.metafields.my_fields._model_id %}
+                <script async src="https://api.cappasity.com/api/player/cappasity-ai"></script>
+                <iframe width="100%" height="600px" background-color="#F3F3F3" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" style="border:0;background-color:#f3f3f3;" src="https://api.cappasity.com/api/player/{{ product.metafields.my_fields._model_id }}/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=1&language=&autorotate=1&autorotatetime=4&autorotatedelay=1&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=1" ></iframe>
               {% else %}
-                <div class="special-pdp-product__pic-dummy"></div>
+                {% if product.media[1] %}
+                  <img loading="lazy" src="{{ product.media[1] | image_url }}" class="special-pdp-product__pic" alt="">
+                {% else %}
+                  <div class="special-pdp-product__pic-dummy"></div>
+                {% endif %}
               {% endif %}
             </div>
             <div class="special-pdp-product__info">
                 <div class="special-pdp-product__info-block">
-                    <p class="special-pdp-product__info-block-text">{{ product.vendor | escape }}</p>
+                    <p class="special-pdp-product__info-block-text"><a href="/collections/vendors?q={{ product.vendor | url_escape }}">{{ product.vendor | escape }}</a></p>
                     <p class="special-pdp-product__info-block-text">{{ product.title }}</p>
                     <p class="special-pdp-product__info-block-text">{{ product.price| money_without_trailing_zeros }}</p>
                 </div>
@@ -237,7 +250,7 @@
                     </div>
                 </div>
                 <div class="special-pdp-product__info-description">{{ product.description }}</div>
-                <div class="special-pdp-product__info-how"><a href="/pages/how-it-works">How it Works</a></div>
+                  <div class="special-pdp-product__info-how"><a href="/pages/how-it-works">How it Works</a><br><br>This is a one-way digital item. The digital garment will be applied to your photo by our tailors in the Metatelier</div>
                 <div class="special-pdp-product__info-guide"><a href="/pages/image-guide">Fit Guide</a></div>
             </div>
         </div>

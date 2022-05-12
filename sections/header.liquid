@@ -54,7 +54,7 @@
         <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist <span class="js-header-wishlist-mobile"></span></a>
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big">bag<span id="header-cart-count-mobile">{% if cart.item_count > 0 %}: {{ cart.item_count }}{% endif %}</span></a>
 
-    <div class="special-menu__item_socials">
+    <!--<div class="special-menu__item_socials">
         <a href="#" class="special-menu__item-social">
             {{ 'instagram.svg' | asset_url | img_tag: 'Instagram' }}
         </a>
@@ -73,7 +73,33 @@
         <a href="#" class="special-menu__item-social">
             {{ 'spotify.svg' | asset_url | img_tag: 'Spotify' }}
         </a>
+    </div>-->
+      <div class="special-menu__item_socials">
+        <a href="https://www.instagram.com/special.items_/" class="special-footer__item-social">
+            {{ 'instagram.svg' | asset_url | img_tag: 'Instagram' }}
+        </a>
+        <a href="https://www.snapchat.com/add/specialitems" class="special-footer__item-social">
+            {{ 'snapchat.svg' | asset_url | img_tag: 'Snapchat' }}
+        </a>
+<!--         <a href="#" class="special-footer__item-social">
+            {{ 'tiktok.svg' | asset_url | img_tag: 'Tiktok' }}
+        </a> -->
+<!--         <a href="#" class="special-footer__item-social">
+            {{ 'twitter.svg' | asset_url | img_tag: 'Twitter' }}
+        </a> -->
+        <a href="https://www.linkedin.com/company/specialitems/" class="special-footer__item-social">
+            {{ 'linkedin.svg' | asset_url | img_tag: 'Linkedin' }}
+        </a>
+        <a href="https://open.spotify.com/user/31kdamn7j5vpe7tz4evofpgowuf4" class="special-footer__item-social">
+            {{ 'spotify.svg' | asset_url | img_tag: 'Spotify' }}
+        </a>
+        <a href="https://discord.com/channels/@SpecialItems#3333" class="special-footer__item-social">
+            {{ 'discord.svg' | asset_url | img_tag: 'Discord' }}
+        </a>
     </div>
+      
+      
+      
     <div class="special-menu__item_links">
         <a href="/pages/about-us" class="special-menu__item_links-link">About</a>
         <a href="/pages/returns" class="special-menu__item_links-link">Returns</a>
