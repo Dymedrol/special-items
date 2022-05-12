@@ -1,5 +1,9 @@
 <a href="{{ product.url }}" class="special-list__item">
-    <img loading="lazy" src="{{ product.featured_image | img_url: '239x386'}}" alt="" class="special-list__item-pic">
+    {% if product.metafields.my_fields.special_preview %}
+        <img loading="lazy" src="{{ product.metafields.my_fields.special_preview | img_url: '239x386'}}" alt="" class="special-list__item-pic">
+    {% else %}
+        <img loading="lazy" src="{{ product.featured_image | img_url: '239x386'}}" alt="" class="special-list__item-pic">
+    {% endif %}
     <div class="special-list__item-info">
         <p class="special-list__item-info-text">{{ product.vendor | escape }}</p>
         <p class="special-list__item-info-text">{{ product.title }}</p>
