@@ -7,9 +7,19 @@ class CartRemoveButton extends HTMLElement {
 
         var count = $('#header-cart-count').text();
         count =  parseInt(count, 10) - 1;
-        $('#header-cart-count').text(count)
+        $('#header-cart-count').text(count);
+        $('.js-top-panel-count').text(count);
+
+        if (count == 1) {
+          $('.js-top-panel-text').text('item')
+        } else {
+          $('.js-top-panel-text').text('items')
+        }
+
+
         if (count > 0) {
           $('#header-cart-count-mobile').text(': ' + count);
+
         } else {
           $('#header-cart-count-mobile').text('');
         }
