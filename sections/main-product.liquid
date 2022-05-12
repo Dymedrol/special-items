@@ -262,9 +262,18 @@
   <section class="special-list special-list_with-border">
       <div class="special-list__title">{{ collection.title }}  — <a href="{{ collection.url }}">All</a></div>
       <div class="special-list__items">
-          {%- for product in collection.products limit: 6 -%}
-            {% render 'card-featured-collection', product: product, %}
+          {% assign index = 0 %}
+          {%- for selected-product in collection.products -%}
+            {% if selected-product.title == product.title %}
+              {% continue %}
+            {% endif %}
+            {% if index >= 6 %}
+              {% break %}
+            {% endif %}
+            {% render 'card-featured-collection', product: selected-product, %}
+            {% assign index = index | plus: 1 %}
           {%- endfor -%}
+
           <div class="special-list__item-dummy"></div>
           <div class="special-list__item-dummy"></div>
           <div class="special-list__item-dummy"></div>
@@ -272,8 +281,11 @@
           <div class="special-list__item-dummy"></div>
       </div>
         <div class="special-list-mobile owl-carousel">
-          {%- for product in collection.products -%}
-            {% render 'card-featured-collection', product: product, %}
+          {%- for selected-product in collection.products -%}
+            {% if selected-product.url == product.url %}
+              {% continue %}
+            {% endif %}
+            {% render 'card-featured-collection', product: selected-product, %}
           {%- endfor -%}
         </div>
   </section>
