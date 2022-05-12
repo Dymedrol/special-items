@@ -1191,10 +1191,18 @@ body {
     display: block;
   }
 }
+.special-pdp-slider {
+  opacity: 0;
+  visibility: hidden;
+}
 @media (min-width: 768px) {
   .special-pdp-slider {
     display: none !important;
   }
+}
+.special-pdp-slider.slick-initialized {
+  visibility: visible;
+  opacity: 1;
 }
 .special-pdp__pic {
   display: block;
@@ -1217,6 +1225,7 @@ body {
   display: none;
   border-bottom: 1px solid #fff;
   background: #F3F3F3;
+  height: 60vh;
 }
 @media (min-width: 768px) {
   .special-pdp-product__pic-wrapper {
