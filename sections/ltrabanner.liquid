@@ -1,0 +1,52 @@
+
+
+<section class="special-ultrabanner">
+  {% for block in section.blocks %}
+    <a href="{{ block.settings.link }}" class="special-ultrabanner-slide" style="background-image: url('{{ block.settings.image | image_url }}')">
+      <p class="special-ultrabanner-slide-text">{{ block.settings.text }}</p>
+    </a>
+  {% endfor %}
+
+  {% if section.blocks.size == 1 %}
+    <div class="special-ultrabanner-slide-dummy">
+
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Ultrabanner",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+    {
+      "name": "Ultrabanner"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slide",
+      "type": "slide",
+      "max_blocks": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Image banner text"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
