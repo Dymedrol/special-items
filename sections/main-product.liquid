@@ -257,8 +257,17 @@
     </div>
 </section>
 
+{% assign collectionIndex = 0 %}
+{%- for collection in product.collections -%}
+  {% if collection.title == 'ALL PRODUCT' %}
+    {% continue %}
+  {% endif %}
 
-{%- for collection in product.collections limit: 2 -%}
+  {% if collectionIndex >= 2 %}
+    {% break %}
+  {% endif %}
+
+  {% assign collectionIndex = collectionIndex | plus: 1 %}
   <section class="special-list special-list_with-border">
       <div class="special-list__title">{{ collection.title }}  — <a href="{{ collection.url }}">All</a></div>
       <div class="special-list__items">
@@ -289,6 +298,7 @@
           {%- endfor -%}
         </div>
   </section>
+
 {% endfor %}
 
 {% schema %}
