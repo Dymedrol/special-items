@@ -1,12 +1,21 @@
 <a href="{{ card_product.url }}" data-product-id="{{ card_product.variants[0].id  }}" class="special-product-wall__item {% if card_product.images.size > 1 %}special-product-wall__item_with-hover{% endif %}">
+
     {% if card_product.metafields.my_fields.special_preview %}
         <img loading="lazy" src="{{ card_product.metafields.my_fields.special_preview | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic">
+        {% if card_product.metafields.my_fields.special_preview_2 %}
+                <img loading="lazy" src="{{ card_product.metafields.my_fields.special_preview_2 | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic2">
+        {% else %}
+            {% if card_product.images.size > 1 %}
+                <img loading="lazy" src="{{card_product.images[1] | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic2">
+            {% endif %}
+        {% endif %}
     {% else %}
         <img loading="lazy" src="{{ card_product.featured_image | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic">
         {% if card_product.images.size > 1 %}
             <img loading="lazy" src="{{card_product.images[1] | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic2">
         {% endif %}
     {% endif %}
+
     <div class="special-product-wall__item-info">
         <p class="special-product-wall__item-text">{{ card_product.vendor | escape }}</p>
         <p class="special-product-wall__item-text">{{ card_product.title }}</p>
