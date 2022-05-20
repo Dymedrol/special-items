@@ -188,7 +188,7 @@
                 <iframe width="100%" height="600px" background-color="#F3F3F3" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" style="border:0;background-color:#f3f3f3;" src="https://api.cappasity.com/api/player/{{ product.metafields.my_fields._model_id }}/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=1&language=&autorotate=1&autorotatetime=4&autorotatedelay=1&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=1" ></iframe>
               {% else %}
                 {% if product.media[1] %}
-                  <img loading="lazy" src="{{ product.media[1] | image_url: width: 576 }}" class="special-pdp-product__pic" alt="">
+                  <img loading="lazy" src="{{ product.media[1] | image_url: width: 576 }}" class="special-pdp-product__pic" alt="" style="height: {{ product.media[1].height }}px;">
                 {% else %}
                   <div class="special-pdp-product__pic-dummy"></div>
                 {% endif %}
