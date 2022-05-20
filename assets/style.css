@@ -359,7 +359,6 @@ body {
   display: none;
   justify-content: space-between;
   border-bottom: 1px solid #fff;
-  background: #fff;
 }
 @media (min-width: 1220px) {
   .special-categories {
@@ -389,7 +388,7 @@ body {
     display: block;
     width: auto;
     height: auto !important;
-    max-width: 200px;
+    max-width: 320px;
     min-width: 100px;
     flex-grow: 1;
     aspect-ratio: 0.75796178;
