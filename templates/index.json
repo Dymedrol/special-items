@@ -106,9 +106,35 @@
     },
     "16513274673651f61b": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<script async src=\"https:\/\/api.cappasity.com\/api\/player\/cappasity-ai\"><\/script>\n<style>\n.whitetopme {\nborder-top: 1px white solid;\n}\n.ultrabanner {\ndisplay: inline-block !important;\npadding:0px !important;\nmargin:0px !important;;\nwidth:50%;\nheight:60vh;\nborder-bottom: 1px white solid;\n}\n.showmeplease {\nborder-right: 1px white solid;\n}\n@media screen and (max-width: 480px) {\n.hidemeplease {\ndisplay:none!important;\n}\n.showmeplease {\nwidth:100%!important;\nborder-top: 1px white solid !important;\n}}\n<\/style><div class=\"ultrabanner showmeplease\"><iframe width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/57ec8c53-73ef-4109-905a-d0559d8708da\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=1&autorotatetime=5&autorotatedelay=1&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\" ><\/iframe><\/div><div class=\"ultrabanner hidemeplease\"><iframe width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/6ba2fa46-1e44-4f9e-929e-3e2d68a76862\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=1&autorotatetime=5&autorotatedelay=1&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\" ><\/iframe><\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "text": "table",
+        "iframe": "<style>.ultra {width:50% !important;}<\/style>\n<table class=\"ultra\" style=\"width:100px; border: none;\">\n  <tr>\n    <td style=\"width:50%;\">\n<script async src=\"https:\/\/api.cappasity.com\/api\/player\/cappasity-ai\"><\/script><iframe width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/1c54d01c-9b91-48e0-8275-0504f7825f56\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=0&autorotatetime=6&autorotatedelay=2&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\"><\/iframe>\n<\/td>\n    <td style=\"width:50%;\"><iframe width=\"100px\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/7ae9beac-209b-4eb5-8e88-25276e62a517\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=0&autorotatetime=6&autorotatedelay=2&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\"><\/iframe><\/td>\n  <\/tr>\n<\/table>"
+      }
+    },
+    "164860964636d1edfe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Orbit 1 Exclusives",
+        "collection": "orbit-1-exclusives",
+        "show-bottom-border": false,
+        "show-all-link": false
+      }
+    },
+    "1651349695078d0f4f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>.bg001, .bg002 {height: 100% !important;\n}\n.bg001 {\nbackground-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/pazz.jpg?v=1652466546');\nbackground-size: cover;\n}\n.bg002 {\nbackground-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/KILLA_KATE_YOKO_copy.jpg?v=1651394814');\nbackground-size: cover;\n}\n.special-footer {border-top:0px none!important;}\n\n@media screen and (max-width:960px){.s001.ultrabanner, .s002.ultrabanner{ \nheight: 50vw !important;}\n}\n\n@media screen and (max-width:480px){\n.bg001 {height: 104% !important;\n}\n.bg002 {\nborder-top: 1px solid white;\n}\n.s001.ultrabanner, .s002.ultrabanner {\nwidth: 100vw !important;\nheight: 100vw !important;\nborder-left: 0px none white;\nboder-right: 0px none white!important;\n}\n.showmeplease {\nborder-right: 0px white none;\n}\n}\n\n<\/style><div  onclick=\"location.href='https:\/\/diary.special-items.com\/giancarlo-pazzanese';\" style=\"cursor: pointer;\" class=\"s001 ultrabanner showmeplease whitetopme\"><section class=\"special-bar-with-text bg001\">\n    <p class=\"special-bar-with-text__text\">FASHION AND IT’S CULTURAL LEGACY<\/p>\n<\/section><\/div><div   onclick=\"location.href='https:\/\/diary.special-items.com\/killa-kate';\" style=\"cursor: pointer;\"  class=\"s002 ultrabanner whitetopme\"><section class=\"special-bar-with-text bg002\">\n    <p class=\"special-bar-with-text__text\">MOMMY + ME: Killa Kate x Yoko<\/p>\n<\/section><\/div>",
         "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
@@ -139,32 +165,6 @@
         "3128a204-bf04-450a-a0a0-39cb0c83b939"
       ],
       "settings": {
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "text": "table",
-        "iframe": "<style>.ultra {width:50% !important;}<\/style>\n<table class=\"ultra\" style=\"width:100px; border: none;\">\n  <tr>\n    <td style=\"width:50%;\">\n<script async src=\"https:\/\/api.cappasity.com\/api\/player\/cappasity-ai\"><\/script><iframe width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/1c54d01c-9b91-48e0-8275-0504f7825f56\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=0&autorotatetime=6&autorotatedelay=2&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\"><\/iframe>\n<\/td>\n    <td style=\"width:50%;\"><iframe width=\"100px\" height=\"100%\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border:0;\" src=\"https:\/\/api.cappasity.com\/api\/player\/7ae9beac-209b-4eb5-8e88-25276e62a517\/embedded?autorun=1&closebutton=0&logo=0&analytics=1&uipadx=0&uipady=0&enablestoreurl=0&storeurl=&hidehints=0&language=&autorotate=0&autorotatetime=6&autorotatedelay=2&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=1&enableimagezoom=0&zoomquality=1&hidezoomopt=1&arbutton=0\"><\/iframe><\/td>\n  <\/tr>\n<\/table>"
-      }
-    },
-    "164860964636d1edfe": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop Orbit 1 Exclusives",
-        "collection": "orbit-1-exclusives",
-        "show-bottom-border": false,
-        "show-all-link": false
-      }
-    },
-    "1651349695078d0f4f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>.bg001, .bg002 {height: 100% !important;\n}\n.bg001 {\nbackground-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/pazz.jpg?v=1652466546');\nbackground-size: cover;\n}\n.bg002 {\nbackground-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/KILLA_KATE_YOKO_copy.jpg?v=1651394814');\nbackground-size: cover;\n}\n.special-footer {border-top:0px none!important;}\n\n@media screen and (max-width:960px){.s001.ultrabanner, .s002.ultrabanner{ \nheight: 50vw !important;}\n}\n\n@media screen and (max-width:480px){\n.bg001 {height: 104% !important;\n}\n.bg002 {\nborder-top: 1px solid white;\n}\n.s001.ultrabanner, .s002.ultrabanner {\nwidth: 100vw !important;\nheight: 100vw !important;\nborder-left: 0px none white;\nboder-right: 0px none white!important;\n}\n.showmeplease {\nborder-right: 0px white none;\n}\n}\n\n<\/style><div  onclick=\"location.href='https:\/\/diary.special-items.com\/giancarlo-pazzanese';\" style=\"cursor: pointer;\" class=\"s001 ultrabanner showmeplease whitetopme\"><section class=\"special-bar-with-text bg001\">\n    <p class=\"special-bar-with-text__text\">FASHION AND IT’S CULTURAL LEGACY<\/p>\n<\/section><\/div><div   onclick=\"location.href='https:\/\/diary.special-items.com\/killa-kate';\" style=\"cursor: pointer;\"  class=\"s002 ultrabanner whitetopme\"><section class=\"special-bar-with-text bg002\">\n    <p class=\"special-bar-with-text__text\">MOMMY + ME: Killa Kate x Yoko<\/p>\n<\/section><\/div>",
-        "color_scheme": "background-2",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "164860980322442558": {
@@ -307,10 +307,10 @@
   "order": [
     "1648609620a3ee52ce",
     "16513274673651f61b",
-    "1653567607de328c23",
     "image_banner",
     "164860964636d1edfe",
     "1651349695078d0f4f",
+    "1653567607de328c23",
     "164860980322442558",
     "16513451583e1546eb",
     "1648609806a2457dcd"
