@@ -49,10 +49,81 @@
         <div class="special-menu__mobile-close">
             {{ 'close.svg' | asset_url | img_tag: 'close' }}
         </div>
-        <a href="/collections/all-product" class="special-menu__mobile-link-big">shop</a>
-        <a href="https://diary.special-items.com" class="special-menu__mobile-link-big">diary</a>
+
+        <form action="" class="special-menu__mobile-search-form">
+            <input type="text" class="special-menu__mobile-search-form__input" placeholder="SEARCH">
+            <button class="special-menu__mobile-search-form__submit">
+                <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.5" d="M5.19219 0.959999H7.67219L12.4922 5.78L7.67219 10.66H5.19219L7.23219 8.6L9.41219 6.56L6.39219 6.66H0.492188V4.9H6.39219L9.39219 5L7.17219 2.94L5.19219 0.959999Z" fill="#111111"/>
+                </svg>
+            </button>
+        </form>
+
+        <a href="/collections/all-product" class="special-menu__mobile-link-big special-menu__mobile-link-big_shop-all">shop all</a>
+        <a href="#" class="special-menu__mobile-link-small">New Arrivals</a>
+        <a href="#" class="special-menu__mobile-link-small">Exclusives</a>
+        {% if section.settings.collection_for_mobile_list %}
+            <div href="#" class="special-menu__mobile-link-small js-mobilemenu-accordion">Categories <span class="plus">+</span><span class="minus">-</span></div>
+            <div class="special-menu__mobile-accordion-inner hidden">
+                {%- for collection in section.settings.collection_for_mobile_list -%}
+                    <a href="{{ collection.url }}" class="special-menu__mobile-accordion-item">{{collection.title}}</a>
+                {%- endfor -%}
+            </div>
+        {% endif %}
+
+
+        {% if section.blocks %}
+            <div href="#" class="special-menu__mobile-link-small special-menu__mobile-link-small-last js-mobilemenu-accordion">DesignerS <span class="plus">+</span><span class="minus">-</span></div>
+            <div class="special-menu__mobile-accordion-inner hidden">
+                {% for block in section.blocks %}
+                    <a href="{{ block.settings.link }}" class="special-menu__mobile-accordion-item">{{ block.settings.name }}</a>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <a href="https://diary.special-items.com" class="special-menu__mobile-link-big special-menu__mobile-link-big-diary">diary</a>
         <a href="/pages/wishlist" class="special-menu__mobile-link-big">wishlist <span class="js-header-wishlist-mobile"></span></a>
-        <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big">bag<span id="header-cart-count-mobile">{% if cart.item_count > 0 %}: {{ cart.item_count }}{% endif %}</span></a>
+        <a href="{{ routes.cart_url }}" class="special-menu__mobile-link-big special-menu__mobile-link-big_last">bag<span id="header-cart-count-mobile">{% if cart.item_count > 0 %}: {{ cart.item_count }}{% endif %}</span></a>
+
+
+        {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form special-footer__input-wrapper-mobile-menu' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <div class="newsletter-form__field-wrapper">
+            <div class="special-footer__input-wrapper">
+              <input
+                id="NewsletterForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="special-footer__input"
+                value="{{ form.email }}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="ContactFooter-error"
+                {% elsif form.posted_successfully? %}
+                  aria-describedby="ContactFooter-success"
+                {% endif %}
+                placeholder="TYPE EMAIL TO JOIN OUR ORBIT"
+                required
+              >
+              <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                {% render 'icon-arrow' %}
+              </button>
+            </div>
+
+            {%- if form.errors -%}
+              <small class="newsletter-form__message form__message" id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+            {%- endif -%}
+
+            {%- if form.posted_successfully? -%}
+              <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+            {%- endif -%}
+          </div>
+        {%- endform -%}
 
     <!--<div class="special-menu__item_socials">
         <a href="#" class="special-menu__item-social">
@@ -114,6 +185,31 @@
 {
   "name": "header",
   "tag": "section",
-  "class": "section"
+  "class": "section",
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collection_for_mobile_list",
+      "label": "Collections mobile menu"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "disigner list item",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "disigner name"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "link"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
