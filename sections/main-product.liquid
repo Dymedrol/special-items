@@ -196,9 +196,17 @@
             </div>
             <div class="special-pdp-product__info">
                 <div class="special-pdp-product__info-block">
+                  <div>
                     <p class="special-pdp-product__info-block-text"><a href="/collections/vendors?q={{ product.vendor | url_escape }}">{{ product.vendor | escape }}</a></p>
                     <p class="special-pdp-product__info-block-text">{{ product.title }}</p>
                     <p class="special-pdp-product__info-block-text">{{ product.price| money_without_trailing_zeros }}</p>
+                  </div>
+                  {% if product.metafields.my_fields.product_limit %}
+                    <div>
+                      <p class="special-pdp-product__info-block-text special-pdp-product__info-block-text_uppercase">supply</p>
+                      <p class="special-pdp-product__info-block-text">{{ product.selected_or_first_available_variant.inventory_quantity }} / {{ product.metafields.my_fields.product_limit }}</p>
+                    </div>
+                  {% endif %}
                 </div>
                 <div class="special-pdp-product__info-controls">
 

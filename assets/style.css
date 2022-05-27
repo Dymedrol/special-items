@@ -1264,6 +1264,8 @@ body {
   gap: 1px;
 }
 .special-pdp-product__info-block {
+  display: flex;
+  justify-content: space-between;
   padding: 15px;
   width: 100%;
   background: #F3F3F3;
@@ -1283,6 +1285,9 @@ body {
 }
 .special-pdp-product__info-block-text a {
   color: #000000 !important;
+}
+.special-pdp-product__info-block-text_uppercase {
+  text-transform: uppercase;
 }
 .special-pdp-product__info-controls {
   display: flex;
