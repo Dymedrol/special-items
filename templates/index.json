@@ -132,11 +132,39 @@
     },
     "1651349695078d0f4f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>.bg001, .bg002 {height: 100% !important;\n}\n.bg001 {\nbackground-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/pazz.jpg?v=1652466546');\nbackground-size: cover;\n}\n.bg002 {\nbackground-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('https:\/\/cdn.shopify.com\/s\/files\/1\/0632\/9244\/0789\/files\/KILLA_KATE_YOKO_copy.jpg?v=1651394814');\nbackground-size: cover;\n}\n.special-footer {border-top:0px none!important;}\n\n@media screen and (max-width:960px){.s001.ultrabanner, .s002.ultrabanner{ \nheight: 50vw !important;}\n}\n\n@media screen and (max-width:480px){\n.bg001 {height: 104% !important;\n}\n.bg002 {\nborder-top: 1px solid white;\n}\n.s001.ultrabanner, .s002.ultrabanner {\nwidth: 100vw !important;\nheight: 100vw !important;\nborder-left: 0px none white;\nboder-right: 0px none white!important;\n}\n.showmeplease {\nborder-right: 0px white none;\n}\n}\n\n<\/style><div  onclick=\"location.href='https:\/\/diary.special-items.com\/giancarlo-pazzanese';\" style=\"cursor: pointer;\" class=\"s001 ultrabanner showmeplease whitetopme\"><section class=\"special-bar-with-text bg001\">\n    <p class=\"special-bar-with-text__text\">FASHION AND IT’S CULTURAL LEGACY<\/p>\n<\/section><\/div><div   onclick=\"location.href='https:\/\/diary.special-items.com\/killa-kate';\" style=\"cursor: pointer;\"  class=\"s002 ultrabanner whitetopme\"><section class=\"special-bar-with-text bg002\">\n    <p class=\"special-bar-with-text__text\">MOMMY + ME: Killa Kate x Yoko<\/p>\n<\/section><\/div>",
         "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "1653567607de328c23": {
+      "type": "ltrabanner",
+      "blocks": {
+        "8ddca067-a4ae-4073-b246-9928c15ec913": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pazz.webp",
+            "text": "FASHION AND IT’S CULTURAL LEGACY",
+            "link": "https:\/\/diary.special-items.com\/giancarlo-pazzanese"
+          }
+        },
+        "3128a204-bf04-450a-a0a0-39cb0c83b939": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KILLA_KATE_YOKO_copy.webp",
+            "text": "MOMMY + ME: Killa Kate x Yoko",
+            "link": "https:\/\/diary.special-items.com\/killa-kate"
+          }
+        }
+      },
+      "block_order": [
+        "8ddca067-a4ae-4073-b246-9928c15ec913",
+        "3128a204-bf04-450a-a0a0-39cb0c83b939"
+      ],
+      "settings": {
       }
     },
     "164860980322442558": {
@@ -282,6 +310,7 @@
     "image_banner",
     "164860964636d1edfe",
     "1651349695078d0f4f",
+    "1653567607de328c23",
     "164860980322442558",
     "16513451583e1546eb",
     "1648609806a2457dcd"
