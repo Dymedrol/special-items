@@ -24,9 +24,6 @@
     padding-right: 1.5rem;
   }
   
-  .shopify-section.section.section-collection-list {
-    border-bottom: 1px solid #ffffff !important;
-  }
 }
 
 .collection-list__item:only-child {
