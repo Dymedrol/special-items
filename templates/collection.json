@@ -8,6 +8,79 @@
         "color_scheme": "background-1"
       }
     },
+    "1653843830e2a16101": {
+      "type": "collection-list",
+      "blocks": {
+        "16538438306d4d07a7-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessory"
+          }
+        },
+        "16538438306d4d07a7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animal-wear"
+          }
+        },
+        "8866eba4-f5ac-47d0-bd20-3b8a5cb6e090": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bodysuit"
+          }
+        },
+        "014686ae-705e-4451-a57a-7bc591c31471": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "a9734f40-bf5c-452c-9195-d6485583a5de": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jacket"
+          }
+        },
+        "c1157b89-ef9c-4dd9-8190-446852c5a26f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dress"
+          }
+        },
+        "11fde37c-ebc1-428c-89f1-775a7dac7cf1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear"
+          }
+        },
+        "567af066-ab8a-44d7-bacc-2e668e75f0aa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "top"
+          }
+        },
+        "16538438306d4d07a7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "total-look"
+          }
+        }
+      },
+      "block_order": [
+        "16538438306d4d07a7-2",
+        "16538438306d4d07a7-1",
+        "8866eba4-f5ac-47d0-bd20-3b8a5cb6e090",
+        "014686ae-705e-4451-a57a-7bc591c31471",
+        "a9734f40-bf5c-452c-9195-d6485583a5de",
+        "c1157b89-ef9c-4dd9-8190-446852c5a26f",
+        "11fde37c-ebc1-428c-89f1-775a7dac7cf1",
+        "567af066-ab8a-44d7-bacc-2e668e75f0aa",
+        "16538438306d4d07a7-0"
+      ],
+      "settings": {
+        "title": "Collections"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -55,6 +128,7 @@
   },
   "order": [
     "banner",
+    "1653843830e2a16101",
     "product-grid",
     "1651428893f08018d8"
   ]
