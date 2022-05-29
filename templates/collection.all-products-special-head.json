@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "collection_for_filter_list": [
+          "total-look",
+          "dress",
+          "top",
+          "jacket",
+          "accessory",
+          "bottoms",
+          "footwear",
+          "animal-wear",
+          "143-dress",
+          "dis_placed",
+          "edvard-nielsen",
+          "enye",
+          "non-flam",
+          "onclickcloset",
+          "burbush",
+          "ecoolska",
+          "prep-corp",
+          "olivia-goodall",
+          "balmlabs",
+          "2wb",
+          "3dfashion-elle",
+          "bodysuit",
+          "don-kaka",
+          "eyenastya",
+          "hadeeart",
+          "liftoff",
+          "orbit-1-exclusives"
+        ]
+      }
+    },
+    "1651428893f08018d8": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1651428893f08018d8"
+  ]
+}
