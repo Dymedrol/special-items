@@ -8,7 +8,7 @@
 }
 
 .section-collection-list {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff !important;
 }
 
 @media screen and (max-width: 749px) {
