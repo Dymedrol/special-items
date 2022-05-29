@@ -1,11 +1,14 @@
 .collection-list {
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom:1px solid white;
 }
 
 .collection-list-title {
   margin: 0;
+}
+
+.special-categories {
+  border-bottom: 1px solid #ffffff;
 }
 
 @media screen and (max-width: 749px) {
