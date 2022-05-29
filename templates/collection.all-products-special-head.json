@@ -1,5 +1,78 @@
 {
   "sections": {
+    "16538441246398b2a3": {
+      "type": "collection-list",
+      "blocks": {
+        "1653844124ddda7f26-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessory"
+          }
+        },
+        "1653844124ddda7f26-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animal-wear"
+          }
+        },
+        "1653844124ddda7f26-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bodysuit"
+          }
+        },
+        "7ad4c567-53f7-47ba-a17b-da9905712b08": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "aa9f76c7-756f-46db-b430-a862cc536392": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jacket"
+          }
+        },
+        "daf15d0b-6ded-469d-9a06-ccd4ab2d8c63": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dress"
+          }
+        },
+        "950d2495-8cdc-4a4e-a259-f718cca18473": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear"
+          }
+        },
+        "e5cf2f75-2502-4138-b013-be7042ba4f05": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "top"
+          }
+        },
+        "602a2c21-fcaa-44c3-97bf-ab395e0d098a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "total-look"
+          }
+        }
+      },
+      "block_order": [
+        "1653844124ddda7f26-0",
+        "1653844124ddda7f26-1",
+        "1653844124ddda7f26-2",
+        "7ad4c567-53f7-47ba-a17b-da9905712b08",
+        "aa9f76c7-756f-46db-b430-a862cc536392",
+        "daf15d0b-6ded-469d-9a06-ccd4ab2d8c63",
+        "950d2495-8cdc-4a4e-a259-f718cca18473",
+        "e5cf2f75-2502-4138-b013-be7042ba4f05",
+        "602a2c21-fcaa-44c3-97bf-ab395e0d098a"
+      ],
+      "settings": {
+        "title": "Collections"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -54,6 +127,7 @@
     }
   },
   "order": [
+    "16538441246398b2a3",
     "banner",
     "product-grid",
     "1651428893f08018d8"
