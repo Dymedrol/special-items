@@ -7,9 +7,6 @@
   margin: 0;
 }
 
-section#shopify-section-template--15835385594069__1653843830e2a16101 {
-  border-bottom: 1px solid #ffffff !important;
-}
 
 @media screen and (max-width: 749px) {
   .collection-list:not(.slider) {
@@ -25,6 +22,10 @@ section#shopify-section-template--15835385594069__1653843830e2a16101 {
   .section-collection-list .collection-list:not(.slider) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  
+  .special-categories-mobile {
+    border-bottom: 1px solid #ffffff !important;
   }
 }
 
