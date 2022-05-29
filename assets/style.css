@@ -1902,6 +1902,7 @@ body {
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
+  border-bottom: 1px solid white;
 }
 .owl-carousel {
   display: none;
