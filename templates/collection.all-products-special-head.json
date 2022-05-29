@@ -73,14 +73,6 @@
         "title": "Collections"
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "background-1"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -115,6 +107,15 @@
         ]
       }
     },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
     "1651428893f08018d8": {
       "type": "custom-liquid",
       "disabled": true,
@@ -128,8 +129,8 @@
   },
   "order": [
     "16538441246398b2a3",
-    "banner",
     "product-grid",
+    "banner",
     "1651428893f08018d8"
   ]
 }
