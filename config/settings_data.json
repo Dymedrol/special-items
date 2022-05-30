@@ -118,7 +118,24 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
+            "type": "slide",
+            "settings": {
+              "name": "sdfgsdf",
+              "link": "\/sdgds"
+            }
+          }
+        },
+        "block_order": [
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a"
+        ],
         "settings": {
+          "collection_for_mobile_list": [
+            "143-dress",
+            "2wb",
+            "3dfashion-elle"
+          ]
         }
       },
       "footer": {
