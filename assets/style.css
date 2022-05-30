@@ -1908,7 +1908,7 @@ body {
   display: none;
   width: 100%;
   z-index: 1;
-  border-bottom: 1px solid white;
+  //border-bottom: 1px solid white;
 }
 .owl-carousel .owl-stage {
   position: relative;
