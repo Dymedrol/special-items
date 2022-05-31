@@ -10,9 +10,9 @@
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %} cart-content">
-  <div class="cart__warnings">
+  <div class="cart__warnings special-bag-warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
-    <a href="{{ routes.all_products_collection_url }}" class="special-bag__upload-panel-btn">{{ 'general.continue_shopping' | t }}</a>
+    <a href="/collections/all-product" class="special-bag__upload-panel-btn">{{ 'general.continue_shopping' | t }}</a>
   </div>
 
   <form action="{{ routes.cart_url }}" class="critical-hidden" method="post" id="cart">

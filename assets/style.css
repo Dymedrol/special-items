@@ -1576,6 +1576,12 @@ body {
 .special-bag {
   border-bottom: 1px solid #fff;
 }
+.special-bag-warnings {
+  max-width: 480px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  margin: 0 auto;
+}
 .special-bag-inner {
   max-width: 480px;
   border-right: 1px solid #fff;
