@@ -11,6 +11,12 @@
     "1653843830e2a16101": {
       "type": "collection-list",
       "blocks": {
+        "a44636cb-1b65-4d3b-8431-3a20e374b1bc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-product"
+          }
+        },
         "16538438306d4d07a7-2": {
           "type": "featured_collection",
           "settings": {
@@ -67,6 +73,7 @@
         }
       },
       "block_order": [
+        "a44636cb-1b65-4d3b-8431-3a20e374b1bc",
         "16538438306d4d07a7-2",
         "16538438306d4d07a7-1",
         "8866eba4-f5ac-47d0-bd20-3b8a5cb6e090",
