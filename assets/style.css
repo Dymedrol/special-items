@@ -299,6 +299,9 @@ body {
 #shopify-section-footer {
   margin-top: auto;
 }
+#plus {
+  cursor: pointer;
+}
 .special-menu {
   position: fixed;
   top: 0;
@@ -460,6 +463,7 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #838383;
   opacity: 0.5;
+  max-width: 375px;
 }
 .special-menu__mobile-search-form__input {
   padding: 0;
@@ -479,6 +483,7 @@ body {
   top: 6px;
   right: 1px;
   border: 0;
+  background: transparent;
 }
 .special-menu__mobile-search-form__submit svg {
   width: 13px;

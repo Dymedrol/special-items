@@ -1,3 +1,18 @@
+
+<!--
+ <form action="{{ routes.search_url }}">
+  <input type="text"
+    placeholder="Search"
+    name="q"
+    value="{{ search.terms | escape }}"
+  />
+  <input type="hidden" name="type" value="product,page" />
+  <input type="hidden" name="options[unavailable_products]" value="hide" />
+  <input type="hidden" name="options[prefix]" value="last" />
+  <input type="submit" value="Search" />
+</form>
+-->
+
  <header class="special-menu">
     <div class="special-menu__items special-menu__items_mobile">
         <div id="plus" href="{{ routes.cart_url }}">
@@ -8,6 +23,17 @@
         </div>
     </div>
     <div class="special-menu__items special-menu__items_desktop">
+         <form action="{{ routes.search_url }}">
+          <input type="text"
+            placeholder="Search"
+            name="q"
+            value="{{ search.terms | escape }}"
+          />
+          <input type="hidden" name="type" value="product,page" />
+          <input type="hidden" name="options[unavailable_products]" value="hide" />
+          <input type="hidden" name="options[prefix]" value="last" />
+          <input type="submit" value="Search" />
+        </form>
         <a href="/collections/all-product" class="special-menu__item">shop</a>
         <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
     </div>
@@ -50,13 +76,22 @@
             {{ 'close.svg' | asset_url | img_tag: 'close' }}
         </div>
 
-        <form action="" class="special-menu__mobile-search-form">
-            <input type="text" class="special-menu__mobile-search-form__input" placeholder="SEARCH">
+         <form action="{{ routes.search_url }}" class="special-menu__mobile-search-form">
+            <input type="text"
+            placeholder="SEARCH"
+            name="q"
+            value="{{ search.terms | escape }}"
+            class="special-menu__mobile-search-form__input"
+            />
             <button class="special-menu__mobile-search-form__submit">
                 <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.5" d="M5.19219 0.959999H7.67219L12.4922 5.78L7.67219 10.66H5.19219L7.23219 8.6L9.41219 6.56L6.39219 6.66H0.492188V4.9H6.39219L9.39219 5L7.17219 2.94L5.19219 0.959999Z" fill="#111111"/>
                 </svg>
             </button>
+          <input type="hidden" name="type" value="product,page" />
+          <input type="hidden" name="options[unavailable_products]" value="hide" />
+          <input type="hidden" name="options[prefix]" value="last" />
+          <input type="submit" value="Search" class="hidden"/>
         </form>
 
         <a href="/collections/all-product" class="special-menu__mobile-link-big special-menu__mobile-link-big_shop-all">shop all</a>
