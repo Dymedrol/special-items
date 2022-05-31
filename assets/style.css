@@ -371,6 +371,7 @@ body {
 .special-categories-mobile {
   overflow: hidden;
   height: 118px;
+  border-bottom: 1px solid #fff;
 }
 @media (min-width: 1220px) {
   .special-categories-mobile {
