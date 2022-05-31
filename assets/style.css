@@ -299,6 +299,9 @@ body {
 #shopify-section-footer {
   margin-top: auto;
 }
+#plus {
+  cursor: pointer;
+}
 .special-menu {
   position: fixed;
   top: 0;
@@ -368,7 +371,6 @@ body {
 .special-categories-mobile {
   overflow: hidden;
   height: 118px;
-  border-bottom: 1px solid #fff;
 }
 @media (min-width: 1220px) {
   .special-categories-mobile {
@@ -435,6 +437,7 @@ body {
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  overflow: scroll;
 }
 .special-menu__mobile-bag {
   position: absolute;
@@ -451,18 +454,118 @@ body {
   top: 15px;
   left: 15px;
 }
+.special-menu__mobile-search-form {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #838383;
+  opacity: 0.5;
+  max-width: 375px;
+}
+.special-menu__mobile-search-form__input {
+  padding: 0;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+  border: 0;
+  background: transparent;
+}
+.special-menu__mobile-search-form__submit {
+  position: absolute;
+  top: 6px;
+  right: 1px;
+  border: 0;
+  background: transparent;
+}
+.special-menu__mobile-search-form__submit svg {
+  width: 13px;
+}
+.special-menu__mobile-search-form__input::placeholder {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
 .special-menu__mobile-link-big {
   display: block;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
   font-size: 29px;
-  line-height: 50px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #111111;
   text-align: center;
+  text-decoration: none;
+  margin-bottom: 35px;
+}
+.special-menu__mobile-link-big-diary {
+  margin-top: 35px;
+}
+.special-menu__mobile-link-big_shop-all {
+  margin-bottom: 20px;
+}
+.special-menu__mobile-link-big_last {
+  margin-bottom: 48px;
+}
+.special-menu__mobile-link-small {
+  display: block;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
   text-transform: uppercase;
   color: #111111;
   text-decoration: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.special-menu__mobile-link-small .minus {
+  display: none;
+}
+.special-menu__mobile-link-small.open {
+  margin-bottom: 0;
+}
+.special-menu__mobile-link-small.open .minus {
+  display: inline;
+}
+.special-menu__mobile-link-small.open .plus {
+  display: none;
+}
+.special-menu__mobile-accordion-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
   margin-bottom: 30px;
+}
+.special-menu__mobile-accordion-item {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+  padding: 13px 13px 13px 0;
+  margin-right: 13px;
+}
+.special-footer__input-wrapper-mobile-menu {
+  width: 100%;
+  max-width: 345px !important;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .special-menu__item_socials {
   display: flex;
@@ -474,7 +577,7 @@ body {
   width: 259px;
   height: 39px;
   justify-content: space-around;
-  align-items: center ;
+  align-items: center;
 }
 .special-menu__item-social {
   font-size: 0;
@@ -666,7 +769,7 @@ body {
   max-width: 400px;
   align-items: center;
   margin: 0 auto;
-  //border-top: 1px solid #fff;
+  border-top: 1px solid #fff;
   background: #F3F3F3;
 }
 @media (min-width: 1024px) {
@@ -879,7 +982,6 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 5;
-  overflow: scroll;
 }
 @media (min-width: 768px) {
   .special-product-controls__menu {
@@ -1903,13 +2005,11 @@ body {
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
-  
 }
 .owl-carousel {
   display: none;
   width: 100%;
   z-index: 1;
-  //border-bottom: 1px solid white;
 }
 .owl-carousel .owl-stage {
   position: relative;
