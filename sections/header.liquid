@@ -70,7 +70,7 @@
             {{ 'close.svg' | asset_url | img_tag: 'close' }}
         </div>
 
-         <form action="{{ routes.search_url }}" class="special-menu__mobile-search-form">
+         <form action="{{ routes.search_url }}" class="special-menu__mobile-search-form" autocomplete="off">
             <input type="text"
             placeholder="SEARCH"
             name="q"

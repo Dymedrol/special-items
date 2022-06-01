@@ -689,6 +689,9 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.special-list_search {
+  border-bottom: 1px solid #fff;
+}
 .special-list_with-border {
   border-bottom: 1px solid #fff;
 }
