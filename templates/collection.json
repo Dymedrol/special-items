@@ -90,6 +90,17 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06": {
+          "type": "tag",
+          "settings": {
+            "tag": "143 Dress"
+          }
+        }
+      },
+      "block_order": [
+        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06"
+      ],
       "settings": {
         "collection_for_filter_list": [
           "143-dress",
