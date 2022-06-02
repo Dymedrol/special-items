@@ -122,19 +122,154 @@
           "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
             "type": "slide",
             "settings": {
-              "name": "sdfgsdf",
-              "link": "\/sdgds"
+              "name": "LIFTOFF Collection",
+              "link": "\/collections\/liftoff"
+            }
+          },
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4": {
+            "type": "slide",
+            "settings": {
+              "name": "ORBIT 1 Exclusives",
+              "link": "\/collections\/orbit-1-exclusives"
+            }
+          },
+          "092a5b8d-323f-486f-bafa-befd1fb96be3": {
+            "type": "slide",
+            "settings": {
+              "name": "Olivia Goodall",
+              "link": "\/collections\/olivia-goodall"
+            }
+          },
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482": {
+            "type": "slide",
+            "settings": {
+              "name": "Hadeeart",
+              "link": "\/collections\/hadeeart"
+            }
+          },
+          "6ee79a34-7381-405c-b811-c9a116795754": {
+            "type": "slide",
+            "settings": {
+              "name": "Enye",
+              "link": "\/collections\/enye"
+            }
+          },
+          "0642d701-9b12-4986-a5d1-b01758702eb7": {
+            "type": "slide",
+            "settings": {
+              "name": "Prep Corp",
+              "link": "\/collections\/prep-corp"
+            }
+          },
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303": {
+            "type": "slide",
+            "settings": {
+              "name": "OnClickCloset",
+              "link": "\/collections\/onclickcloset"
+            }
+          },
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50": {
+            "type": "slide",
+            "settings": {
+              "name": "Non-Flam",
+              "link": "\/collections\/non-flam"
+            }
+          },
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b": {
+            "type": "slide",
+            "settings": {
+              "name": "EyeNastya",
+              "link": "\/collections\/eyenastya"
+            }
+          },
+          "35850bd8-5e63-452b-9806-59abeaa569f7": {
+            "type": "slide",
+            "settings": {
+              "name": "Edvard Nielsen",
+              "link": "\/collections\/edvard-nielsen"
+            }
+          },
+          "19cb3aa3-e6be-43c6-b20c-8811f5369616": {
+            "type": "slide",
+            "settings": {
+              "name": "Ecoolska",
+              "link": "\/collections\/ecoolska"
+            }
+          },
+          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9": {
+            "type": "slide",
+            "settings": {
+              "name": "Don Kaka",
+              "link": "\/collections\/don-kaka"
+            }
+          },
+          "2ed7c008-4b6b-4838-b7c3-f217bb14f47d": {
+            "type": "slide",
+            "settings": {
+              "name": "Dis_Placed",
+              "link": "\/collections\/dis_placed"
+            }
+          },
+          "bd2bf2ce-1731-4630-aa26-d99958609de9": {
+            "type": "slide",
+            "settings": {
+              "name": "Burbush",
+              "link": "\/collections\/burbush"
+            }
+          },
+          "90b2181d-2528-4d8b-b1c0-65fab720ee2c": {
+            "type": "slide",
+            "settings": {
+              "name": "3DFashion Elle",
+              "link": "\/collections\/3dfashion-elle"
+            }
+          },
+          "25fc1460-0683-4734-835c-c8fc4e65a6de": {
+            "type": "slide",
+            "settings": {
+              "name": "2WB",
+              "link": "\/collections\/2wb"
+            }
+          },
+          "c78e9ed3-d604-4839-bdf1-630071045a95": {
+            "type": "slide",
+            "settings": {
+              "name": "143 Dress",
+              "link": "\/collections\/143-dress"
             }
           }
         },
         "block_order": [
-          "d42c8b65-0889-4c29-814c-ac5d4bba565a"
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a",
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4",
+          "092a5b8d-323f-486f-bafa-befd1fb96be3",
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482",
+          "6ee79a34-7381-405c-b811-c9a116795754",
+          "0642d701-9b12-4986-a5d1-b01758702eb7",
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303",
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50",
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b",
+          "35850bd8-5e63-452b-9806-59abeaa569f7",
+          "19cb3aa3-e6be-43c6-b20c-8811f5369616",
+          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9",
+          "2ed7c008-4b6b-4838-b7c3-f217bb14f47d",
+          "bd2bf2ce-1731-4630-aa26-d99958609de9",
+          "90b2181d-2528-4d8b-b1c0-65fab720ee2c",
+          "25fc1460-0683-4734-835c-c8fc4e65a6de",
+          "c78e9ed3-d604-4839-bdf1-630071045a95"
         ],
         "settings": {
           "collection_for_mobile_list": [
-            "143-dress",
-            "2wb",
-            "3dfashion-elle"
+            "accessory",
+            "animal-wear",
+            "bodysuit",
+            "bottoms",
+            "jacket",
+            "dress",
+            "footwear",
+            "orbit-1-exclusives",
+            "top",
+            "total-look"
           ]
         }
       },
