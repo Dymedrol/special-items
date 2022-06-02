@@ -120,6 +120,30 @@
           "settings": {
             "tag": "non-flam"
           }
+        },
+        "c3271345-6c3b-4d9c-913b-2c226a13795c": {
+          "type": "tag",
+          "settings": {
+            "tag": "OnClickCloset"
+          }
+        },
+        "99a7b3d4-62bd-44e8-9f74-f6c606c1d439": {
+          "type": "tag",
+          "settings": {
+            "tag": "burbush"
+          }
+        },
+        "03430fb6-0396-4d76-b08f-855a7275057b": {
+          "type": "tag",
+          "settings": {
+            "tag": "Ecoolska"
+          }
+        },
+        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782": {
+          "type": "tag",
+          "settings": {
+            "tag": "Prep Corp"
+          }
         }
       },
       "block_order": [
@@ -127,7 +151,11 @@
         "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f",
         "b0860159-e92c-4e94-bdce-220bc85c5d17",
         "56dd1d34-f8bb-4e27-b6b3-656ebfe1c7a6",
-        "e1c52878-c5f6-48bd-924f-4a1df2bc215c"
+        "e1c52878-c5f6-48bd-924f-4a1df2bc215c",
+        "c3271345-6c3b-4d9c-913b-2c226a13795c",
+        "99a7b3d4-62bd-44e8-9f74-f6c606c1d439",
+        "03430fb6-0396-4d76-b08f-855a7275057b",
+        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782"
       ],
       "settings": {
         "collection_for_filter_list": [
