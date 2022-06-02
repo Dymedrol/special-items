@@ -7,7 +7,7 @@
         {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
         <div class="special-product-controls__menu-categories">
             {%- for block in section.blocks -%}
-                <div class="special-product-controls__menu-categories-item" data-tag="{{ block.settings.tag }}">{{ block.settings.tag }}</div>
+                <div class="special-product-controls__menu-categories-item" data-tag="{{ block.settings.tag | replace: ' ', '-' }}">{{ block.settings.tag }}</div>
             {%- endfor -%}
         </div>
         <div class="special-product-controls__menu-colors">
