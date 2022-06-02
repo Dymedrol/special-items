@@ -132,9 +132,16 @@
         ],
         "settings": {
           "collection_for_mobile_list": [
-            "143-dress",
-            "2wb",
-            "3dfashion-elle"
+            "accessory",
+            "animal-wear",
+            "bodysuit",
+            "bottoms",
+            "jacket",
+            "dress",
+            "footwear",
+            "orbit-1-exclusives",
+            "top",
+            "total-look"
           ]
         }
       },
