@@ -1,14 +1,16 @@
-<section class="special-categories">
-    {%- for block in section.blocks -%}
-      {% render 'card-collection', card_collection: block.settings.collection %}
-    {%- endfor -%}
-</section>
+{% unless canonical_url contains "vendors?q=" %}
+  <section class="special-categories">
+      {%- for block in section.blocks -%}
+        {% render 'card-collection', card_collection: block.settings.collection %}
+      {%- endfor -%}
+  </section>
 
   <section class="special-categories-mobile owl-carousel">
     {%- for block in section.blocks -%}
       {% render 'card-collection-mobile', card_collection: block.settings.collection %}
     {%- endfor -%}
   </section>
+{% endunless %}
 
 {% schema %}
 {
