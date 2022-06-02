@@ -1128,6 +1128,10 @@ body {
     width: 100%;
   }
 }
+.special-product-controls__menu-apply_active {
+  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
+  color: #fff;
+}
 .special-product-wall {
   display: flex;
   flex-wrap: wrap;
