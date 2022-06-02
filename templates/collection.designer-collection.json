@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "1653843830e2a16101": {
+      "type": "collection-list",
+      "blocks": {
+        "a44636cb-1b65-4d3b-8431-3a20e374b1bc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-product"
+          }
+        },
+        "16538438306d4d07a7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animal-wear"
+          }
+        },
+        "a9734f40-bf5c-452c-9195-d6485583a5de": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jacket"
+          }
+        },
+        "c1157b89-ef9c-4dd9-8190-446852c5a26f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dress"
+          }
+        },
+        "8866eba4-f5ac-47d0-bd20-3b8a5cb6e090": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bodysuit"
+          }
+        },
+        "567af066-ab8a-44d7-bacc-2e668e75f0aa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "top"
+          }
+        },
+        "014686ae-705e-4451-a57a-7bc591c31471": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "11fde37c-ebc1-428c-89f1-775a7dac7cf1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear"
+          }
+        },
+        "16538438306d4d07a7-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessory"
+          }
+        },
+        "16538438306d4d07a7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "total-look"
+          }
+        }
+      },
+      "block_order": [
+        "a44636cb-1b65-4d3b-8431-3a20e374b1bc",
+        "16538438306d4d07a7-1",
+        "a9734f40-bf5c-452c-9195-d6485583a5de",
+        "c1157b89-ef9c-4dd9-8190-446852c5a26f",
+        "8866eba4-f5ac-47d0-bd20-3b8a5cb6e090",
+        "567af066-ab8a-44d7-bacc-2e668e75f0aa",
+        "014686ae-705e-4451-a57a-7bc591c31471",
+        "11fde37c-ebc1-428c-89f1-775a7dac7cf1",
+        "16538438306d4d07a7-2",
+        "16538438306d4d07a7-0"
+      ],
+      "settings": {
+        "title": "Collections"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06": {
+          "type": "tag",
+          "settings": {
+            "tag": "143 Dress"
+          }
+        },
+        "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f": {
+          "type": "tag",
+          "settings": {
+            "tag": "Dis_Placed"
+          }
+        },
+        "b0860159-e92c-4e94-bdce-220bc85c5d17": {
+          "type": "tag",
+          "settings": {
+            "tag": "Edvard Nielsen"
+          }
+        },
+        "56dd1d34-f8bb-4e27-b6b3-656ebfe1c7a6": {
+          "type": "tag",
+          "settings": {
+            "tag": "ENYE"
+          }
+        },
+        "e1c52878-c5f6-48bd-924f-4a1df2bc215c": {
+          "type": "tag",
+          "settings": {
+            "tag": "non-flam"
+          }
+        },
+        "c3271345-6c3b-4d9c-913b-2c226a13795c": {
+          "type": "tag",
+          "settings": {
+            "tag": "OnClickCloset"
+          }
+        },
+        "99a7b3d4-62bd-44e8-9f74-f6c606c1d439": {
+          "type": "tag",
+          "settings": {
+            "tag": "burbush"
+          }
+        },
+        "03430fb6-0396-4d76-b08f-855a7275057b": {
+          "type": "tag",
+          "settings": {
+            "tag": "Ecoolska"
+          }
+        },
+        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782": {
+          "type": "tag",
+          "settings": {
+            "tag": "Prep Corp"
+          }
+        },
+        "bd32cefd-035a-4ec5-8c50-a59e844fede9": {
+          "type": "tag",
+          "settings": {
+            "tag": "Olivia Goodall"
+          }
+        },
+        "1f98f898-63b5-4269-b62d-1235506ab121": {
+          "type": "tag",
+          "settings": {
+            "tag": "Balmlabs"
+          }
+        },
+        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2": {
+          "type": "tag",
+          "settings": {
+            "tag": "2wb"
+          }
+        },
+        "0f3fa0f9-a8ac-4980-820b-8a70524da7f5": {
+          "type": "tag",
+          "settings": {
+            "tag": "3DFashion Elle"
+          }
+        },
+        "2f0f4f2b-fda3-40c9-a8f4-c884e10b975d": {
+          "type": "tag",
+          "settings": {
+            "tag": "Don Kaka"
+          }
+        },
+        "7b10d763-158d-4fe9-8b4a-e3ee69d1fb49": {
+          "type": "tag",
+          "settings": {
+            "tag": "EyeNastya"
+          }
+        },
+        "6822d9a3-c13a-4365-af35-b4a1a23fc1e8": {
+          "type": "tag",
+          "settings": {
+            "tag": "hadeeart"
+          }
+        },
+        "7cdbd1b5-2e72-4f05-970b-37f373712198": {
+          "type": "tag",
+          "settings": {
+            "tag": "lucii"
+          }
+        },
+        "8805c5f5-b264-489f-84c4-a801773908b5": {
+          "type": "tag",
+          "settings": {
+            "tag": "Yazata 3D"
+          }
+        },
+        "8a975442-dac1-41a5-a4ad-c06a63684b9a": {
+          "type": "tag",
+          "settings": {
+            "tag": "LIFTOFF Collection"
+          }
+        },
+        "7d6da040-785b-4309-9084-07e653878030": {
+          "type": "tag",
+          "settings": {
+            "tag": "ORBIT 1 Exclusives"
+          }
+        }
+      },
+      "block_order": [
+        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06",
+        "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f",
+        "b0860159-e92c-4e94-bdce-220bc85c5d17",
+        "56dd1d34-f8bb-4e27-b6b3-656ebfe1c7a6",
+        "e1c52878-c5f6-48bd-924f-4a1df2bc215c",
+        "c3271345-6c3b-4d9c-913b-2c226a13795c",
+        "99a7b3d4-62bd-44e8-9f74-f6c606c1d439",
+        "03430fb6-0396-4d76-b08f-855a7275057b",
+        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782",
+        "bd32cefd-035a-4ec5-8c50-a59e844fede9",
+        "1f98f898-63b5-4269-b62d-1235506ab121",
+        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2",
+        "0f3fa0f9-a8ac-4980-820b-8a70524da7f5",
+        "2f0f4f2b-fda3-40c9-a8f4-c884e10b975d",
+        "7b10d763-158d-4fe9-8b4a-e3ee69d1fb49",
+        "6822d9a3-c13a-4365-af35-b4a1a23fc1e8",
+        "7cdbd1b5-2e72-4f05-970b-37f373712198",
+        "8805c5f5-b264-489f-84c4-a801773908b5",
+        "8a975442-dac1-41a5-a4ad-c06a63684b9a",
+        "7d6da040-785b-4309-9084-07e653878030"
+      ],
+      "settings": {
+        "collection_for_filter_list": [
+          "143-dress",
+          "dis_placed",
+          "edvard-nielsen",
+          "enye",
+          "non-flam",
+          "onclickcloset",
+          "burbush",
+          "ecoolska",
+          "prep-corp",
+          "olivia-goodall",
+          "balmlabs",
+          "2wb",
+          "3dfashion-elle",
+          "don-kaka",
+          "eyenastya",
+          "hadeeart",
+          "liftoff",
+          "orbit-1-exclusives"
+        ]
+      }
+    },
+    "1651428893f08018d8": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1653843830e2a16101",
+    "product-grid",
+    "1651428893f08018d8"
+  ]
+}
