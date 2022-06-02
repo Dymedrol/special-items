@@ -114,13 +114,20 @@
           "settings": {
             "tag": "ENYE"
           }
+        },
+        "e1c52878-c5f6-48bd-924f-4a1df2bc215c": {
+          "type": "tag",
+          "settings": {
+            "tag": "non-flam"
+          }
         }
       },
       "block_order": [
         "47d6ace2-1bbf-4556-88a5-19beaa3c6c06",
         "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f",
         "b0860159-e92c-4e94-bdce-220bc85c5d17",
-        "56dd1d34-f8bb-4e27-b6b3-656ebfe1c7a6"
+        "56dd1d34-f8bb-4e27-b6b3-656ebfe1c7a6",
+        "e1c52878-c5f6-48bd-924f-4a1df2bc215c"
       ],
       "settings": {
         "collection_for_filter_list": [
