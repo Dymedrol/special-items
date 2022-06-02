@@ -130,7 +130,7 @@
           "type": "featured_collection",
           "disabled": true,
           "settings": {
-            "collection": "dis_placed"
+            "collection": "dis_placed-b"
           }
         },
         "2105c05b-e0af-40f7-9216-d499cdb44873": {
@@ -197,7 +197,7 @@
         "1651345158766b0876-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dis_placed"
+            "collection": "dis_placed-b"
           }
         },
         "bf49dfea-2e35-4137-8d80-b1c9950b3be1": {
