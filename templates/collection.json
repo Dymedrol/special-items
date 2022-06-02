@@ -162,6 +162,37 @@
           "settings": {
             "tag": "2wb"
           }
+        },
+        "0f3fa0f9-a8ac-4980-820b-8a70524da7f5": {
+          "type": "tag",
+          "settings": {
+            "tag": "3DFashion Elle"
+          }
+        },
+        "2f0f4f2b-fda3-40c9-a8f4-c884e10b975d": {
+          "type": "tag",
+          "settings": {
+            "tag": "Don Kaka"
+          }
+        },
+        "7b10d763-158d-4fe9-8b4a-e3ee69d1fb49": {
+          "type": "tag",
+          "settings": {
+            "tag": "EyeNastya"
+          }
+        },
+        "6822d9a3-c13a-4365-af35-b4a1a23fc1e8": {
+          "type": "tag",
+          "settings": {
+            "tag": "hadeeart"
+          }
+        },
+        "7cdbd1b5-2e72-4f05-970b-37f373712198": {
+          "type": "tag",
+          "disabled": true,
+          "settings": {
+            "tag": ""
+          }
         }
       },
       "block_order": [
@@ -176,7 +207,12 @@
         "17d51ec7-7a09-4253-8ee6-6e9cf3e62782",
         "bd32cefd-035a-4ec5-8c50-a59e844fede9",
         "1f98f898-63b5-4269-b62d-1235506ab121",
-        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2"
+        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2",
+        "0f3fa0f9-a8ac-4980-820b-8a70524da7f5",
+        "2f0f4f2b-fda3-40c9-a8f4-c884e10b975d",
+        "7b10d763-158d-4fe9-8b4a-e3ee69d1fb49",
+        "6822d9a3-c13a-4365-af35-b4a1a23fc1e8",
+        "7cdbd1b5-2e72-4f05-970b-37f373712198"
       ],
       "settings": {
         "collection_for_filter_list": [
