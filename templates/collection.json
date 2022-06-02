@@ -96,10 +96,17 @@
           "settings": {
             "tag": "143 Dress"
           }
+        },
+        "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f": {
+          "type": "tag",
+          "settings": {
+            "tag": "Dis_Placed"
+          }
         }
       },
       "block_order": [
-        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06"
+        "47d6ace2-1bbf-4556-88a5-19beaa3c6c06",
+        "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f"
       ],
       "settings": {
         "collection_for_filter_list": [
