@@ -189,9 +189,14 @@
         },
         "7cdbd1b5-2e72-4f05-970b-37f373712198": {
           "type": "tag",
-          "disabled": true,
           "settings": {
-            "tag": ""
+            "tag": "lucii"
+          }
+        },
+        "8805c5f5-b264-489f-84c4-a801773908b5": {
+          "type": "tag",
+          "settings": {
+            "tag": "Yazata 3D"
           }
         }
       },
@@ -212,7 +217,8 @@
         "2f0f4f2b-fda3-40c9-a8f4-c884e10b975d",
         "7b10d763-158d-4fe9-8b4a-e3ee69d1fb49",
         "6822d9a3-c13a-4365-af35-b4a1a23fc1e8",
-        "7cdbd1b5-2e72-4f05-970b-37f373712198"
+        "7cdbd1b5-2e72-4f05-970b-37f373712198",
+        "8805c5f5-b264-489f-84c4-a801773908b5"
       ],
       "settings": {
         "collection_for_filter_list": [
