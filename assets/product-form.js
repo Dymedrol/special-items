@@ -59,7 +59,6 @@ if (!customElements.get('product-form')) {
             $('#header-cart-count-mobile').text('');
           }
           $('#header-cart-count').text(count)
-          // console.log('count', count)
           $('.bag-full').removeClass('hidden');
           $('.bag-empty').addClass('hidden');
 
