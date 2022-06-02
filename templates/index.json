@@ -222,7 +222,7 @@
         "2ddd8c84-e40d-4e97-bf2b-f3e90466c832": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ecoolska"
+            "collection": "ecoolskab"
           }
         },
         "451ebb50-25b6-412b-91e4-11224b05ef07": {
@@ -298,7 +298,7 @@
       "disabled": true,
       "settings": {
         "title": "Featured collection",
-        "collection": "ecoolska",
+        "collection": "ecoolskab",
         "show-bottom-border": true,
         "show-all-link": false
       }
