@@ -132,11 +132,83 @@
               "name": "ORBIT 1 Exclusives",
               "link": "\/collections\/orbit-1-exclusives"
             }
+          },
+          "092a5b8d-323f-486f-bafa-befd1fb96be3": {
+            "type": "slide",
+            "settings": {
+              "name": "Olivia Goodall",
+              "link": "\/collections\/olivia-goodall"
+            }
+          },
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482": {
+            "type": "slide",
+            "settings": {
+              "name": "Hadeeart",
+              "link": "\/collections\/hadeeart"
+            }
+          },
+          "6ee79a34-7381-405c-b811-c9a116795754": {
+            "type": "slide",
+            "settings": {
+              "name": "Enye",
+              "link": "\/collections\/enye"
+            }
+          },
+          "0642d701-9b12-4986-a5d1-b01758702eb7": {
+            "type": "slide",
+            "settings": {
+              "name": "Prep Corp",
+              "link": "\/collections\/prep-corp"
+            }
+          },
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303": {
+            "type": "slide",
+            "settings": {
+              "name": "OnClickCloset",
+              "link": "\/collections\/onclickcloset"
+            }
+          },
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50": {
+            "type": "slide",
+            "settings": {
+              "name": "Non-Flam",
+              "link": "\/collections\/non-flam"
+            }
+          },
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b": {
+            "type": "slide",
+            "settings": {
+              "name": "EyeNastya",
+              "link": "\/collections\/eyenastya"
+            }
+          },
+          "35850bd8-5e63-452b-9806-59abeaa569f7": {
+            "type": "slide",
+            "settings": {
+              "name": "Edvard Nielsen",
+              "link": "\/collections\/edvard-nielsen"
+            }
+          },
+          "19cb3aa3-e6be-43c6-b20c-8811f5369616": {
+            "type": "slide",
+            "settings": {
+              "name": "Ecoolska",
+              "link": "\/collections\/ecoolska"
+            }
           }
         },
         "block_order": [
           "d42c8b65-0889-4c29-814c-ac5d4bba565a",
-          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4"
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4",
+          "092a5b8d-323f-486f-bafa-befd1fb96be3",
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482",
+          "6ee79a34-7381-405c-b811-c9a116795754",
+          "0642d701-9b12-4986-a5d1-b01758702eb7",
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303",
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50",
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b",
+          "35850bd8-5e63-452b-9806-59abeaa569f7",
+          "19cb3aa3-e6be-43c6-b20c-8811f5369616"
         ],
         "settings": {
           "collection_for_mobile_list": [
