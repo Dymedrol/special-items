@@ -122,13 +122,21 @@
           "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
             "type": "slide",
             "settings": {
-              "name": "sdfgsdf",
-              "link": "\/sdgds"
+              "name": "LIFTOFF Collection",
+              "link": "\/collections\/liftoff"
+            }
+          },
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4": {
+            "type": "slide",
+            "settings": {
+              "name": "ORBIT 1 Exclusives",
+              "link": "\/collections\/orbit-1-exclusives"
             }
           }
         },
         "block_order": [
-          "d42c8b65-0889-4c29-814c-ac5d4bba565a"
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a",
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4"
         ],
         "settings": {
           "collection_for_mobile_list": [
