@@ -563,8 +563,8 @@ body {
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: 29px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #111111;
   text-decoration: none;
@@ -607,8 +607,6 @@ body {
 .special-menu__mobile-accordion-inner {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
-  margin-bottom: 30px;
 }
 .special-menu__mobile-accordion-item {
   font-family: 'Azeret Mono';
