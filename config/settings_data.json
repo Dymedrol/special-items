@@ -195,6 +195,48 @@
               "name": "Ecoolska",
               "link": "\/collections\/ecoolska"
             }
+          },
+          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9": {
+            "type": "slide",
+            "settings": {
+              "name": "Don Kaka",
+              "link": "\/collections\/don-kaka"
+            }
+          },
+          "2ed7c008-4b6b-4838-b7c3-f217bb14f47d": {
+            "type": "slide",
+            "settings": {
+              "name": "Dis_Placed",
+              "link": "\/collections\/dis_placed"
+            }
+          },
+          "bd2bf2ce-1731-4630-aa26-d99958609de9": {
+            "type": "slide",
+            "settings": {
+              "name": "Burbush",
+              "link": "\/collections\/burbush"
+            }
+          },
+          "90b2181d-2528-4d8b-b1c0-65fab720ee2c": {
+            "type": "slide",
+            "settings": {
+              "name": "3DFashion Elle",
+              "link": "\/collections\/3dfashion-elle"
+            }
+          },
+          "25fc1460-0683-4734-835c-c8fc4e65a6de": {
+            "type": "slide",
+            "settings": {
+              "name": "2WB",
+              "link": "\/collections\/2wb"
+            }
+          },
+          "c78e9ed3-d604-4839-bdf1-630071045a95": {
+            "type": "slide",
+            "settings": {
+              "name": "143 Dress",
+              "link": "\/collections\/143-dress"
+            }
           }
         },
         "block_order": [
@@ -208,7 +250,13 @@
           "e55adcb1-0ff4-426d-82bc-64c6aac06e50",
           "a64b9da3-8b38-46a7-b321-e726c9cb374b",
           "35850bd8-5e63-452b-9806-59abeaa569f7",
-          "19cb3aa3-e6be-43c6-b20c-8811f5369616"
+          "19cb3aa3-e6be-43c6-b20c-8811f5369616",
+          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9",
+          "2ed7c008-4b6b-4838-b7c3-f217bb14f47d",
+          "bd2bf2ce-1731-4630-aa26-d99958609de9",
+          "90b2181d-2528-4d8b-b1c0-65fab720ee2c",
+          "25fc1460-0683-4734-835c-c8fc4e65a6de",
+          "c78e9ed3-d604-4839-bdf1-630071045a95"
         ],
         "settings": {
           "collection_for_mobile_list": [
