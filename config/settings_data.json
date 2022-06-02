@@ -238,6 +238,13 @@
               "link": "\/collections\/LUCII"
             }
           },
+          "fe332c2e-8b18-492f-88da-98504872c3fb": {
+            "type": "slide",
+            "settings": {
+              "name": "Yazata 3D",
+              "link": "\/collections\/yazata-3d"
+            }
+          },
           "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
             "type": "slide",
             "settings": {
@@ -250,13 +257,6 @@
             "settings": {
               "name": "ORBIT 1 Exclusives",
               "link": "\/collections\/orbit-1-exclusives"
-            }
-          },
-          "fe332c2e-8b18-492f-88da-98504872c3fb": {
-            "type": "slide",
-            "settings": {
-              "name": "Yazata 3D",
-              "link": ""
             }
           }
         },
@@ -278,9 +278,9 @@
           "a64b9da3-8b38-46a7-b321-e726c9cb374b",
           "8bd937dc-32c6-4e91-8945-ebdd983b6482",
           "b89eea7c-00cb-481a-96b4-4b7676a5a8e5",
+          "fe332c2e-8b18-492f-88da-98504872c3fb",
           "d42c8b65-0889-4c29-814c-ac5d4bba565a",
-          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4",
-          "fe332c2e-8b18-492f-88da-98504872c3fb"
+          "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4"
         ],
         "settings": {
           "collection_for_mobile_list": [
