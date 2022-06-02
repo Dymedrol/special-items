@@ -290,6 +290,9 @@ body {
   flex-direction: column;
   padding-top: 50px;
 }
+.no-scroll {
+  overflow: hidden;
+}
 #shopify-section-header {
   z-index: 3;
 }
@@ -371,12 +374,14 @@ body {
 .special-categories-mobile {
   overflow: hidden;
   height: 118px;
-  border-bottom: 1px solid #fff;
 }
 @media (min-width: 1220px) {
   .special-categories-mobile {
     display: none !important;
   }
+}
+.special-categories-mobile {
+  border-bottom: 1px solid #fff;
 }
 .special-categories__item {
   display: inline-block;
@@ -983,6 +988,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 5;
+  overflow: scroll;
 }
 @media (min-width: 768px) {
   .special-product-controls__menu {
