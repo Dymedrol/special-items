@@ -203,18 +203,11 @@
               "link": "\/collections\/2wb"
             }
           },
-          "8bd937dc-32c6-4e91-8945-ebdd983b6482": {
+          "90b2181d-2528-4d8b-b1c0-65fab720ee2c": {
             "type": "slide",
             "settings": {
-              "name": "Hadeeart",
-              "link": "\/collections\/hadeeart"
-            }
-          },
-          "a64b9da3-8b38-46a7-b321-e726c9cb374b": {
-            "type": "slide",
-            "settings": {
-              "name": "EyeNastya",
-              "link": "\/collections\/eyenastya"
+              "name": "3DFashion Elle",
+              "link": "\/collections\/3dfashion-elle"
             }
           },
           "5aab46e7-5e05-4170-8a0e-8e0822fb67b9": {
@@ -224,11 +217,32 @@
               "link": "\/collections\/don-kaka"
             }
           },
-          "90b2181d-2528-4d8b-b1c0-65fab720ee2c": {
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b": {
             "type": "slide",
             "settings": {
-              "name": "3DFashion Elle",
-              "link": "\/collections\/3dfashion-elle"
+              "name": "EyeNastya",
+              "link": "\/collections\/eyenastya"
+            }
+          },
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482": {
+            "type": "slide",
+            "settings": {
+              "name": "Hadeeart",
+              "link": "\/collections\/hadeeart"
+            }
+          },
+          "b89eea7c-00cb-481a-96b4-4b7676a5a8e5": {
+            "type": "slide",
+            "settings": {
+              "name": "LUCII",
+              "link": "\/collections\/LUCII"
+            }
+          },
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
+            "type": "slide",
+            "settings": {
+              "name": "LIFTOFF Collection",
+              "link": "\/collections\/liftoff"
             }
           },
           "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4": {
@@ -238,11 +252,11 @@
               "link": "\/collections\/orbit-1-exclusives"
             }
           },
-          "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
+          "fe332c2e-8b18-492f-88da-98504872c3fb": {
             "type": "slide",
             "settings": {
-              "name": "LIFTOFF Collection",
-              "link": "\/collections\/liftoff"
+              "name": "Yazata 3D",
+              "link": ""
             }
           }
         },
@@ -259,12 +273,14 @@
           "092a5b8d-323f-486f-bafa-befd1fb96be3",
           "79fe8616-4483-45a7-a59f-696db1db0b50",
           "25fc1460-0683-4734-835c-c8fc4e65a6de",
-          "8bd937dc-32c6-4e91-8945-ebdd983b6482",
-          "a64b9da3-8b38-46a7-b321-e726c9cb374b",
-          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9",
           "90b2181d-2528-4d8b-b1c0-65fab720ee2c",
+          "5aab46e7-5e05-4170-8a0e-8e0822fb67b9",
+          "a64b9da3-8b38-46a7-b321-e726c9cb374b",
+          "8bd937dc-32c6-4e91-8945-ebdd983b6482",
+          "b89eea7c-00cb-481a-96b4-4b7676a5a8e5",
+          "d42c8b65-0889-4c29-814c-ac5d4bba565a",
           "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4",
-          "d42c8b65-0889-4c29-814c-ac5d4bba565a"
+          "fe332c2e-8b18-492f-88da-98504872c3fb"
         ],
         "settings": {
           "collection_for_mobile_list": [
