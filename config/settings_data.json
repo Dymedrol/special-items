@@ -260,16 +260,17 @@
         ],
         "settings": {
           "collection_for_mobile_list": [
-            "accessory",
             "animal-wear",
-            "bodysuit",
-            "bottoms",
             "jacket",
             "dress",
-            "footwear",
-            "orbit-1-exclusives",
+            "bodysuit",
             "top",
-            "total-look"
+            "bottoms",
+            "footwear",
+            "accessory",
+            "total-look",
+            "orbit-1-exclusives",
+            "liftoff"
           ]
         }
       },
