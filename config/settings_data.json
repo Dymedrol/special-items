@@ -147,6 +147,20 @@
               "link": "\/collections\/enye"
             }
           },
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50": {
+            "type": "slide",
+            "settings": {
+              "name": "Non-Flam",
+              "link": "\/collections\/non-flam"
+            }
+          },
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303": {
+            "type": "slide",
+            "settings": {
+              "name": "OnClickCloset",
+              "link": "\/collections\/onclickcloset"
+            }
+          },
           "d42c8b65-0889-4c29-814c-ac5d4bba565a": {
             "type": "slide",
             "settings": {
@@ -180,20 +194,6 @@
             "settings": {
               "name": "Prep Corp",
               "link": "\/collections\/prep-corp"
-            }
-          },
-          "3f1d6a82-dad2-478f-8abf-4ad239b56303": {
-            "type": "slide",
-            "settings": {
-              "name": "OnClickCloset",
-              "link": "\/collections\/onclickcloset"
-            }
-          },
-          "e55adcb1-0ff4-426d-82bc-64c6aac06e50": {
-            "type": "slide",
-            "settings": {
-              "name": "Non-Flam",
-              "link": "\/collections\/non-flam"
             }
           },
           "a64b9da3-8b38-46a7-b321-e726c9cb374b": {
@@ -244,13 +244,13 @@
           "2ed7c008-4b6b-4838-b7c3-f217bb14f47d",
           "35850bd8-5e63-452b-9806-59abeaa569f7",
           "6ee79a34-7381-405c-b811-c9a116795754",
+          "e55adcb1-0ff4-426d-82bc-64c6aac06e50",
+          "3f1d6a82-dad2-478f-8abf-4ad239b56303",
           "d42c8b65-0889-4c29-814c-ac5d4bba565a",
           "d7ed0f2a-e9fc-4dbe-81a5-621c5bf10ed4",
           "092a5b8d-323f-486f-bafa-befd1fb96be3",
           "8bd937dc-32c6-4e91-8945-ebdd983b6482",
           "0642d701-9b12-4986-a5d1-b01758702eb7",
-          "3f1d6a82-dad2-478f-8abf-4ad239b56303",
-          "e55adcb1-0ff4-426d-82bc-64c6aac06e50",
           "a64b9da3-8b38-46a7-b321-e726c9cb374b",
           "19cb3aa3-e6be-43c6-b20c-8811f5369616",
           "5aab46e7-5e05-4170-8a0e-8e0822fb67b9",
