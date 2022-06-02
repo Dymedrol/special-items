@@ -144,6 +144,24 @@
           "settings": {
             "tag": "Prep Corp"
           }
+        },
+        "bd32cefd-035a-4ec5-8c50-a59e844fede9": {
+          "type": "tag",
+          "settings": {
+            "tag": "Olivia Goodall"
+          }
+        },
+        "1f98f898-63b5-4269-b62d-1235506ab121": {
+          "type": "tag",
+          "settings": {
+            "tag": "Balmlabs"
+          }
+        },
+        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2": {
+          "type": "tag",
+          "settings": {
+            "tag": "2wb"
+          }
         }
       },
       "block_order": [
@@ -155,7 +173,10 @@
         "c3271345-6c3b-4d9c-913b-2c226a13795c",
         "99a7b3d4-62bd-44e8-9f74-f6c606c1d439",
         "03430fb6-0396-4d76-b08f-855a7275057b",
-        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782"
+        "17d51ec7-7a09-4253-8ee6-6e9cf3e62782",
+        "bd32cefd-035a-4ec5-8c50-a59e844fede9",
+        "1f98f898-63b5-4269-b62d-1235506ab121",
+        "9a2966b7-6d47-4d74-b1bc-d2ea19adc6c2"
       ],
       "settings": {
         "collection_for_filter_list": [
