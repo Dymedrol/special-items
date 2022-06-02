@@ -318,13 +318,16 @@ body {
   background: #F3F3F3;
 }
 .special-menu__logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
   display: block;
   font-size: 0;
-}
-@media (min-width: 768px) {
-  .special-menu__logo img {
-    margin-left: 53px;
-  }
+  width: fit-content;
+  height: fit-content;
 }
 .special-menu__items_desktop {
   font-size: 0;
@@ -357,6 +360,65 @@ body {
   text-transform: uppercase;
   color: #111111;
   text-decoration: none;
+}
+.special-menu__item_search {
+  display: inline-block;
+}
+.special-menu__item-submit-form {
+  position: relative;
+}
+.special-menu__item-submit-input {
+  width: 36px;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 9px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #111111;
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.special-menu__item-submit-input:focus {
+  width: 120px;
+  transition: width 0.5s;
+}
+.special-menu__item-submit-input:focus ~ .special-menu__item-submit-bar {
+  display: block;
+}
+.special-menu__item-submit-input:focus ~ .special-menu__item-submit {
+  display: block;
+}
+.special-menu__item-submit-input::placeholder {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px !;
+  text-align: left;
+  text-transform: uppercase;
+  color: #111111;
+}
+.special-menu__item-submit {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.special-menu__item-submit-bar {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  height: 1px;
+  background: #000000;
+  opacity: 0.1;
 }
 .special-menu__item:first-child {
   margin-left: 0;
@@ -463,7 +525,7 @@ body {
 .special-menu__mobile-search-form {
   position: relative;
   margin-bottom: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #838383;
   opacity: 0.5;
   max-width: 375px;
@@ -487,6 +549,7 @@ body {
   right: 1px;
   border: 0;
   background: transparent;
+  padding: 0;
 }
 .special-menu__mobile-search-form__submit svg {
   width: 13px;
@@ -506,8 +569,8 @@ body {
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: 29px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #111111;
   text-align: center;
@@ -551,8 +614,6 @@ body {
 .special-menu__mobile-accordion-inner {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
-  margin-bottom: 30px;
 }
 .special-menu__mobile-accordion-item {
   font-family: 'Azeret Mono';
@@ -639,6 +700,9 @@ body {
   line-height: 33px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.special-list_search {
+  border-bottom: 1px solid #fff;
 }
 .special-list_with-border {
   border-bottom: 1px solid #fff;
