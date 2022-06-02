@@ -251,14 +251,14 @@
         "e623dc9e-9336-4dde-86ea-7e32200d733e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "balmlabs"
+            "collection": "balmlabs-g"
           }
         },
         "af92b42d-4ccb-4f59-9823-46b90a294bfa": {
           "type": "featured_collection",
           "disabled": true,
           "settings": {
-            "collection": "balmlabs"
+            "collection": "balmlabs-g"
           }
         },
         "a2e34fc5-49d8-4e39-925b-e98e1147d145": {
