@@ -1,8 +1,13 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
+
+<a class="special-sticky-btn{% if cart == empty %} hidden{% endif %}" href="{{ routes.cart_url }}">{{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }} in your bag</a>
+
 <section class="special-product-controls">
     <span class="special-product-controls__selected-filter">{{ collection.title }}</span>
-    <div class="special-product-controls__filters"><h1>filters</h1> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
+    {% unless collection.url contains "vendors?q=" %}
+        <div class="special-product-controls__filters"><h1>filters</h1> {{ 'filter.svg' | asset_url | img_tag: 'filter' }}</div >
+    {% endunless %}
     <div class="special-product-controls__menu">
         {{ 'close.svg' | asset_url | img_tag: 'close', 'special-product-controls__menu-close' }}
         <div class="special-product-controls__menu-categories">
