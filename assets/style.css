@@ -370,6 +370,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
+  line-height: 9px;
   text-align: left;
   text-transform: uppercase;
   color: #111111;
@@ -405,12 +406,13 @@ body {
   margin: auto;
   border: 0;
   background: transparent;
+  padding: 0;
 }
 .special-menu__item-submit-bar {
   display: none;
   width: 100%;
   position: absolute;
-  bottom: 18px;
+  bottom: 15px;
   height: 1px;
   background: #000000;
   opacity: 0.1;
@@ -520,7 +522,7 @@ body {
 .special-menu__mobile-search-form {
   position: relative;
   margin-bottom: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #838383;
   opacity: 0.5;
   max-width: 375px;
@@ -544,6 +546,7 @@ body {
   right: 1px;
   border: 0;
   background: transparent;
+  padding: 0;
 }
 .special-menu__mobile-search-form__submit svg {
   width: 13px;
