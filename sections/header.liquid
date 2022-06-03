@@ -9,8 +9,8 @@
     </div>
     <div class="special-menu__items special-menu__items_desktop">
         <a href="/collections/all-product" class="special-menu__item">shop</a>
-        <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
         <a href="/pages/designers" class="special-menu__item">designers</a>
+        <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
     </div>
     <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
@@ -103,7 +103,7 @@
 
 
         {% if section.blocks %}
-            <div href="#" class="special-menu__mobile-link-small special-menu__mobile-link-small-last js-mobilemenu-accordion">DesignerS <span class="plus">+</span><span class="minus">-</span></div>
+            <div href="#" class="special-menu__mobile-link-small special-menu__mobile-link-small-last js-mobilemenu-accordion">Designers <span class="plus">+</span><span class="minus">-</span></div>
             <div class="special-menu__mobile-accordion-inner hidden">
                 {% for block in section.blocks %}
                     <a href="{{ block.settings.link }}" class="special-menu__mobile-accordion-item">{{ block.settings.name }}</a>
