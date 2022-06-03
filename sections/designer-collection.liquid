@@ -8,12 +8,10 @@
 </section>
 
 <section class="special-product-wall" id="special-product-wall" data-section-id="{{ section.id }}">
-    {% if collection.metafields.my_fields.designer_page_text %}
-        <div  class="special-product-wall__item_with-text">{{ collection.metafields.my_fields.designer_page_text | newline_to_br }}</div>
-        {%- paginate collection.products by 11-%}
-    {% else}
-        {%- paginate collection.products by 12-%}
+    {% if collection.description  %}
+        <div  class="special-product-wall__item_with-text">{{ collection.description | newline_to_br }}</div>
     {% endif %}
+        {%- paginate collection.products by 12-%}
     {%- for product in collection.products -%}
       {% render 'card-product',
         card_product: product
@@ -36,17 +34,10 @@
 {
     "name": "Designer collection",
     "class": "section",
-    "settings": [
-        {
-            "type": "collection_list",
-            "id": "collection_for_filter_list",
-            "label": "Collections for filter"
-        }
-    ],
     "presets": [
-    {
-        "name": "Designer collection"
-    }
+        {
+            "name": "Designer collection"
+        }
     ]
 }
 {% endschema %}
