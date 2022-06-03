@@ -8,7 +8,7 @@
 </section>
 
 <section class="special-product-wall" id="special-product-wall" data-section-id="{{ section.id }}">
-    {% if collection.description  %}
+    {% if collection.description.size != 0 %}
         <div  class="special-product-wall__item_with-text">{{ collection.description | newline_to_br }}</div>
     {% endif %}
         {%- paginate collection.products by 12-%}
