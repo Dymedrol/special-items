@@ -1219,6 +1219,31 @@ body {
     width: 25%;
   }
 }
+.special-product-wall__item_with-text {
+  width: 100%;
+  background: #F3F3F3;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  flex-grow: 0;
+  padding: 25px;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  color: #000000;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .special-product-wall__item_with-text {
+    width: 33%;
+  }
+}
+@media (min-width: 1024px) {
+  .special-product-wall__item_with-text {
+    width: 25%;
+  }
+}
 .special-product-wall__item:last-child {
   border-bottom: 0;
 }
