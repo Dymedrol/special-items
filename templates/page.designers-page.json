@@ -7,9 +7,21 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1654253838147ce686": {
+      "type": "all-designers",
+      "settings": {
+        "designers": [
+          "143-dress",
+          "2wb",
+          "3dfashion-elle",
+          "balmlabs"
+        ]
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1654253838147ce686"
   ]
 }
