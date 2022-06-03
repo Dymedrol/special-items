@@ -1307,6 +1307,10 @@ body {
   width: 100%;
   transition: visibility 0.3s, opacity 0.3s linear;
 }
+.special-product-wall__item-pic_full-cover {
+  height: 100%;
+  object-fit: cover;
+}
 .special-product-wall__item-pic2 {
   position: absolute;
   top: 0;
@@ -1345,6 +1349,14 @@ body {
   position: absolute;
   bottom: 15px;
   left: 15px;
+}
+.special-product-wall__item-info_center {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
 }
 .special-product-wall__item-text {
   font-family: 'Azeret Mono';
