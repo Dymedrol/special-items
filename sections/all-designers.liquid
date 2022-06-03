@@ -1,0 +1,40 @@
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+
+<a class="special-sticky-btn{% if cart == empty %} hidden{% endif %}" href="{{ routes.cart_url }}">{{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }} in your bag</a>
+
+<section class="special-product-controls">
+    <span class="special-product-controls__selected-filter">{{ page.title }}</span>
+</section>
+
+<section class="special-product-wall" id="special-product-wall" data-section-id="{{ section.id }}">
+    {%- for designer in section.settings.designers -%}
+      {% render 'designer-card',
+        card_product: designer
+      %}
+    {%- endfor -%}
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__item-dummy"></div>
+    <div class="special-product-wall__loading hidden">
+      <div class="special-pdp-product__info-controls-form-loading loading-overlay__spinner">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+        </svg>
+      </div>
+    </div>
+  {%- endpaginate -%}
+</section>
+
+{% schema %}
+{
+    "name": "All designers",
+    "class": "section",
+    "settings": [
+        {
+            "type": "collection_list",
+            "id": "designers",
+            "label": "Designers"
+        }
+    ]
+}
+{% endschema %}
