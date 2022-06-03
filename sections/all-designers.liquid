@@ -6,7 +6,7 @@
     <span class="special-product-controls__selected-filter">{{ page.title }}</span>
 </section>
 
-<section class="special-product-wall" id="special-product-wall" data-section-id="{{ section.id }}">
+<section class="special-product-wall special-product-wall-designers">
     {%- for designer in section.settings.designers -%}
       {% render 'designer-card',
         card_product: designer
