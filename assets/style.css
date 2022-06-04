@@ -334,7 +334,18 @@ body {
   display: none;
 }
 
-#header-cart-count {
+#header-cart-count-empty {
+  color: transparent;
+  background: transparent;
+  margin-left: 1px; 
+  width: 5px;
+  height: 5px;
+  border-radius: 7px;
+  display:inline-block;
+  line-height: 16px;
+}
+
+#header-cart-count-items {
   color: transparent;
   background: #DE4019;
   margin-left: 1px; 
