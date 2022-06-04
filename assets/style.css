@@ -972,7 +972,6 @@ body {
   }
 }
 .special-footer__item-link {
-  margin-right: 20px;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
@@ -980,7 +979,7 @@ body {
   line-height: 13px;
   text-decoration-line: underline;
   color: #111111;
-  margin-bottom: 10px;
+  padding: 10px;
 }
 @media (min-width: 1024px) {
   .special-footer__item-link {
