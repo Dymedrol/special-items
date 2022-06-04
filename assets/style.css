@@ -334,7 +334,7 @@ body {
   display: none;
 }
 
-.header-cart-count.empty {
+.header-cart-count {
   color: transparent;
   margin-left: 2px;
   height: 13px;
