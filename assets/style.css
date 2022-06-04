@@ -335,12 +335,9 @@ body {
 }
 
 #header-cart-count-empty {
-  color: #666666;
-  background: transparent;
+  color: transparent;
   margin-left: 2px;
-  width: 13px;
   height: 13px;
-  border-radius: 7px;
   display: inline-block;
   line-height: 13px;
   text-align: center;
@@ -349,12 +346,9 @@ body {
 }
 
 #header-cart-count-items {
-  color: #ffffff;
-  background: linear-gradient(-270deg, #DE4019, #4EB6B7);
+  color: #111111;
   margin-left: 2px;
-  width: 13px;
   height: 13px;
-  border-radius: 7px;
   display: inline-block;
   line-height: 13px;
   text-align: center;
