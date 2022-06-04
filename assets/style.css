@@ -2429,8 +2429,8 @@ body {
   bottom: 40px;
   margin: auto;
   width: 235px;
-  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
-/*   background: rgba(255,255,255,0.8); */
+/*   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%); */
+  background: transparent;
   filter: invert(100%);
   border-radius: 23px;
   font-family: 'Azeret Mono';
