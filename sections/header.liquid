@@ -56,7 +56,12 @@
         </div>
 <!--         <a href="/pages/wishlist" class="special-menu__item">wishlist: <span class="js-header-wishlist">-</span></a> -->
         <a href="/pages/wishlist" class="special-menu__item">wishlist</a>
-      <a href="{{ routes.cart_url }}" class="special-menu__item">bag{% if cart.item_count != 0 %}<span id="header-cart-count"> {{ cart.item_count }}</span>{%- endif -%}</a>
+        {% if cart.item_count != 0 %}
+        	<a href="{{ routes.cart_url }}" class="special-menu__item">bag<span id="header-cart-count"> {{ cart.item_count }}</span></a>
+      	{%- else -%}
+            <a href="{{ routes.cart_url }}" class="special-menu__item">bag</a>
+      	{%- endif -%}
+      
     </div>
     <div class="special-menu__mobile">
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-bag">
