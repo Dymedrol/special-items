@@ -2430,7 +2430,7 @@ body {
   margin: auto;
   width: 235px;
 /*   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%); */
-  background: transparent;
+  background: rgba(255,255,255,0.8);
   filter: invert(100%);
   border-radius: 23px;
   font-family: 'Azeret Mono';
@@ -2441,7 +2441,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   z-index: 1;
   mix-blend-mode: exclusion;
 }
