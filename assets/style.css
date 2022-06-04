@@ -334,7 +334,7 @@ body {
   display: none;
 }
 
-#header-cart-count-empty {
+.header-cart-count.empty {
   color: transparent;
   margin-left: 2px;
   height: 13px;
@@ -345,15 +345,8 @@ body {
   top: -5px;
 }
 
-#header-cart-count-items {
+.header-cart-count.items {
   color: #111111;
-  margin-left: 2px;
-  height: 13px;
-  display: inline-block;
-  line-height: 13px;
-  text-align: center;
-  position: relative;
-  top: -5px;
 }
 
 @media (min-width: 1024px) {
