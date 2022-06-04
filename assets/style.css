@@ -980,6 +980,7 @@ body {
   text-decoration-line: underline;
   color: #111111;
   padding: 10px;
+  display: inline-block;
 }
 @media (min-width: 1024px) {
   .special-footer__item-link {
