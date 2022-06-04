@@ -335,7 +335,8 @@ body {
 }
 
 #header-cart-count {
-  color: #de4019;
+  color: transparent;
+  background: linear-gradient(90deg,#DE4019 -.57%,#4EB6B7 100.27%);
 }
 
 @media (min-width: 1024px) {
