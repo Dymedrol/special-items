@@ -341,6 +341,7 @@ body {
   width: 13px;
   height: 13px;
   border-radius: 7px;
+  display:inline-block;
 }
 
 @media (min-width: 1024px) {
