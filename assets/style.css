@@ -333,6 +333,11 @@ body {
   font-size: 0;
   display: none;
 }
+
+#header-cart-count {
+  color: #de4019;
+}
+
 @media (min-width: 1024px) {
   .special-menu__items_desktop {
     display: block;
