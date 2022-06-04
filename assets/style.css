@@ -2429,7 +2429,7 @@ body {
   bottom: 40px;
   margin: auto;
   width: 235px;
-  background: linear-gradient(90deg, #DE4019, #4EB6B7);
+/*   background: linear-gradient(90deg, #DE4019, #4EB6B7); */
   background: rgba(255,255,255,0.66);
   backdrop-filter: blur(10px);
   border-radius: 23px;
