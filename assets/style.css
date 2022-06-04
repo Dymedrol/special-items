@@ -2432,7 +2432,7 @@ body {
   background: linear-gradient(90deg, #DE4019, #4EB6B7);
   background: rgba(255,255,255,0.66);
   backdrop-filter: blur(10px);
-  drop-shadow(0 0 5px #000000);
+  filter: drop-shadow(0 0 5px #000000);
   border-radius: 23px;
   font-family: 'Azeret Mono';
   font-style: normal;
