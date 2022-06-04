@@ -335,14 +335,17 @@ body {
 }
 
 #header-cart-count-empty {
-  color: transparent;
+  color: #666666;
   background: transparent;
-  margin-left: 1px; 
-  width: 5px;
-  height: 5px;
+  margin-left: 2px;
+  width: 13px;
+  height: 13px;
   border-radius: 7px;
-  display:inline-block;
-  line-height: 16px;
+  display: inline-block;
+  line-height: 13px;
+  text-align: center;
+  position: relative;
+  top: -7px;
 }
 
 #header-cart-count-items {
