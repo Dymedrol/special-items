@@ -346,11 +346,13 @@ body {
 }
 
 #header-cart-count-items {
-  color: transparent;
+  color: #ffffff;
   background: #DE4019;
 /*   background: #4EB6B7; */
 /*   background: linear-gradient(90deg, #DE4019, #4EB6B7); */
   margin-left: 1px; 
+  width: 9px;
+  height: 9px;
   border-radius: 7px;
   display:inline-block;
   line-height: 16px;
