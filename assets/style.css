@@ -337,11 +337,12 @@ body {
 #header-cart-count {
   color: transparent;
   background: #DE4019;
-  margin-left: 3px; 
-  width: 13px;
-  height: 13px;
+  margin-left: 1px; 
+  width: 5px;
+  height: 5px;
   border-radius: 7px;
   display:inline-block;
+  line-height: 16px;
 }
 
 @media (min-width: 1024px) {
