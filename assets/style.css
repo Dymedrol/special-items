@@ -2443,6 +2443,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   z-index: 1;
+  mix-blend-mode: exclusion;
 }
 @media (min-width: 1024px) {
   .special-sticky-btn {
