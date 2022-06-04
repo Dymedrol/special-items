@@ -2432,7 +2432,6 @@ body {
 /*   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%); */
   background: rgba(255,255,255,0.8);
   backdrop-filter: blur(10px);
-  filter: invert(100%);
   border-radius: 23px;
   font-family: 'Azeret Mono';
   font-style: normal;
