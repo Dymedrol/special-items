@@ -2430,7 +2430,7 @@ body {
   margin: auto;
   width: 235px;
 /*   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%); */
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.33);
   backdrop-filter: blur(10px);
   border-radius: 23px;
   font-family: 'Azeret Mono';
