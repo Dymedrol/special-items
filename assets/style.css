@@ -2446,7 +2446,7 @@ body {
 }
 @media (min-width: 1024px) {
   .special-sticky-btn {
-    width: 340px;
+/*     width: 340px; */
   }
 }
 
