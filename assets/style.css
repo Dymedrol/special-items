@@ -348,7 +348,7 @@ body {
 #header-cart-count-items {
   color: #ffffff;
   background: linear-gradient(-270deg, #DE4019, #4EB6B7);
-  margin-left: 1px;
+  margin-left: 2px;
   width: 13px;
   height: 13px;
   border-radius: 7px;
@@ -356,7 +356,7 @@ body {
   line-height: 13px;
   text-align: center;
   position: relative;
-  top: -6px;
+  top: -7px;
 }
 
 @media (min-width: 1024px) {
