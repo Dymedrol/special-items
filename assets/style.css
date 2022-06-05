@@ -333,6 +333,21 @@ body {
   font-size: 0;
   display: none;
 }
+
+.header-cart-count {
+  color: transparent;
+  height: 13px;
+  display: inline-block;
+  line-height: 13px;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+
+.header-cart-count.items {
+  color: #111111;
+}
+
 @media (min-width: 1024px) {
   .special-menu__items_desktop {
     display: block;
@@ -504,7 +519,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -648,10 +663,8 @@ body {
   font-size: 0;
 }
 .special-menu__item_links {
-  display: flex;
   margin: 0 auto;
-  width: 281px;
-  justify-content: space-between;
+  text-align: center;
 }
 .special-menu__item_links-link {
   font-family: 'Azeret Mono';
@@ -833,7 +846,6 @@ body {
   max-width: 400px;
   align-items: center;
   margin: 0 auto;
-  border-top: 1px solid #fff;
   background: #F3F3F3;
 }
 @media (min-width: 1024px) {
@@ -974,7 +986,6 @@ body {
   }
 }
 .special-footer__item-link {
-  margin-right: 20px;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
@@ -982,7 +993,8 @@ body {
   line-height: 13px;
   text-decoration-line: underline;
   color: #111111;
-  margin-bottom: 10px;
+  padding: 10px;
+  display: inline-block;
 }
 @media (min-width: 1024px) {
   .special-footer__item-link {
@@ -1225,7 +1237,7 @@ body {
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
   flex-grow: 0;
-  padding: 25px;
+  padding: 15px;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
@@ -2391,6 +2403,7 @@ body {
   line-height: 23px;
   color: #FFFFFF;
   text-transform: uppercase;
+  width: 50%;
 }
 .special-ultrabanner-slide-dummy {
   display: none;
@@ -2408,8 +2421,10 @@ body {
   right: 0;
   bottom: 40px;
   margin: auto;
-  width: 235px;
-  background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
+  width: 150px;
+  background: linear-gradient(90deg, #DE4019, #4EB6B7);
+/*   background: rgba(255,255,255,0.66); */
+  backdrop-filter: blur(10px);
   border-radius: 23px;
   font-family: 'Azeret Mono';
   font-style: normal;
@@ -2419,12 +2434,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #FFFFFF;
-  z-index: 1;
+  color: #ffffff;
+  z-index: 100;
 }
 @media (min-width: 1024px) {
   .special-sticky-btn {
-    width: 340px;
+/*     width: 340px; */
   }
 }
 

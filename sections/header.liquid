@@ -9,8 +9,8 @@
     </div>
     <div class="special-menu__items special-menu__items_desktop">
         <a href="/collections/all-product" class="special-menu__item">shop</a>
-        <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
         <a href="/pages/designers" class="special-menu__item">designers</a>
+        <a href="https://diary.special-items.com" class="special-menu__item">diary</a>
     </div>
     <a href="{{ routes.root_url }}" class="special-menu__logo">{{ 'logo.svg' | asset_url | img_tag: 'logo' }}</a>
     <div class="special-menu__items special-menu__items_mobile">
@@ -49,13 +49,21 @@
           <button type="submit" value="Search" class="special-menu__item-submit">
               <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" d="M2.34 0.0319996H3.456L5.625 2.201L3.456 4.397H2.34L3.258 3.47L4.239 2.552L2.88 2.597H0.225V1.805H2.88L4.23 1.85L3.231 0.923L2.34 0.0319996Z" fill="#111111"/>
-            </svg>
+              </svg>
           </button>
           <div class="special-menu__item-submit-bar"></div>
         </form>
         </div>
-        <a href="/pages/wishlist" class="special-menu__item">wishlist: <span class="js-header-wishlist">-</span></a>
-        <a href="{{ routes.cart_url }}" class="special-menu__item">bag: <span id="header-cart-count">{{ cart.item_count }}</span></a>
+<!--         <a href="/pages/wishlist" class="special-menu__item">wishlist: <span class="js-header-wishlist">-</span></a> -->
+        <a href="/pages/wishlist" class="special-menu__item">wishlist</a>
+        <a href="{{ routes.cart_url }}" class="special-menu__item">bag
+          {% if cart.item_count != 0 %}        
+            <span class="header-cart-count items">{{ cart.item_count }}</span>
+          {%- else -%}
+        	<span class="header-cart-count empty">{{ cart.item_count }}</span>
+          {%- endif -%}
+        </a>
+      
     </div>
     <div class="special-menu__mobile">
         <a href="{{ routes.cart_url }}" class="special-menu__mobile-bag">
@@ -103,7 +111,7 @@
 
 
         {% if section.blocks %}
-            <div href="#" class="special-menu__mobile-link-small special-menu__mobile-link-small-last js-mobilemenu-accordion">DesignerS <span class="plus">+</span><span class="minus">-</span></div>
+            <div href="#" class="special-menu__mobile-link-small special-menu__mobile-link-small-last js-mobilemenu-accordion">Designers <span class="plus">+</span><span class="minus">-</span></div>
             <div class="special-menu__mobile-accordion-inner hidden">
                 {% for block in section.blocks %}
                     <a href="{{ block.settings.link }}" class="special-menu__mobile-accordion-item">{{ block.settings.name }}</a>
@@ -202,14 +210,42 @@
       
       
     <div class="special-menu__item_links">
-        <a href="/pages/about-us" class="special-menu__item_links-link">About</a>
-        <a href="/pages/returns" class="special-menu__item_links-link">Returns</a>
-        <a href="/pages/privacy-policy" class="special-menu__item_links-link">Privacy</a>
-        <a href="/pages/terms-of-service" class="special-menu__item_links-link">Terms</a>
+        <a href="/pages/about" class="special-footer__item-link">About</a>
+        <a href="/pages/how-it-works" class="special-footer__item-link">How it Works</a>
+        <a href="/pages/fit-guide" class="special-footer__item-link">Fit Guide</a>
+      <br>
+        <a href="/pages/refund-policy" class="special-footer__item-link">Re-edit & Refund Policy</a>
+        <a href="/pages/mission" class="special-footer__item-link">Mission</a>
+      <br>
+        <a href="/pages/privacy-policy" class="special-footer__item-link">Privacy Policy</a>
+        <a href="/pages/terms-of-service" class="special-footer__item-link">Terms</a>
     </div>
     </div>
 
 </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {% schema %}
 {

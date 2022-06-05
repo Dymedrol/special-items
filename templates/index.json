@@ -12,26 +12,26 @@
     "1653567607de328c23": {
       "type": "ltrabanner",
       "blocks": {
+        "3128a204-bf04-450a-a0a0-39cb0c83b939": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/petty-villany-michael-the-iii-header.jpg",
+            "text": "Petty Villainy by Michael the III",
+            "link": "https:\/\/diary.special-items.com\/petty-villainy-michael-the-iii"
+          }
+        },
         "8ddca067-a4ae-4073-b246-9928c15ec913": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/please-use-the-video-version---Awele-The-Black-Future.jpg",
             "text": "AFROFUTURISM AND THE NEW WORLD OF FASHION",
-            "link": "https:\/\/diary.special-items.com\/hadeeart"
-          }
-        },
-        "3128a204-bf04-450a-a0a0-39cb0c83b939": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/KILLA_KATE_YOKO_copy.webp",
-            "text": "MOMMY + ME: Killa Kate x Yoko",
-            "link": "https:\/\/diary.special-items.com\/killa-kate"
+            "link": "https:\/\/diary.special-items.com\/afrofuturism-and-the-new-world-of-fashion-hadeeart"
           }
         }
       },
       "block_order": [
-        "8ddca067-a4ae-4073-b246-9928c15ec913",
-        "3128a204-bf04-450a-a0a0-39cb0c83b939"
+        "3128a204-bf04-450a-a0a0-39cb0c83b939",
+        "8ddca067-a4ae-4073-b246-9928c15ec913"
       ],
       "settings": {
       }
