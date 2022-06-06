@@ -292,6 +292,8 @@ body {
 }
 .no-scroll {
   overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 #shopify-section-header {
   z-index: 3;
