@@ -1247,7 +1247,7 @@ body {
 @media (min-width: 1220px) {
   .special-product-wall__item_designers {
     padding-top: 25%;
-    width: 16.6%;
+    width: 16.66%;
   }
 }
 .special-product-wall__item_with-text {
@@ -1340,7 +1340,7 @@ body {
 }
 @media (min-width: 1220px) {
   .special-product-wall__item-dummy-designers {
-    width: 16.6%;
+    width: 16.66%;
   }
 }
 .special-product-wall__item-dummy-designers:nth-of-type(4) {
