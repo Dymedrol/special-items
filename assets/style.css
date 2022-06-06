@@ -629,6 +629,7 @@ body {
 .special-menu__mobile-accordion-inner {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 15px;
 }
 .special-menu__mobile-accordion-item {
   font-family: 'Azeret Mono';
