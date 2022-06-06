@@ -333,7 +333,11 @@ body {
   font-size: 0;
   display: none;
 }
-
+@media (min-width: 1024px) {
+  .special-menu__items_desktop {
+    display: block;
+  }
+}
 .header-cart-count {
   color: transparent;
   height: 13px;
@@ -343,15 +347,8 @@ body {
   position: relative;
   top: -5px;
 }
-
 .header-cart-count.items {
   color: #111111;
-}
-
-@media (min-width: 1024px) {
-  .special-menu__items_desktop {
-    display: block;
-  }
 }
 .special-menu__items_mobile a {
   display: flex;
@@ -519,7 +516,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -986,13 +983,13 @@ body {
   }
 }
 .special-footer__item-link {
-  font-family: 'Azeret Mono';
+  font-family: Azeret Mono;
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
   line-height: 13px;
   text-decoration-line: underline;
-  color: #111111;
+  color: #111;
   padding: 10px;
   display: inline-block;
 }
@@ -1053,7 +1050,7 @@ body {
   right: 0;
   width: 100%;
   height: 100vh;
-  padding: 57px 15px 0 15px;
+  padding: 57px 15px 0;
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -2423,10 +2420,9 @@ body {
   margin: auto;
   width: 150px;
   background: linear-gradient(90deg, #DE4019, #4EB6B7);
-/*   background: rgba(255,255,255,0.66); */
   backdrop-filter: blur(10px);
   border-radius: 23px;
-  font-family: 'Azeret Mono';
+  font-family: Azeret Mono;
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
@@ -2434,12 +2430,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   z-index: 100;
 }
 @media (min-width: 1024px) {
-  .special-sticky-btn {
-/*     width: 340px; */
-  }
 }
 
