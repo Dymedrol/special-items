@@ -58,11 +58,11 @@
         <a href="/pages/wishlist" class="special-menu__item">wishlist</a>
         <a href="{{ routes.cart_url }}" class="special-menu__item">bag
           {% if cart.item_count != 0 %}        
-            <span class="header-cart-count items">{{ cart.item_count }}</span>
+            <span class="header-cart-count items" id="header-cart-count">{{ cart.item_count }}</span>
           {%- else -%}
-        	<span class="header-cart-count empty">{{ cart.item_count }}</span>
+        	<span class="header-cart-count empty" id="header-cart-count">{{ cart.item_count }}</span>
           {%- endif -%}          
-          
+          <!-- ddd-->
           
         </a>
       
