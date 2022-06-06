@@ -1,4 +1,4 @@
-<a href="{{ card_product.url }}" class="special-product-wall__item">
+<a href="{{ card_product.url }}" class="special-product-wall__item special-product-wall__item_designers">
 
     {% if card_product.metafields.my_fields.designers_page_image %}
         <img loading="lazy" src="{{ card_product.metafields.my_fields.designers_page_image | img_url: '475x592' }}" alt="{{ card_product.title }}" class="special-product-wall__item-pic special-product-wall__item-pic_full-cover">
@@ -7,7 +7,7 @@
     {% endif %}
 
     <div class="special-product-wall__item-info special-product-wall__item-info_center">
-        <p class="special-product-wall__item-text" {% if card_product.metafields.my_fields.text_color %}style="color: {{ card_product.metafields.my_fields.text_color  }}"{% endif%}>{{ card_product.title }}</p>
+        <p class="special-product-wall__item-text" {% if card_product.metafields.my_fields.text_color %}style="color: {{ card_product.metafields.my_fields.text_color  }}"{% endif %}>{{ card_product.title }}</p>
     </div>
 
 </a>

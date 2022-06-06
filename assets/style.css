@@ -1228,6 +1228,28 @@ body {
     width: 25%;
   }
 }
+.special-product-wall__item_designers {
+  width: 50%;
+  padding-top: 82%;
+}
+@media (min-width: 768px) {
+  .special-product-wall__item_designers {
+    padding-top: 48%;
+    width: 33%;
+  }
+}
+@media (min-width: 1024px) {
+  .special-product-wall__item_designers {
+    padding-top: 36%;
+    width: 25%;
+  }
+}
+@media (min-width: 1220px) {
+  .special-product-wall__item_designers {
+    padding-top: 25%;
+    width: 16.6%;
+  }
+}
 .special-product-wall__item_with-text {
   width: 100%;
   background: #F3F3F3;
