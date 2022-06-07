@@ -1061,7 +1061,7 @@ body {
   background: rgba(243, 243, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  z-index: 5;
+  z-index: 100;
   overflow: scroll;
 }
 @media (min-width: 768px) {
