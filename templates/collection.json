@@ -100,7 +100,7 @@
         "d657f88e-7fa2-4ba7-8be6-45ae4ff0515f": {
           "type": "tag",
           "settings": {
-            "tag": "Dis_Placed"
+            "tag": "2WB"
           }
         },
         "b0860159-e92c-4e94-bdce-220bc85c5d17": {
@@ -210,6 +210,12 @@
           "settings": {
             "tag": "ORBIT 1 Exclusives"
           }
+        },
+        "4003faac-6947-4229-b475-038c513cbe27": {
+          "type": "tag",
+          "settings": {
+            "tag": "FUNK"
+          }
         }
       },
       "block_order": [
@@ -232,7 +238,8 @@
         "7cdbd1b5-2e72-4f05-970b-37f373712198",
         "8805c5f5-b264-489f-84c4-a801773908b5",
         "8a975442-dac1-41a5-a4ad-c06a63684b9a",
-        "7d6da040-785b-4309-9084-07e653878030"
+        "7d6da040-785b-4309-9084-07e653878030",
+        "4003faac-6947-4229-b475-038c513cbe27"
       ],
       "settings": {
         "collection_for_filter_list": [
