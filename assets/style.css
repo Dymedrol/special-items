@@ -2469,6 +2469,7 @@ body {
   line-height: 23px;
   color: #FFFFFF;
   text-transform: uppercase;
+  width: 90%;
 }
 .special-ultrabanner-slide-dummy {
   display: none;
