@@ -2445,6 +2445,7 @@ body {
   height: 60vh;
   width: 100%;
   background-size: cover !important;
+  background-position: center center;
   background: linear-gradient(90deg, #DE4019 -0.57%, #4EB6B7 100.27%);
   border-bottom: 1px solid #fff;
 }
