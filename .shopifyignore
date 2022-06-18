@@ -1,0 +1,9 @@
+.git/*
+.gitignore
+.idea
+source/*
+index.js
+package.json
+package-lock.json
+webpack.config.js
+node_modules/
